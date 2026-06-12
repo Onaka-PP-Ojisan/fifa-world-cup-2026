@@ -192,7 +192,15 @@ function renderGroups(filter){
   const grid = document.getElementById('groupsGrid');
   grid.innerHTML = '';
   const standings = computeStandings();
-  GROUPS.filter(g => filter==='all' || g.id===filter).forEach(g => {
+  const isAll = filter === 'all';
+
+  if (isAll) {
+    grid.classList.remove('single-group');
+  } else {
+    grid.classList.add('single-group');
+  }
+
+  GROUPS.filter(g => isAll || g.id===filter).forEach(g => {
     const card = document.createElement('div');
     card.className = 'group-card';
     card.dataset.group = g.id;
@@ -201,24 +209,40 @@ function renderGroups(filter){
       const gda = sa.gf - sa.ga, gdb = sb.gf - sb.ga;
       return (sb.pts - sa.pts) || (gdb - gda) || (sb.gf - sa.gf);
     });
+
+    const tableClass = isAll ? 'group-table' : 'group-table detail-view';
+    const theadRow = isAll
+      ? `<tr><th></th><th>チーム</th><th class="c">W</th><th class="c">D</th><th class="c">L</th><th class="c">Pts</th></tr>`
+      : `<tr><th></th><th>チーム</th><th class="c">P</th><th class="c">W</th><th class="c">D</th><th class="c">L</th><th class="c">GF</th><th class="c">GA</th><th class="c">GD</th><th class="c">Pts</th></tr>`;
+
     card.innerHTML = `
       <div class="group-card-head">
         <span class="glabel">GROUP ${g.id}${g.jp ? ' ★':''}${g.id==='F' ? ' 🇯🇵':''}</span>
         <span class="gcity">${g.city}</span>
       </div>
-      <table class="group-table">
-        <thead><tr><th></th><th>チーム</th><th class="c">W</th><th class="c">D</th><th class="c">L</th><th class="c">Pts</th></tr></thead>
-        <tbody>
-          ${sortedTeams.map(t=>{
-            const s = standings[t.name];
-            return `
-            <tr class="${t.jp?'jp-row':''}">
-              <td style="width:28px;font-size:1.1rem;padding:8px 4px 8px 10px">${t.flag}</td>
-              <td><span class="team-name clickable" onclick="openTeamDetail('${t.name}', '${t.flag}', '${g.id}')">${t.name}${t.host?'<span style="font-size:9px;background:#00A0B8;color:#fff;padding:1px 5px;border-radius:2px;margin-left:6px">HOST</span>':''}</span></td>
-              <td class="c">${s.w}</td><td class="c">${s.d}</td><td class="c">${s.l}</td><td class="c">${s.pts}</td>
-            </tr>`;}).join('')}
-        </tbody>
-      </table>`;
+      <div class="table-responsive">
+        <table class="${tableClass}">
+          <thead>${theadRow}</thead>
+          <tbody>
+            ${sortedTeams.map(t=>{
+              const s = standings[t.name];
+              const p = s.w + s.d + s.l;
+              const gd = s.gf - s.ga;
+              const gdStr = gd > 0 ? `+${gd}` : gd;
+
+              const cols = isAll
+                ? `<td class="c">${s.w}</td><td class="c">${s.d}</td><td class="c">${s.l}</td><td class="c">${s.pts}</td>`
+                : `<td class="c">${p}</td><td class="c">${s.w}</td><td class="c">${s.d}</td><td class="c">${s.l}</td><td class="c">${s.gf}</td><td class="c">${s.ga}</td><td class="c">${gdStr}</td><td class="c">${s.pts}</td>`;
+
+              return `
+              <tr class="${t.jp?'jp-row':''}">
+                <td style="width:28px;font-size:1.1rem;padding:8px 4px 8px 10px">${t.flag}</td>
+                <td><span class="team-name clickable" onclick="openTeamDetail('${t.name}', '${t.flag}', '${g.id}')">${t.name}${t.host?'<span style="font-size:9px;background:#00A0B8;color:#fff;padding:1px 5px;border-radius:2px;margin-left:6px">HOST</span>':''}</span></td>
+                ${cols}
+              </tr>`;}).join('')}
+          </tbody>
+        </table>
+      </div>`;
     grid.appendChild(card);
   });
   if(typeof twemoji !== 'undefined') twemoji.parse(document.getElementById('groupsGrid'));
@@ -490,15 +514,27 @@ function renderSchedule(){
   const panels = document.getElementById('dayPanels');
   tabs.innerHTML = '';
   panels.innerHTML = '';
+
+  // 今日を表すキー（例："d613"）を判定します
+  const now = new Date();
+  const todayKey = `d${now.getMonth() + 1}${now.getDate()}`;
+  
+  // スケジュール（SCHEDULE_DAYS）の中に、今日の日付に一致するキーがあるか調べます
+  let activeIndex = SCHEDULE_DAYS.findIndex(day => day.key === todayKey);
+  // もし今日の日付がスケジュールに見つからない（大会期間外など）場合は、最初のタブ（0番目）を開きます
+  if (activeIndex === -1) {
+    activeIndex = 0;
+  }
+
   SCHEDULE_DAYS.forEach((day, i) => {
     const tab = document.createElement('button');
-    tab.className = 'day-tab' + (i===0?' active':'');
+    tab.className = 'day-tab' + (i===activeIndex?' active':'');
     tab.dataset.key = day.key;
     tab.textContent = day.label;
     tabs.appendChild(tab);
 
     const panel = document.createElement('div');
-    panel.className = 'day-panel' + (i===0?' show':'');
+    panel.className = 'day-panel' + (i===activeIndex?' show':'');
     panel.id = day.key;
     panel.innerHTML = `
       <div style="overflow-x:auto">
@@ -725,3 +761,5 @@ detectEnvironment().then(() => {
     }).catch(err => console.error('Tournament Cache Load Error:', err));
   }
 });
+
+

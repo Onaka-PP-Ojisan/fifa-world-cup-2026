@@ -101,6 +101,10 @@ button,select,input{font-family:inherit}
 .group-table th{background:var(--sub-bg);padding:8px 12px;text-align:left;font-size:10px;letter-spacing:.08em;color:var(--light-text);font-weight:700;border-bottom:1px solid var(--border)}
 .group-table th.c{text-align:center}
 .group-table td{padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:middle}
+.group-table.detail-view th{padding:8px 6px}
+.group-table.detail-view td{padding:10px 6px}
+.table-responsive {width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.group-table.detail-view {min-width:480px}
 .group-table td.c{text-align:center;color:#888}
 .group-table tr:last-child td{border-bottom:none}
 .team-name{display:flex;align-items:center;gap:8px;font-weight:500;color:#222}
@@ -111,6 +115,8 @@ button,select,input{font-family:inherit}
 /* ===== GROUPS LAYOUT ===== */
 .groups-layout { display: flex; gap: 24px; align-items: flex-start; transition: all 0.3s ease; width: 100%; }
 .groups-layout:not(.split) .groups-grid { width: 100%; flex: 1; }
+.groups-layout:not(.split) .groups-grid.single-group { display: block; }
+.groups-layout:not(.split) .groups-grid.single-group .group-card { max-width: 580px; width: 100%; margin: 0 auto; }
 .groups-layout.split .groups-grid { flex: 0 0 32%; max-width: 32%; display: flex; flex-direction: column; gap: 20px; }
 .groups-layout.split .groups-grid .group-card { width: 100%; margin-bottom: 0; }
 .groups-layout .team-detail-panel { display: none; }
@@ -283,6 +289,7 @@ footer a{color:#ccc}
   .dazn-bar{flex-direction:column;align-items:stretch;text-align:center}
   .dazn-btn{text-align:center}
   .sched-table,.ko-table{font-size:.78rem}
+  .sched-table{min-width:600px}
   .sched-table td,.ko-table td{padding:10px 8px}
   .ko-wrap::after{content:"Swipe ➔";display:block;text-align:right;font-size:11px;color:var(--light-text);margin-top:8px;font-weight:700}
 }
