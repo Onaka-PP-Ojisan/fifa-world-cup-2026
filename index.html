@@ -6,7 +6,9 @@
 <title>FIFA World Cup 2026 — 観戦ガイド</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@twemoji/api@14.1.0/dist/twemoji.min.js" crossorigin="anonymous"></script>
 <style>
+img.emoji { height: 1.2em; width: 1.2em; margin: 0 .05em 0 .1em; vertical-align: -0.1em; }
 /* ===== RESET & BASE ===== */
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -822,6 +824,7 @@ const io = new IntersectionObserver(entries=>{
   });
 },{threshold:.2});
 sections.forEach(id=>{const el=document.getElementById(id);if(el)io.observe(el);});
+twemoji.parse(document.body);
 </script>
 </body>
 </html>
