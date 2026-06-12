@@ -618,6 +618,7 @@ function renderGroups(filter){
       </table>`;
     grid.appendChild(card);
   });
+  if(typeof twemoji !== 'undefined') twemoji.parse(document.getElementById('groupsGrid'));
 }
 
 document.getElementById('groupFilter').addEventListener('click', e => {
@@ -673,6 +674,7 @@ function renderSchedule(){
     btn.classList.add('active');
     document.getElementById(btn.dataset.key).classList.add('show');
   });
+  if(typeof twemoji !== 'undefined') twemoji.parse(document.getElementById('dayPanels'));
 }
 renderSchedule();
 
@@ -715,6 +717,7 @@ function renderBracket(){
         ${col.matches.map(m => renderMatchSlot(m)).join('')}
       </div>
     </div>`).join('');
+  if(typeof twemoji !== 'undefined') twemoji.parse(document.getElementById('bracket'));
 }
 renderBracket();
 
