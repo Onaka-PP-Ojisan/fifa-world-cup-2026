@@ -29,7 +29,9 @@
         }
       },
       "results": {
-        "韓国 vs チェコ": "2-1"
+        "韓国 vs チェコ": "2-1",
+        "カナダ vs ボスニア・H": "1-1",
+        "アメリカ vs パラグアイ": "4-1"
       },
       "bracket": []
     }
@@ -2867,6 +2869,1676 @@
           "date": "6/24 6:00 JST",
           "home": "トルコ",
           "away": "コスタリカ",
+          "score": "- - -",
+          "status": "予定"
+        }
+      ]
+    }
+  },
+  "イングランド": {
+    "timestamp": 1781343427500,
+    "data": {
+      "info": {
+        "coach": "G・サウスゲート",
+        "rank": "4位",
+        "appearances": "16回",
+        "titles": "1回",
+        "description": "強力な攻撃陣と組織的な守備を誇り、若手と経験豊富な選手が融合したバランスの良いチーム。常に世界のトップを狙う。"
+      },
+      "squad": [
+        {
+          "number": 13,
+          "name": "D・ヘンダーソン",
+          "position": "GK"
+        },
+        {
+          "number": 1,
+          "name": "J・ピックフォード",
+          "position": "GK"
+        },
+        {
+          "number": 23,
+          "name": "J・トラフォード",
+          "position": "GK"
+        },
+        {
+          "number": 15,
+          "name": "D・バーン",
+          "position": "DF"
+        },
+        {
+          "number": 6,
+          "name": "M・グエイ",
+          "position": "DF"
+        },
+        {
+          "number": 24,
+          "name": "R・ジェームズ",
+          "position": "DF"
+        },
+        {
+          "number": 2,
+          "name": "E・コンサ",
+          "position": "DF"
+        },
+        {
+          "number": 12,
+          "name": "T・リヴラメント",
+          "position": "DF"
+        },
+        {
+          "number": 3,
+          "name": "N・オライリー",
+          "position": "DF"
+        },
+        {
+          "number": 26,
+          "name": "J・クアンサー",
+          "position": "DF"
+        },
+        {
+          "number": 25,
+          "name": "D・スペンス",
+          "position": "DF"
+        },
+        {
+          "number": 5,
+          "name": "J・ストーンズ",
+          "position": "DF"
+        },
+        {
+          "number": 8,
+          "name": "E・アンダーソン",
+          "position": "MF"
+        },
+        {
+          "number": 10,
+          "name": "J・ベリンガム",
+          "position": "MF"
+        },
+        {
+          "number": 21,
+          "name": "E・エゼ",
+          "position": "MF"
+        },
+        {
+          "number": 14,
+          "name": "J・ヘンダーソン",
+          "position": "MF"
+        },
+        {
+          "number": 16,
+          "name": "K・マイヌー",
+          "position": "MF"
+        },
+        {
+          "number": 4,
+          "name": "D・ライス",
+          "position": "MF"
+        },
+        {
+          "number": 17,
+          "name": "M・ロジャーズ",
+          "position": "MF"
+        },
+        {
+          "number": 18,
+          "name": "A・ゴードン",
+          "position": "MF"
+        },
+        {
+          "number": 9,
+          "name": "H・ケイン",
+          "position": "FW"
+        },
+        {
+          "number": 20,
+          "name": "N・マドゥエケ",
+          "position": "MF"
+        },
+        {
+          "number": 11,
+          "name": "M・ラッシュフォード",
+          "position": "MF"
+        },
+        {
+          "number": 7,
+          "name": "B・サカ",
+          "position": "FW"
+        },
+        {
+          "number": 22,
+          "name": "I・トーニー",
+          "position": "FW"
+        },
+        {
+          "number": 19,
+          "name": "O・ワトキンズ",
+          "position": "MF"
+        }
+      ],
+      "fixtures": [
+        {
+          "date": "6/13 2:00 JST",
+          "home": "イングランド",
+          "away": "アメリカ",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/18 5:00 JST",
+          "home": "セネガル",
+          "away": "イングランド",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/23 8:00 JST",
+          "home": "イングランド",
+          "away": "エクアドル",
+          "score": "- - -",
+          "status": "予定"
+        }
+      ]
+    }
+  },
+  "カーボベルデ": {
+    "timestamp": 1781343554493,
+    "data": {
+      "info": {
+        "coach": "ブビスタ",
+        "rank": "65位",
+        "appearances": "データなし",
+        "titles": "0回",
+        "description": "アフリカのダークホース。フィジカルを活かした堅守速攻と、海外リーグで活躍する多くの選手が特徴。"
+      },
+      "squad": [
+        {
+          "number": 12,
+          "name": "M・ローザ",
+          "position": "GK"
+        },
+        {
+          "number": 1,
+          "name": "V・ヴォジーニャ",
+          "position": "GK"
+        },
+        {
+          "number": 23,
+          "name": "C・ドス・サントス",
+          "position": "GK"
+        },
+        {
+          "number": 3,
+          "name": "D・ボルジェス",
+          "position": "DF"
+        },
+        {
+          "number": 5,
+          "name": "L・コスタ",
+          "position": "DF"
+        },
+        {
+          "number": 13,
+          "name": "S・ロペス・カブラル",
+          "position": "DF"
+        },
+        {
+          "number": 4,
+          "name": "P・ピコ",
+          "position": "DF"
+        },
+        {
+          "number": 22,
+          "name": "S・モレイラ",
+          "position": "DF"
+        },
+        {
+          "number": 24,
+          "name": "W・ピーニャ",
+          "position": "DF"
+        },
+        {
+          "number": 25,
+          "name": "K・ピレス",
+          "position": "DF"
+        },
+        {
+          "number": 2,
+          "name": "S・ストピラ",
+          "position": "DF"
+        },
+        {
+          "number": 18,
+          "name": "T・アルカンジョ",
+          "position": "MF"
+        },
+        {
+          "number": 14,
+          "name": "D・ドゥアルテ",
+          "position": "MF"
+        },
+        {
+          "number": 15,
+          "name": "L・ドゥアルテ",
+          "position": "MF"
+        },
+        {
+          "number": 8,
+          "name": "J・パウロ",
+          "position": "MF"
+        },
+        {
+          "number": 6,
+          "name": "K・ピーニャ",
+          "position": "MF"
+        },
+        {
+          "number": 10,
+          "name": "J・モンテイロ",
+          "position": "MF"
+        },
+        {
+          "number": 16,
+          "name": "Y・セメド",
+          "position": "MF"
+        },
+        {
+          "number": 11,
+          "name": "G・ロドリゲス",
+          "position": "MF"
+        },
+        {
+          "number": 21,
+          "name": "N・ダ・コスタ",
+          "position": "FW"
+        },
+        {
+          "number": 7,
+          "name": "J・カブラル",
+          "position": "FW"
+        },
+        {
+          "number": 17,
+          "name": "W・セメド",
+          "position": "MF"
+        },
+        {
+          "number": 26,
+          "name": "H・ヴァレラ",
+          "position": "MF"
+        },
+        {
+          "number": 20,
+          "name": "R・メンデス",
+          "position": "MF"
+        },
+        {
+          "number": 9,
+          "name": "G・ベンシモール",
+          "position": "FW"
+        },
+        {
+          "number": 19,
+          "name": "D・リヴラメント",
+          "position": "FW"
+        }
+      ],
+      "fixtures": [
+        {
+          "date": "6/15 5:00 JST",
+          "home": "カーボベルデ",
+          "away": "ベルギー",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/20 22:00 JST",
+          "home": "ウルグアイ",
+          "away": "カーボベルデ",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/25 8:00 JST",
+          "home": "カーボベルデ",
+          "away": "日本",
+          "score": "- - -",
+          "status": "予定"
+        }
+      ]
+    }
+  },
+  "コンゴDR": {
+    "timestamp": 1781343596996,
+    "data": {
+      "info": {
+        "coach": "S・デサブル",
+        "rank": "62位",
+        "appearances": "1回",
+        "titles": "0回",
+        "description": "身体能力が高く、攻撃的なプレースタイルが特徴。レオパルズの愛称で知られ、アフリカの強豪国の一つ。"
+      },
+      "squad": [
+        {
+          "number": 21,
+          "name": "M・エポロ",
+          "position": "GK"
+        },
+        {
+          "number": 16,
+          "name": "T・ファユル",
+          "position": "GK"
+        },
+        {
+          "number": 1,
+          "name": "L・ムパシ",
+          "position": "GK"
+        },
+        {
+          "number": 5,
+          "name": "D・バトゥビンシカ",
+          "position": "DF"
+        },
+        {
+          "number": 24,
+          "name": "G・カルル",
+          "position": "DF"
+        },
+        {
+          "number": 3,
+          "name": "S・カプアディ",
+          "position": "DF"
+        },
+        {
+          "number": 12,
+          "name": "J・カイェンベ",
+          "position": "DF"
+        },
+        {
+          "number": 26,
+          "name": "A・マスアク",
+          "position": "DF"
+        },
+        {
+          "number": 22,
+          "name": "C・ムベンバ",
+          "position": "DF"
+        },
+        {
+          "number": 4,
+          "name": "A・トゥアンゼベ",
+          "position": "DF"
+        },
+        {
+          "number": 2,
+          "name": "A・ワン＝ビサカ",
+          "position": "DF"
+        },
+        {
+          "number": 25,
+          "name": "E・カイェンベ",
+          "position": "MF"
+        },
+        {
+          "number": 8,
+          "name": "S・ムトゥサミー",
+          "position": "MF"
+        },
+        {
+          "number": 6,
+          "name": "N・ムカウ",
+          "position": "MF"
+        },
+        {
+          "number": 18,
+          "name": "C・ピッケル",
+          "position": "MF"
+        },
+        {
+          "number": 14,
+          "name": "N・サディキ",
+          "position": "MF"
+        },
+        {
+          "number": 15,
+          "name": "A・チボラ",
+          "position": "MF"
+        },
+        {
+          "number": 7,
+          "name": "N・ムブク",
+          "position": "MF"
+        },
+        {
+          "number": 10,
+          "name": "T・ボンゴンダ",
+          "position": "MF"
+        },
+        {
+          "number": 17,
+          "name": "C・バカンブ",
+          "position": "FW"
+        },
+        {
+          "number": 23,
+          "name": "S・バンザ",
+          "position": "FW"
+        },
+        {
+          "number": 9,
+          "name": "B・シペンガ",
+          "position": "FW"
+        },
+        {
+          "number": 13,
+          "name": "M・エリア",
+          "position": "FW"
+        },
+        {
+          "number": 11,
+          "name": "G・カクタ",
+          "position": "FW"
+        },
+        {
+          "number": 19,
+          "name": "F・マイェレ",
+          "position": "FW"
+        },
+        {
+          "number": 20,
+          "name": "Y・ウィサ",
+          "position": "FW"
+        }
+      ],
+      "fixtures": [
+        {
+          "date": "6/15 5:00 JST",
+          "home": "コンゴDR",
+          "away": "オランダ",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/20 2:00 JST",
+          "home": "ウルグアイ",
+          "away": "コンゴDR",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/25 8:00 JST",
+          "home": "コンゴDR",
+          "away": "オーストラリア",
+          "score": "- - -",
+          "status": "予定"
+        }
+      ]
+    }
+  },
+  "コートジボワール": {
+    "timestamp": 1781343696888,
+    "data": {
+      "info": {
+        "coach": "E・ファエ",
+        "rank": "38位",
+        "appearances": "3回",
+        "titles": "0回",
+        "description": "身体能力の高い選手が多く、パワフルな攻撃と堅守が特徴。アフリカネイションズカップを複数回制覇している強豪国です。"
+      },
+      "squad": [
+        {
+          "number": 1,
+          "name": "Y・フォファナ",
+          "position": "GK"
+        },
+        {
+          "number": 16,
+          "name": "M・コネ",
+          "position": "GK"
+        },
+        {
+          "number": 23,
+          "name": "A・ラフォン",
+          "position": "GK"
+        },
+        {
+          "number": 20,
+          "name": "E・アグバドゥ",
+          "position": "DF"
+        },
+        {
+          "number": 2,
+          "name": "O・ディオマンデ",
+          "position": "DF"
+        },
+        {
+          "number": 17,
+          "name": "G・ドゥエ",
+          "position": "DF"
+        },
+        {
+          "number": 3,
+          "name": "G・コナン",
+          "position": "DF"
+        },
+        {
+          "number": 7,
+          "name": "O・コッスヌー",
+          "position": "DF"
+        },
+        {
+          "number": 21,
+          "name": "E・エンディカ",
+          "position": "DF"
+        },
+        {
+          "number": 13,
+          "name": "C・オペリ",
+          "position": "DF"
+        },
+        {
+          "number": 5,
+          "name": "W・シンゴ",
+          "position": "DF"
+        },
+        {
+          "number": 6,
+          "name": "S・フォファナ",
+          "position": "MF"
+        },
+        {
+          "number": 26,
+          "name": "C・イナオ・ウライ",
+          "position": "MF"
+        },
+        {
+          "number": 8,
+          "name": "F・ケシエ",
+          "position": "MF"
+        },
+        {
+          "number": 18,
+          "name": "I・サンガレ",
+          "position": "MF"
+        },
+        {
+          "number": 4,
+          "name": "J・セリ",
+          "position": "MF"
+        },
+        {
+          "number": 25,
+          "name": "P・ギアゴン",
+          "position": "MF"
+        },
+        {
+          "number": 24,
+          "name": "B・トゥレ",
+          "position": "FW"
+        },
+        {
+          "number": 10,
+          "name": "S・アディングラ",
+          "position": "FW"
+        },
+        {
+          "number": 9,
+          "name": "A・ボニー",
+          "position": "FW"
+        },
+        {
+          "number": 14,
+          "name": "O・ディアキテ",
+          "position": "MF"
+        },
+        {
+          "number": 15,
+          "name": "A・ディアロ",
+          "position": "FW"
+        },
+        {
+          "number": 11,
+          "name": "Y・ディオマンデ",
+          "position": "MF"
+        },
+        {
+          "number": 22,
+          "name": "E・ゲッサン",
+          "position": "FW"
+        },
+        {
+          "number": 19,
+          "name": "N・ペペ",
+          "position": "FW"
+        },
+        {
+          "number": 12,
+          "name": "E・ワヒ",
+          "position": "FW"
+        }
+      ],
+      "fixtures": [
+        {
+          "date": "6/13 22:00 JST",
+          "home": "コートジボワール",
+          "away": "日本",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/19 5:00 JST",
+          "home": "オランダ",
+          "away": "コートジボワール",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/25 0:00 JST",
+          "home": "コートジボワール",
+          "away": "セネガル",
+          "score": "- - -",
+          "status": "予定"
+        }
+      ]
+    }
+  },
+  "ベルギー": {
+    "timestamp": 1781343723766,
+    "data": {
+      "info": {
+        "coach": "D・テデスコ",
+        "rank": "3位",
+        "appearances": "14回",
+        "titles": "0回",
+        "description": "「黄金世代」と呼ばれ、テクニックとパスワークを駆使した攻撃的なスタイルが特徴。豊富なタレントを擁し、粘り強い守備からの一瞬のカウンターも得意とする強豪国。"
+      },
+      "squad": [
+        {
+          "number": 1,
+          "name": "T・クルトワ",
+          "position": "GK"
+        },
+        {
+          "number": 12,
+          "name": "S・ラメンス",
+          "position": "GK"
+        },
+        {
+          "number": 13,
+          "name": "M・ペンデルス",
+          "position": "GK"
+        },
+        {
+          "number": 21,
+          "name": "T・カスターニュ",
+          "position": "DF"
+        },
+        {
+          "number": 5,
+          "name": "M・デ・カイパー",
+          "position": "DF"
+        },
+        {
+          "number": 16,
+          "name": "K・デ・ヴィンテル",
+          "position": "DF"
+        },
+        {
+          "number": 2,
+          "name": "Z・デバスト",
+          "position": "DF"
+        },
+        {
+          "number": 4,
+          "name": "B・メヘレ",
+          "position": "DF"
+        },
+        {
+          "number": 15,
+          "name": "T・ムニエ",
+          "position": "DF"
+        },
+        {
+          "number": 25,
+          "name": "N・ンゴイ",
+          "position": "DF"
+        },
+        {
+          "number": 18,
+          "name": "J・セイス",
+          "position": "DF"
+        },
+        {
+          "number": 3,
+          "name": "A・テアテ",
+          "position": "DF"
+        },
+        {
+          "number": 7,
+          "name": "K・デ・ブライネ",
+          "position": "MF"
+        },
+        {
+          "number": 24,
+          "name": "A・オナナ",
+          "position": "MF"
+        },
+        {
+          "number": 23,
+          "name": "N・ラスキン",
+          "position": "MF"
+        },
+        {
+          "number": 22,
+          "name": "A・サレマーケルス",
+          "position": "FW"
+        },
+        {
+          "number": 8,
+          "name": "Y・ティーレマンス",
+          "position": "MF"
+        },
+        {
+          "number": 19,
+          "name": "D・モレイラ",
+          "position": "FW"
+        },
+        {
+          "number": 20,
+          "name": "H・ヴァナーケン",
+          "position": "MF"
+        },
+        {
+          "number": 6,
+          "name": "A・ヴィツェル",
+          "position": "MF"
+        },
+        {
+          "number": 11,
+          "name": "J・ドク",
+          "position": "MF"
+        },
+        {
+          "number": 26,
+          "name": "M・フェルナンデス＝パルド",
+          "position": "FW"
+        },
+        {
+          "number": 9,
+          "name": "R・ルカク",
+          "position": "FW"
+        },
+        {
+          "number": 14,
+          "name": "D・ルケバキオ",
+          "position": "FW"
+        },
+        {
+          "number": 17,
+          "name": "C・デ・ケテラーレ",
+          "position": "FW"
+        },
+        {
+          "number": 10,
+          "name": "L・トロサール",
+          "position": "MF"
+        }
+      ],
+      "fixtures": [
+        {
+          "date": "6/15 5:00 JST",
+          "home": "ベルギー",
+          "away": "カナダ",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/20 2:00 JST",
+          "home": "モロッコ",
+          "away": "ベルギー",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/25 8:00 JST",
+          "home": "ベルギー",
+          "away": "コスタリカ",
+          "score": "- - -",
+          "status": "予定"
+        }
+      ]
+    }
+  },
+  "ニュージーランド": {
+    "timestamp": 1781344175328,
+    "data": {
+      "info": {
+        "coach": "D・ベイゼリー",
+        "rank": "104位",
+        "appearances": "2回",
+        "titles": "0回",
+        "description": "オセアニアの強豪。フィジカルに優れ、堅守速攻とセットプレーを武器とする。W杯では粘り強い戦いが特徴。"
+      },
+      "squad": [
+        {
+          "number": 1,
+          "name": "M・クロコンブ",
+          "position": "GK"
+        },
+        {
+          "number": 12,
+          "name": "A・ポールセン",
+          "position": "GK"
+        },
+        {
+          "number": 22,
+          "name": "M・ワウド",
+          "position": "GK"
+        },
+        {
+          "number": 4,
+          "name": "T・バインドン",
+          "position": "DF"
+        },
+        {
+          "number": 5,
+          "name": "M・ボクソール",
+          "position": "DF"
+        },
+        {
+          "number": 13,
+          "name": "L・カカーチェ",
+          "position": "DF"
+        },
+        {
+          "number": 3,
+          "name": "F・デ・フリース",
+          "position": "DF"
+        },
+        {
+          "number": 24,
+          "name": "C・エリオット",
+          "position": "DF"
+        },
+        {
+          "number": 2,
+          "name": "T・ペイン",
+          "position": "DF"
+        },
+        {
+          "number": 15,
+          "name": "N・パイナカー",
+          "position": "DF"
+        },
+        {
+          "number": 26,
+          "name": "T・スミス",
+          "position": "DF"
+        },
+        {
+          "number": 16,
+          "name": "F・サーマン",
+          "position": "DF"
+        },
+        {
+          "number": 25,
+          "name": "L・ベイリス",
+          "position": "MF"
+        },
+        {
+          "number": 6,
+          "name": "J・ベル",
+          "position": "MF"
+        },
+        {
+          "number": 7,
+          "name": "M・ガーベット",
+          "position": "MF"
+        },
+        {
+          "number": 20,
+          "name": "C・マックカウット",
+          "position": "MF"
+        },
+        {
+          "number": 14,
+          "name": "A・ルーファー",
+          "position": "MF"
+        },
+        {
+          "number": 10,
+          "name": "S・シン",
+          "position": "MF"
+        },
+        {
+          "number": 8,
+          "name": "M・スタメニッチ",
+          "position": "MF"
+        },
+        {
+          "number": 23,
+          "name": "R・トーマス",
+          "position": "MF"
+        },
+        {
+          "number": 11,
+          "name": "E・ジャスト",
+          "position": "MF"
+        },
+        {
+          "number": 19,
+          "name": "B・オールド",
+          "position": "FW"
+        },
+        {
+          "number": 17,
+          "name": "K・バーバロウゼス",
+          "position": "FW"
+        },
+        {
+          "number": 21,
+          "name": "J・ランダル",
+          "position": "FW"
+        },
+        {
+          "number": 18,
+          "name": "B・ウェイン",
+          "position": "FW"
+        },
+        {
+          "number": 9,
+          "name": "C・ウッド",
+          "position": "FW"
+        }
+      ],
+      "fixtures": [
+        {
+          "date": "2026/6/15 5:00 JST",
+          "home": "ニュージーランド",
+          "away": "ポルトガル",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "2026/6/20 8:00 JST",
+          "home": "コロンビア",
+          "away": "ニュージーランド",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "2026/6/25 2:00 JST",
+          "home": "ニュージーランド",
+          "away": "モロッコ",
+          "score": "- - -",
+          "status": "予定"
+        }
+      ]
+    }
+  },
+  "イラン": {
+    "timestamp": 1781344182539,
+    "data": {
+      "info": {
+        "coach": "A・ガレノエイ",
+        "rank": "20位",
+        "appearances": "6回",
+        "titles": "0回",
+        "description": "フィジカルと堅守速攻を特徴とし、アジア屈指の実力を誇る。粘り強い守備と攻撃的なプレースタイルで知られる。"
+      },
+      "squad": [
+        {
+          "number": 1,
+          "name": "A・ベイランヴァンド",
+          "position": "GK"
+        },
+        {
+          "number": 22,
+          "name": "H・ホセイニ",
+          "position": "GK"
+        },
+        {
+          "number": 12,
+          "name": "P・ニアズマンド",
+          "position": "GK"
+        },
+        {
+          "number": 25,
+          "name": "D・エイリ",
+          "position": "DF"
+        },
+        {
+          "number": 23,
+          "name": "R・レザイーアン",
+          "position": "DF"
+        },
+        {
+          "number": 3,
+          "name": "E・ハジサフィ",
+          "position": "DF"
+        },
+        {
+          "number": 2,
+          "name": "S・ハルダニ",
+          "position": "DF"
+        },
+        {
+          "number": 13,
+          "name": "H・カナニ",
+          "position": "DF"
+        },
+        {
+          "number": 4,
+          "name": "S・ハリルザーデ",
+          "position": "DF"
+        },
+        {
+          "number": 5,
+          "name": "M・モハンマディ",
+          "position": "DF"
+        },
+        {
+          "number": 19,
+          "name": "A・ネマティ",
+          "position": "DF"
+        },
+        {
+          "number": 17,
+          "name": "A・ユーセフィ",
+          "position": "DF"
+        },
+        {
+          "number": 7,
+          "name": "A・ジャハンバフシュ",
+          "position": "MF"
+        },
+        {
+          "number": 15,
+          "name": "R・チェシュミ",
+          "position": "MF"
+        },
+        {
+          "number": 6,
+          "name": "S・エザトラヒ",
+          "position": "MF"
+        },
+        {
+          "number": 14,
+          "name": "S・ゴッドス",
+          "position": "MF"
+        },
+        {
+          "number": 26,
+          "name": "A・ラッザギニア",
+          "position": "MF"
+        },
+        {
+          "number": 21,
+          "name": "M・ゴルバニ",
+          "position": "MF"
+        },
+        {
+          "number": 8,
+          "name": "M・モヘビ",
+          "position": "FW"
+        },
+        {
+          "number": 16,
+          "name": "M・トラビ",
+          "position": "MF"
+        },
+        {
+          "number": 10,
+          "name": "M・ガエディ",
+          "position": "FW"
+        },
+        {
+          "number": 18,
+          "name": "A・ホセインザーデ",
+          "position": "FW"
+        },
+        {
+          "number": 11,
+          "name": "A・アリプール",
+          "position": "FW"
+        },
+        {
+          "number": 20,
+          "name": "S・モガンルー",
+          "position": "FW"
+        },
+        {
+          "number": 24,
+          "name": "D・エッカート・アジェンサ",
+          "position": "FW"
+        },
+        {
+          "number": 9,
+          "name": "M・タレミ",
+          "position": "FW"
+        }
+      ],
+      "fixtures": [
+        {
+          "date": "6/13 4:00 JST",
+          "home": "イラン",
+          "away": "ドイツ",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/19 23:00 JST",
+          "home": "ブラジル",
+          "away": "イラン",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/25 7:00 JST",
+          "home": "メキシコ",
+          "away": "イラン",
+          "score": "- - -",
+          "status": "予定"
+        }
+      ]
+    }
+  },
+  "スペイン": {
+    "timestamp": 1781344189891,
+    "data": {
+      "info": {
+        "coach": "L・デ・ラ・フエンテ",
+        "rank": "8位",
+        "appearances": "16回",
+        "titles": "1回",
+        "description": "「ポゼッションサッカー」と「テクニック」を重視し、パスワークで相手を崩すスタイル。若手選手も台頭し、常に世界のトップを争う強豪国。"
+      },
+      "squad": [
+        {
+          "number": 13,
+          "name": "J・ガルシア",
+          "position": "GK"
+        },
+        {
+          "number": 1,
+          "name": "D・ラヤ",
+          "position": "GK"
+        },
+        {
+          "number": 23,
+          "name": "U・シモン",
+          "position": "GK"
+        },
+        {
+          "number": 22,
+          "name": "P・クバルシ",
+          "position": "DF"
+        },
+        {
+          "number": 24,
+          "name": "M・ククレジャ",
+          "position": "DF"
+        },
+        {
+          "number": 4,
+          "name": "E・ガルシア",
+          "position": "DF"
+        },
+        {
+          "number": 3,
+          "name": "A・グリマルド",
+          "position": "DF"
+        },
+        {
+          "number": 14,
+          "name": "A・ラポルテ",
+          "position": "DF"
+        },
+        {
+          "number": 5,
+          "name": "M・ジョレンテ",
+          "position": "MF"
+        },
+        {
+          "number": 12,
+          "name": "P・ポロ",
+          "position": "DF"
+        },
+        {
+          "number": 2,
+          "name": "M・プビル",
+          "position": "DF"
+        },
+        {
+          "number": 9,
+          "name": "G・ガビ",
+          "position": "MF"
+        },
+        {
+          "number": 6,
+          "name": "M・メリノ",
+          "position": "MF"
+        },
+        {
+          "number": 20,
+          "name": "P・ペドリ",
+          "position": "MF"
+        },
+        {
+          "number": 16,
+          "name": "R・ロドリ",
+          "position": "MF"
+        },
+        {
+          "number": 8,
+          "name": "F・ルイス",
+          "position": "MF"
+        },
+        {
+          "number": 18,
+          "name": "M・スビメンディ",
+          "position": "MF"
+        },
+        {
+          "number": 15,
+          "name": "A・バエナ",
+          "position": "MF"
+        },
+        {
+          "number": 10,
+          "name": "D・オルモ",
+          "position": "MF"
+        },
+        {
+          "number": 26,
+          "name": "B・イグレシアス",
+          "position": "FW"
+        },
+        {
+          "number": 19,
+          "name": "L・ヤマル",
+          "position": "FW"
+        },
+        {
+          "number": 25,
+          "name": "V・ムニョス",
+          "position": "FW"
+        },
+        {
+          "number": 21,
+          "name": "M・オヤルサバル",
+          "position": "FW"
+        },
+        {
+          "number": 11,
+          "name": "Y・ピノ",
+          "position": "MF"
+        },
+        {
+          "number": 7,
+          "name": "F・トーレス",
+          "position": "MF"
+        },
+        {
+          "number": 17,
+          "name": "N・ウィリアムズ",
+          "position": "FW"
+        }
+      ],
+      "fixtures": [
+        {
+          "date": "6/13 7:00 JST",
+          "home": "スペイン",
+          "away": "カナダ",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/19 5:00 JST",
+          "home": "エジプト",
+          "away": "スペイン",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/25 22:00 JST",
+          "home": "スペイン",
+          "away": "ドイツ",
+          "score": "- - -",
+          "status": "予定"
+        }
+      ]
+    }
+  },
+  "サウジアラビア": {
+    "timestamp": 1781344190535,
+    "data": {
+      "info": {
+        "coach": "R・マンチーニ",
+        "rank": "56位",
+        "appearances": "6回",
+        "titles": "0回",
+        "description": "粘り強い守備とカウンター攻撃が特徴の中東の強豪。身体能力を活かしたアグレッシブなプレースタイルで、近年は技術レベルも向上。"
+      },
+      "squad": [
+        {
+          "number": 1,
+          "name": "N・アルアキディ",
+          "position": "GK"
+        },
+        {
+          "number": 22,
+          "name": "A・アルカッサール",
+          "position": "GK"
+        },
+        {
+          "number": 21,
+          "name": "M・アルオワイス",
+          "position": "GK"
+        },
+        {
+          "number": 12,
+          "name": "S・アブドゥルハミド",
+          "position": "DF"
+        },
+        {
+          "number": 26,
+          "name": "M・アブアルシャマト",
+          "position": "MF"
+        },
+        {
+          "number": 13,
+          "name": "N・ブーシャル",
+          "position": "DF"
+        },
+        {
+          "number": 4,
+          "name": "A・アルアムリ",
+          "position": "DF"
+        },
+        {
+          "number": 24,
+          "name": "M・アルハルビ",
+          "position": "DF"
+        },
+        {
+          "number": 14,
+          "name": "H・カデシュ",
+          "position": "DF"
+        },
+        {
+          "number": 3,
+          "name": "A・ラジャミ",
+          "position": "DF"
+        },
+        {
+          "number": 2,
+          "name": "A・マジラシ",
+          "position": "DF"
+        },
+        {
+          "number": 5,
+          "name": "H・タンバクティ",
+          "position": "DF"
+        },
+        {
+          "number": 25,
+          "name": "J・タクリー",
+          "position": "DF"
+        },
+        {
+          "number": 6,
+          "name": "N・アルドサリ",
+          "position": "MF"
+        },
+        {
+          "number": 28,
+          "name": "M・カンノ",
+          "position": "MF"
+        },
+        {
+          "number": 16,
+          "name": "Z・アルジョハニ",
+          "position": "MF"
+        },
+        {
+          "number": 7,
+          "name": "M・アルジュワイル",
+          "position": "FW"
+        },
+        {
+          "number": 15,
+          "name": "A・アルハイバリ",
+          "position": "MF"
+        },
+        {
+          "number": 30,
+          "name": "A・アルハジ",
+          "position": "MF"
+        },
+        {
+          "number": 17,
+          "name": "K・アルガンナム",
+          "position": "FW"
+        },
+        {
+          "number": 27,
+          "name": "S・マンダシュ",
+          "position": "FW"
+        },
+        {
+          "number": 8,
+          "name": "A・ヤヒヤ",
+          "position": "FW"
+        },
+        {
+          "number": 9,
+          "name": "F・アルブリカン",
+          "position": "FW"
+        },
+        {
+          "number": 19,
+          "name": "A・アルハムダン",
+          "position": "FW"
+        },
+        {
+          "number": 11,
+          "name": "S・アルシェフリ",
+          "position": "FW"
+        },
+        {
+          "number": 10,
+          "name": "S・アルドサリ",
+          "position": "MF"
+        }
+      ],
+      "fixtures": [
+        {
+          "date": "6/15 5:00 JST",
+          "home": "サウジアラビア",
+          "away": "メキシコ",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/20 8:00 JST",
+          "home": "ポーランド",
+          "away": "サウジアラビア",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/25 2:00 JST",
+          "home": "サウジアラビア",
+          "away": "ナイジェリア",
+          "score": "- - -",
+          "status": "予定"
+        }
+      ]
+    }
+  },
+  "エジプト": {
+    "timestamp": 1781344196548,
+    "data": {
+      "info": {
+        "coach": "H・ハッサン",
+        "rank": "37位",
+        "appearances": "3回",
+        "titles": "0回",
+        "description": "アフリカの強豪。M・サラーらテクニカルな選手を擁し、粘り強い守備と鋭いカウンターが特徴。ワールドカップでの躍進が期待される。"
+      },
+      "squad": [
+        {
+          "number": 26,
+          "name": "M・アラー",
+          "position": "GK"
+        },
+        {
+          "number": 1,
+          "name": "M・エル・シェナウィ",
+          "position": "GK"
+        },
+        {
+          "number": 23,
+          "name": "M・ショベイル",
+          "position": "GK"
+        },
+        {
+          "number": 16,
+          "name": "A・ソリマン",
+          "position": "GK"
+        },
+        {
+          "number": 4,
+          "name": "H・アブデルマジド",
+          "position": "DF"
+        },
+        {
+          "number": 6,
+          "name": "M・アブデルモネム",
+          "position": "DF"
+        },
+        {
+          "number": 13,
+          "name": "A・ファトゥーフ",
+          "position": "DF"
+        },
+        {
+          "number": 15,
+          "name": "K・ハフェズ",
+          "position": "DF"
+        },
+        {
+          "number": 3,
+          "name": "M・ハニ",
+          "position": "DF"
+        },
+        {
+          "number": 2,
+          "name": "Y・イブラヒム",
+          "position": "DF"
+        },
+        {
+          "number": 5,
+          "name": "R・ラビア",
+          "position": "DF"
+        },
+        {
+          "number": 24,
+          "name": "T・アラー",
+          "position": "DF"
+        },
+        {
+          "number": 8,
+          "name": "E・アシュール",
+          "position": "MF"
+        },
+        {
+          "number": 19,
+          "name": "M・アッティア",
+          "position": "MF"
+        },
+        {
+          "number": 18,
+          "name": "N・ドゥンガ",
+          "position": "MF"
+        },
+        {
+          "number": 14,
+          "name": "H・ファトヒ",
+          "position": "DF"
+        },
+        {
+          "number": 17,
+          "name": "M・ラシーン",
+          "position": "MF"
+        },
+        {
+          "number": 21,
+          "name": "M・サベール",
+          "position": "MF"
+        },
+        {
+          "number": 11,
+          "name": "M・ジコ",
+          "position": "MF"
+        },
+        {
+          "number": 7,
+          "name": "M・ハッサン",
+          "position": "MF"
+        },
+        {
+          "number": 12,
+          "name": "H・ハッサン",
+          "position": "MF"
+        },
+        {
+          "number": 25,
+          "name": "A・ジゾ",
+          "position": "FW"
+        },
+        {
+          "number": 9,
+          "name": "H・アブデルカリム",
+          "position": "FW"
+        },
+        {
+          "number": 20,
+          "name": "I・アデル",
+          "position": "FW"
+        },
+        {
+          "number": 22,
+          "name": "O・マルムッシュ",
+          "position": "FW"
+        },
+        {
+          "number": 10,
+          "name": "M・サラー",
+          "position": "FW"
+        }
+      ],
+      "fixtures": [
+        {
+          "date": "6/13 1:00 JST",
+          "home": "エジプト",
+          "away": "ウルグアイ",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/19 5:00 JST",
+          "home": "ベルギー",
+          "away": "エジプト",
+          "score": "- - -",
+          "status": "予定"
+        },
+        {
+          "date": "6/25 9:00 JST",
+          "home": "エジプト",
+          "away": "日本",
           "score": "- - -",
           "status": "予定"
         }

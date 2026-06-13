@@ -46,8 +46,8 @@ const SCHEDULE_DAYS = [
     {time:'11:00',grp:'A',jp:false,teams:'韓国 vs チェコ',venue:'グアダラハラ・スタジアム',note:'DAZN'},
   ]},
   {key:'d613',label:'6/13 土',matches:[
-    {time:'4:00',grp:'B',jp:false,teams:'カナダ vs ボスニア・H',venue:'トロント・スタジアム',note:'DAZN / NHK総合'},
-    {time:'10:00',grp:'D',jp:false,teams:'アメリカ vs パラグアイ',venue:'ロサンゼルス・スタジアム',note:'DAZN'},
+    {time:'4:00',grp:'B',jp:false,teams:'カナダ vs ボスニア・H',venue:'トロント・スタジアム',note:'DAZN / NHK総合',score:'1-1'},
+    {time:'10:00',grp:'D',jp:false,teams:'アメリカ vs パラグアイ',venue:'ロサンゼルス・スタジアム',note:'DAZN',score:'4-1'},
   ]},
   {key:'d614',label:'6/14 日',matches:[
     {time:'4:00',grp:'B',jp:false,teams:'カタール vs スイス',venue:'SF・ベイエリア・スタジアム',note:'DAZN'},
