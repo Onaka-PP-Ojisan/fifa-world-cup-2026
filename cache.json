@@ -216,57 +216,57 @@
       "squad": [
         {
           "number": 21,
-          "name": "H・チョ",
+          "name": "チョ・ヒョヌ",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "S・キム",
+          "name": "キム・スンギュ",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "B・ソン",
+          "name": "ソン・ボムグン",
           "position": "GK"
         },
         {
           "number": 5,
-          "name": "W・チョ",
+          "name": "チョ・ユミン",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "M・キム",
+          "name": "キム・ミンジェ",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "M・キム",
+          "name": "キム・ムンファン",
           "position": "DF"
         },
         {
           "number": 9,
-          "name": "T・キム",
+          "name": "キム・テファン",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "H・イ",
+          "name": "イ・キジェ",
           "position": "DF"
         },
         {
           "number": 22,
-          "name": "J・パク",
+          "name": "パク・ジンソプ",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "T・イ",
+          "name": "イ・ジェソン",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "Y・ソル",
+          "name": "ソル・ヨンウ",
           "position": "MF"
         },
         {
@@ -276,72 +276,72 @@
         },
         {
           "number": 10,
-          "name": "G・イ",
+          "name": "イ・ガンイン",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "J・ペ",
+          "name": "ペ・ジュノ",
           "position": "FW"
         },
         {
           "number": 23,
-          "name": "J・オム",
+          "name": "オム・ウォンサン",
           "position": "FW"
         },
         {
           "number": 24,
-          "name": "I・ファン",
+          "name": "ファン・インボム",
           "position": "MF"
         },
         {
           "number": 25,
-          "name": "J・キム",
+          "name": "キム・ジンス",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "D・イ",
+          "name": "イ・ドンギョン",
           "position": "FW"
         },
         {
           "number": 8,
-          "name": "J・イ",
+          "name": "イ・カンヒョン",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "K・イ",
+          "name": "イ・ギュソン",
           "position": "MF"
         },
         {
           "number": 4,
-          "name": "S・ペク",
+          "name": "ペク・スンホ",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "H・ヤン",
+          "name": "ヤン・ヒョンジュン",
           "position": "FW"
         },
         {
           "number": 20,
-          "name": "H・ファン",
+          "name": "ファン・ヒチャン",
           "position": "FW"
         },
         {
           "number": 14,
-          "name": "G・チョ",
+          "name": "チョ・ギュソン",
           "position": "FW"
         },
         {
           "number": 3,
-          "name": "H・オ",
+          "name": "オ・ヒョンギュ",
           "position": "FW"
         },
         {
           "number": 13,
-          "name": "H・ソン",
+          "name": "ソン・フンミン",
           "position": "FW"
         }
       ],
@@ -383,132 +383,132 @@
       "squad": [
         {
           "number": 12,
-          "name": "C・アセベド",
+          "name": "カルロス・アセベド",
           "position": "GK"
         },
         {
           "number": 13,
-          "name": "G・オチョア",
+          "name": "ギジェルモ・オチョア",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "J・ランヘル",
+          "name": "ホセ・ランヘル",
           "position": "GK"
         },
         {
           "number": 23,
-          "name": "J・ガジャルド",
+          "name": "ヘスス・ガジャルド",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "C・モンテス",
+          "name": "セサル・モンテス",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "I・レジェス",
+          "name": "イスラエル・レジェス",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "J・サンチェス",
+          "name": "ホルヘ・サンチェス",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "J・バスケス",
+          "name": "ヨハン・バスケス",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "E・アルバレス",
+          "name": "エドソン・アルバレス",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "M・チャベス",
+          "name": "ミゲル・チャベス",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "O・バルガス",
+          "name": "オスカル・バルガス",
           "position": "MF"
         },
         {
           "number": 24,
-          "name": "L・チャベス",
+          "name": "ルイス・チャベス",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "A・フィダルゴ",
+          "name": "アルフォンソ・フィダルゴ",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "B・グティエレス",
+          "name": "ベンハミン・グティエレス",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "E・リラ",
+          "name": "エリック・リラ",
           "position": "MF"
         },
         {
           "number": 19,
-          "name": "G・モラ",
+          "name": "ガエル・モラ",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "O・ピネダ",
+          "name": "オルベリン・ピネダ",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "L・ロモ",
+          "name": "ルイス・ロモ",
           "position": "MF"
         },
         {
           "number": 25,
-          "name": "R・アルバラード",
+          "name": "ロベルト・アルバラード",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "S・ヒメネス",
+          "name": "サンティアゴ・ヒメネス",
           "position": "FW"
         },
         {
           "number": 14,
-          "name": "A・ゴンサレス",
+          "name": "アルフォンソ・ゴンサレス",
           "position": "FW"
         },
         {
           "number": 21,
-          "name": "C・ウエルタ",
+          "name": "セサル・ウエルタ",
           "position": "MF"
         },
         {
           "number": 9,
-          "name": "R・ヒメネス",
+          "name": "ラウール・ヒメネス",
           "position": "FW"
         },
         {
           "number": 22,
-          "name": "G・マルティネス",
+          "name": "ガエル・マルティネス",
           "position": "FW"
         },
         {
           "number": 16,
-          "name": "J・キニョーネス",
+          "name": "フリアン・キニョーネス",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "A・ベガ",
+          "name": "アレクシス・ベガ",
           "position": "FW"
         }
       ],
@@ -550,132 +550,132 @@
       "squad": [
         {
           "number": 16,
-          "name": "S・チェイン",
+          "name": "スィフィソ・チェイン",
           "position": "GK"
         },
         {
           "number": 22,
-          "name": "R・ゴス",
+          "name": "リカルド・ゴス",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "R・ウィリアムズ",
+          "name": "ロンウェン・ウィリアムズ",
           "position": "GK"
         },
         {
           "number": 26,
-          "name": "B・クロス",
+          "name": "ボンガニ・クロス",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "S・カビニ",
+          "name": "シヤボンガ・カビニ",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "O・マカニャ",
+          "name": "オルウェトゥ・マカニャ",
           "position": "DF"
         },
         {
           "number": 14,
-          "name": "M・ンボカジ",
+          "name": "ムサ・ンボカジ",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "A・モディバ",
+          "name": "オーブリー・モディバ",
           "position": "DF"
         },
         {
           "number": 20,
-          "name": "K・ムダウ",
+          "name": "クーリソ・ムダウ",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "K・ンダマネ",
+          "name": "カトレゴ・ンダマネ",
           "position": "DF"
         },
         {
           "number": 21,
-          "name": "I・オコン",
+          "name": "イノセント・オコン",
           "position": "DF"
         },
         {
           "number": 19,
-          "name": "N・シビシ",
+          "name": "ンジャブロ・シビシ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "T・マトゥルディ",
+          "name": "タボ・マトゥルディ",
           "position": "DF"
         },
         {
           "number": 23,
-          "name": "J・アダムス",
+          "name": "ジェイデン・アダムス",
           "position": "MF"
         },
         {
           "number": 5,
-          "name": "T・ムバサ",
+          "name": "タペロ・ムバサ",
           "position": "MF"
         },
         {
           "number": 4,
-          "name": "T・モコエナ",
+          "name": "テボホ・モコエナ",
           "position": "MF"
         },
         {
           "number": 13,
-          "name": "S・シトレ",
+          "name": "スィフィソ・シトレ",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "T・ズワネ",
+          "name": "テムバ・ズワネ",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "O・アポリス",
+          "name": "オスウィン・アポリス",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "L・フォスター",
+          "name": "ライル・フォスター",
           "position": "FW"
         },
         {
           "number": 99,
-          "name": "E・マクゴパ",
+          "name": "エヴィデンス・マクゴパ",
           "position": "FW"
         },
         {
           "number": 12,
-          "name": "T・マセコ",
+          "name": "タペロ・マセコ",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "R・モフォケング",
+          "name": "レレボヒレ・モフォケング",
           "position": "FW"
         },
         {
           "number": 8,
-          "name": "T・モレミ",
+          "name": "ツェポ・モレミ",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "I・レイナーズ",
+          "name": "イクラーム・レイナーズ",
           "position": "FW"
         },
         {
           "number": 25,
-          "name": "K・セベレベレ",
+          "name": "カベロ・セベレベレ",
           "position": "MF"
         }
       ],
@@ -717,132 +717,132 @@
       "squad": [
         {
           "number": 23,
-          "name": "L・ホルニーチェク",
+          "name": "ルカーシュ・ホルニーチェク",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "M・コヴァーシュ",
+          "name": "マチェイ・コヴァーシュ",
           "position": "GK"
         },
         {
           "number": 16,
-          "name": "J・スタニェク",
+          "name": "ジンジフ・スタニェク",
           "position": "GK"
         },
         {
           "number": 6,
-          "name": "S・ハロウペク",
+          "name": "サムエル・ハロウペク",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "V・ツォウファル",
+          "name": "ヴラディミール・ツォウファル",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "T・ホレシュ",
+          "name": "トマーシュ・ホレシュ",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "R・フラナーチュ",
+          "name": "ロビン・フラナーチュ",
           "position": "DF"
         },
         {
           "number": 14,
-          "name": "D・ユラーセク",
+          "name": "ダビド・ユラーセク",
           "position": "DF"
         },
         {
           "number": 7,
-          "name": "L・クレイチー",
+          "name": "ラディスラフ・クレイチー",
           "position": "DF"
         },
         {
           "number": 20,
-          "name": "J・ゼレニー",
+          "name": "ヤン・ゼレニー",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "D・ズィマ",
+          "name": "ダビド・ズィマ",
           "position": "DF"
         },
         {
           "number": 21,
-          "name": "D・ドゥデラ",
+          "name": "ドミニク・ドゥデラ",
           "position": "MF"
         },
         {
           "number": 12,
-          "name": "L・チェルヴ",
+          "name": "ルカーシュ・チェルヴ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "V・ダリダ",
+          "name": "ヴラディミール・ダリダ",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "L・プロヴォト",
+          "name": "ルカーシュ・プロヴォト",
           "position": "FW"
         },
         {
           "number": 18,
-          "name": "M・サディーレク",
+          "name": "ミハル・サディーレク",
           "position": "MF"
         },
         {
           "number": 25,
-          "name": "H・ソフレク",
+          "name": "ヘンドリク・ソフレク",
           "position": "MF"
         },
         {
           "number": 24,
-          "name": "A・ソイカ",
+          "name": "アダム・ソイカ",
           "position": "MF"
         },
         {
           "number": 22,
-          "name": "T・ソウチェク",
+          "name": "トマーシュ・ソウチェク",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "P・シュルツ",
+          "name": "パベル・シュルツ",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "T・ホリー",
+          "name": "トマーシュ・ホリー",
           "position": "FW"
         },
         {
           "number": 13,
-          "name": "M・ヒティル",
+          "name": "モイミル・ヒティル",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "A・フロジェク",
+          "name": "アダム・フロジェク",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "J・クフタ",
+          "name": "ヤン・クフタ",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "P・シック",
+          "name": "パトリック・シック",
           "position": "FW"
         },
         {
           "number": 26,
-          "name": "D・ヴィシンスキー",
+          "name": "ダニエル・ヴィシンスキー",
           "position": "MF"
         }
       ],
@@ -884,132 +884,132 @@
       "squad": [
         {
           "number": 16,
-          "name": "M・クレポー",
+          "name": "マキシム・クレポー",
           "position": "GK"
         },
         {
           "number": 18,
-          "name": "O・グッドマン",
+          "name": "オマー・グッドマン",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "D・セントクレア",
+          "name": "デイン・セントクレア",
           "position": "GK"
         },
         {
           "number": 13,
-          "name": "D・コーネリアス",
+          "name": "デレク・コーネリアス",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "L・デ・フーゲロル",
+          "name": "レアール・デ・フーゲロル",
           "position": "DF"
         },
         {
           "number": 22,
-          "name": "R・ラリア",
+          "name": "リッチー・ラリア",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "J・ウォーターマン",
+          "name": "ジョエル・ウォーターマン",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "A・ジョンストン",
+          "name": "アリスター・ジョンストン",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "A・ジョーンズ",
+          "name": "アリユ・ジョーンズ",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "M・ボンビト",
+          "name": "マティアス・ボンビト",
           "position": "DF"
         },
         {
           "number": 19,
-          "name": "A・デイヴィス",
+          "name": "アルフォンソ・デイヴィス",
           "position": "DF"
         },
         {
           "number": 23,
-          "name": "N・シグル",
+          "name": "ナイル・シグル",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "J・シャッフェルバーグ",
+          "name": "ジェイコブ・シャッフェルバーグ",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "L・ミラー",
+          "name": "リアム・ミラー",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "M・ショワニエール",
+          "name": "マティユー・ショワニエール",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "S・エウスタキオ",
+          "name": "スティーブン・エウスタキオ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "I・コネ",
+          "name": "イスマエル・コネ",
           "position": "MF"
         },
         {
           "number": 21,
-          "name": "J・オソリオ",
+          "name": "ジョナサン・オソリオ",
           "position": "MF"
         },
         {
           "number": 25,
-          "name": "N・サリバ",
+          "name": "ナサニエル・サリバ",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "M・フローレス",
+          "name": "マルコ・フローレス",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "T・ブキャナン",
+          "name": "タジョン・ブキャナン",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "J・デイヴィッド",
+          "name": "ジョナサン・デイヴィッド",
           "position": "FW"
         },
         {
           "number": 24,
-          "name": "P・デイヴィッド",
+          "name": "パトリック・デイヴィッド",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "C・ラリン",
+          "name": "サイル・ラリン",
           "position": "FW"
         },
         {
           "number": 20,
-          "name": "A・アーメド",
+          "name": "アブドゥラヒ・アーメド",
           "position": "MF"
         },
         {
           "number": 12,
-          "name": "T・オルワセイ",
+          "name": "テオ・オルワセイ",
           "position": "FW"
         }
       ],
@@ -1051,132 +1051,132 @@
       "squad": [
         {
           "number": 1,
-          "name": "M・アブナダ",
+          "name": "モハメド・アブナダ",
           "position": "GK"
         },
         {
           "number": 22,
-          "name": "M・バルシャム",
+          "name": "メシャール・バルシャム",
           "position": "GK"
         },
         {
           "number": 21,
-          "name": "S・ザカリア",
+          "name": "サラー・ザカリア",
           "position": "GK"
         },
         {
           "number": 14,
-          "name": "H・アーメド",
+          "name": "ホマム・アーメド",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "S・アル・ブライク",
+          "name": "スルタン・アル・ブライク",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "A・アル・フセイン",
+          "name": "アハメド・アル・フセイン",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "A・アル・オウイ",
+          "name": "アブドゥルラフマン・アル・オウイ",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "J・ガベル",
+          "name": "ジャシム・ガベル",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "B・フーヒ",
+          "name": "ブアレム・フーヒ",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "L・メンデス",
+          "name": "ルーカス・メンデス",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "G・ラジェ",
+          "name": "ギレルメ",
           "position": "MF"
         },
         {
           "number": 2,
-          "name": "P・ミゲル",
+          "name": "ペドロ・ミゲル",
           "position": "DF"
         },
         {
           "number": 23,
-          "name": "A・マディボ",
+          "name": "アシム・マディボ",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "A・アル・ガネヒ",
+          "name": "アハメド・アル・ガネヒ",
           "position": "FW"
         },
         {
           "number": 6,
-          "name": "A・ハテム",
+          "name": "アブドゥルアジズ・ハテム",
           "position": "MF"
         },
         {
           "number": 12,
-          "name": "K・ブディアフ",
+          "name": "カリム・ブディアフ",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "A・ファティ",
+          "name": "アブドゥルラフマン・ファティ",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "H・アル・ハイドス",
+          "name": "ハサン・アル・ハイドス",
           "position": "FW"
         },
         {
           "number": 26,
-          "name": "M・アル・マナイ",
+          "name": "モハメド・アル・マナイ",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "Y・アブドゥリサグ",
+          "name": "ユスフ・アブドゥリサグ",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "A・アフィフ",
+          "name": "アクラム・アフィフ",
           "position": "FW"
         },
         {
           "number": 7,
-          "name": "A・アラー",
+          "name": "アハメド・アラーエルディン",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "A・アリ",
+          "name": "アルモエズ・アリ",
           "position": "FW"
         },
         {
           "number": 8,
-          "name": "E・ジュニオール",
+          "name": "エドゥアルド・ジュニオール",
           "position": "FW"
         },
         {
           "number": 24,
-          "name": "T・ジャムシード",
+          "name": "タミーム・ジャムシード",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "M・ムンタリ",
+          "name": "モハメド・ムンタリ",
           "position": "FW"
         }
       ],
@@ -1218,132 +1218,132 @@
       "squad": [
         {
           "number": 21,
-          "name": "M・ケラー",
+          "name": "マルビン・ケラー",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "G・コベル",
+          "name": "グレゴール・コベル",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "Y・ムボゴ",
+          "name": "イヴォン・ムボゴ",
           "position": "GK"
         },
         {
           "number": 5,
-          "name": "M・アカンジ",
+          "name": "マヌエル・アカンジ",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "A・アメンダ",
+          "name": "アルドン・アメンダ",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "E・コメルト",
+          "name": "エライ・コメルト",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "N・エルベディ",
+          "name": "ニコ・エルベディ",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "L・ジャケ",
+          "name": "レオナール・ジャケ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "M・ムハイム",
+          "name": "ミロ・ムハイム",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "R・ロドリゲス",
+          "name": "リカルド・ロドリゲス",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "S・ヴィドマー",
+          "name": "シルヴァン・ヴィドマー",
           "position": "DF"
         },
         {
           "number": 20,
-          "name": "M・エビシャー",
+          "name": "ミシェル・エビシャー",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "R・フロイラー",
+          "name": "レモ・フロイラー",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "A・ヤシャリ",
+          "name": "アルドン・ヤシャリ",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "D・ソウ",
+          "name": "ジブリル・ソウ",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "G・ジャカ",
+          "name": "グラニト・ジャカ",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "D・ザカリア",
+          "name": "デニス・ザカリア",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "C・ファスナハト",
+          "name": "クリスティアン・ファスナハト",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "C・イッテン",
+          "name": "セドリック・イッテン",
           "position": "FW"
         },
         {
           "number": 22,
-          "name": "F・リーダー",
+          "name": "ファビアン・リーダー",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "R・バルガス",
+          "name": "ルーベン・バルガス",
           "position": "FW"
         },
         {
           "number": 23,
-          "name": "Z・アムドゥーニ",
+          "name": "ゼキ・アムドゥーニ",
           "position": "FW"
         },
         {
           "number": 7,
-          "name": "B・エンボロ",
+          "name": "ブレル・エンボロ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "J・マンザンビ",
+          "name": "ジョエル・マンザンビ",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "N・オカフォー",
+          "name": "ノア・オカフォー",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "D・ンドイエ",
+          "name": "ダン・ンドイエ",
           "position": "MF"
         }
       ],
@@ -1385,132 +1385,132 @@
       "squad": [
         {
           "number": 12,
-          "name": "M・ユルカス",
+          "name": "マルティン・ユルカス",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "N・ヴァシリ",
+          "name": "ニコラ・ヴァシリ",
           "position": "GK"
         },
         {
           "number": 22,
-          "name": "M・ズロミスリッチ",
+          "name": "マテイ・ズロミスリッチ",
           "position": "GK"
         },
         {
           "number": 24,
-          "name": "N・チェリク",
+          "name": "ネディム・チェリク",
           "position": "DF"
         },
         {
           "number": 7,
-          "name": "A・デディッチ",
+          "name": "アマル・デディッチ",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "D・ハジカドゥニッチ",
+          "name": "デニス・ハジカドゥニッチ",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "N・カティッチ",
+          "name": "ニコラ・カティッチ",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "S・コラシナツ",
+          "name": "セアド・コラシナツ",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "T・ムハレモビッチ",
+          "name": "タリック・ムハレモビッチ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "N・ムヤキッチ",
+          "name": "ナイル・ムヤキッチ",
           "position": "DF"
         },
         {
           "number": 21,
-          "name": "S・ラデリッチ",
+          "name": "スティエパン・ラデリッチ",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "I・バシッチ",
+          "name": "イブラヒム・バシッチ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "A・ギゴビッチ",
+          "name": "アニエル・ギゴビッチ",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "A・ハジアーメトビッチ",
+          "name": "アミール・ハジアーメトビッチ",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "E・マフミッチ",
+          "name": "エルミン・マフミッチ",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "I・スニッチ",
+          "name": "イヴァン・スニッチ",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "B・タヒロビッチ",
+          "name": "ベンジャミン・タヒロビッチ",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "A・メミッチ",
+          "name": "アミール・メミッチ",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "D・ブルニッチ",
+          "name": "ダヴィド・ブルニッチ",
           "position": "MF"
         },
         {
           "number": 19,
-          "name": "K・アラベゴビッチ",
+          "name": "ケナン・アラベゴビッチ",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "E・バイラクタレヴィッチ",
+          "name": "エルヴィン・バイラクタレヴィッチ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "S・バズダル",
+          "name": "サンジン・バズダル",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "E・デミロビッチ",
+          "name": "エルミン・デミロビッチ",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "E・ジェコ",
+          "name": "エディン・ジェコ",
           "position": "FW"
         },
         {
           "number": 25,
-          "name": "J・ルキッチ",
+          "name": "ジャスミン・ルキッチ",
           "position": "FW"
         },
         {
           "number": 23,
-          "name": "H・タバコビッチ",
+          "name": "ハリス・タバコビッチ",
           "position": "FW"
         }
       ],
@@ -1552,132 +1552,132 @@
       "squad": [
         {
           "number": 1,
-          "name": "A・ベッカー",
+          "name": "アリソン・ベッカー",
           "position": "GK"
         },
         {
           "number": 23,
-          "name": "E・モラエス",
+          "name": "エデルソン・モラエス",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "W・シウバ",
+          "name": "ウェヴェルトン・シウバ",
           "position": "GK"
         },
         {
           "number": 6,
-          "name": "A・サンドロ",
+          "name": "アレックス・サンドロ",
           "position": "DF"
         },
         {
           "number": 14,
-          "name": "B・ブレーメル",
+          "name": "グレイソン・ブレーメル",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "G・マガリャンイス",
+          "name": "ガブリエウ・マガリャンイス",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "I・イバニェス",
+          "name": "ロジェール・イバニェス",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "L・ペレイラ",
+          "name": "レオ・ペレイラ",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "M・マルキーニョス",
+          "name": "マルキーニョス",
           "position": "DF"
         },
         {
           "number": 16,
-          "name": "D・サントス",
+          "name": "ドグリース・サントス",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "W・ウェスレイ",
+          "name": "ウェスレイ",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "D・シウバ",
+          "name": "ダニーロ・シウバ",
           "position": "DF"
         },
         {
           "number": 8,
-          "name": "B・ギマランイス",
+          "name": "ブルーノ・ギマランイス",
           "position": "MF"
         },
         {
           "number": 5,
-          "name": "C・カゼミーロ",
+          "name": "カゼミーロ",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "F・ファビーニョ",
+          "name": "ファビーニョ",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "L・パケタ",
+          "name": "ルーカス・パケタ",
           "position": "MF"
         },
         {
           "number": 18,
-          "name": "D・サントス",
+          "name": "ダニーロ・サントス",
           "position": "MF"
         },
         {
           "number": 9,
-          "name": "M・クーニャ",
+          "name": "マテウス・クーニャ",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "E・エンドリック",
+          "name": "エンドリック",
           "position": "FW"
         },
         {
           "number": 21,
-          "name": "L・エンヒキ",
+          "name": "ルイス・エンヒキ",
           "position": "FW"
         },
         {
           "number": 22,
-          "name": "G・マルティネッリ",
+          "name": "ガブリエウ・マルティネッリ",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "N・ネイマール",
+          "name": "ネイマール",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "R・ラフィーニャ",
+          "name": "ラフィーニャ",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "R・ラヤン",
+          "name": "ラヤン",
           "position": "FW"
         },
         {
           "number": 25,
-          "name": "T・シウバ",
+          "name": "チアゴ・シウバ",
           "position": "FW"
         },
         {
           "number": 7,
-          "name": "V・ヴィニシウス",
+          "name": "ヴィニシウス・ジュニオール",
           "position": "FW"
         }
       ],
@@ -1719,132 +1719,132 @@
       "squad": [
         {
           "number": 23,
-          "name": "J・デュベルジェ",
+          "name": "ジョニー・デュベルジェ",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "A・ピエール",
+          "name": "アレックス・ピエール",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "J・プラシード",
+          "name": "ジョシー・プラシード",
           "position": "GK"
         },
         {
           "number": 2,
-          "name": "C・アルキュス",
+          "name": "カール・アルキュス",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "K・テルモンシー",
+          "name": "ケビン・テルモンシー",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "R・アデ",
+          "name": "リカルド・アデ",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "H・デルクロワ",
+          "name": "エルヴェ・デルクロワ",
           "position": "DF"
         },
         {
           "number": 22,
-          "name": "J・デュヴェルヌ",
+          "name": "ジャン・デュヴェルヌ",
           "position": "DF"
         },
         {
           "number": 8,
-          "name": "M・エクスペリエンス",
+          "name": "モデリー・エクスペリエンス",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "D・ラクロワ",
+          "name": "ドネル・ラクロワ",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "W・ポーガン",
+          "name": "ワイルドナルド・ポーガン",
           "position": "DF"
         },
         {
           "number": 10,
-          "name": "J・ベルガルド",
+          "name": "ジャン・ベルガルド",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "D・ジャン＝ジャック",
+          "name": "ダンリー・ジャン＝ジャック",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "L・ピエール",
+          "name": "レヴァンスキー・ピエール",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "W・ピエール",
+          "name": "ウーディ・ピエール",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "C・サント",
+          "name": "カール・サント",
           "position": "MF"
         },
         {
           "number": 25,
-          "name": "D・シモン",
+          "name": "ダーケンス・シモン",
           "position": "MF"
         },
         {
           "number": 21,
-          "name": "J・カシミール",
+          "name": "ジュニオール・カシミール",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "L・ディードソン",
+          "name": "レフシー・ディードソン",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "D・エティエンヌ",
+          "name": "デリック・エティエンヌ",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "Y・フォーチュン",
+          "name": "ヨーベン・フォーチュン",
           "position": "FW"
         },
         {
           "number": 18,
-          "name": "W・イシドール",
+          "name": "ウィルキー・イシドール",
           "position": "FW"
         },
         {
           "number": 16,
-          "name": "L・ジョゼフ",
+          "name": "ルイス・ジョゼフ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "D・ナゾン",
+          "name": "ドゥケンズ・ナゾン",
           "position": "FW"
         },
         {
           "number": 20,
-          "name": "F・ピエロ",
+          "name": "フランツディ・ピエロ",
           "position": "FW"
         },
         {
           "number": 15,
-          "name": "R・プロヴィデンス",
+          "name": "ロゼア・プロヴィデンス",
           "position": "MF"
         }
       ],
@@ -1886,132 +1886,132 @@
       "squad": [
         {
           "number": 21,
-          "name": "C・ゴードン",
+          "name": "クレイグ・ゴードン",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "A・ガン",
+          "name": "アンガス・ガン",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "L・ケリー",
+          "name": "リアム・ケリー",
           "position": "GK"
         },
         {
           "number": 5,
-          "name": "G・ハンリー",
+          "name": "グラント・ハンリー",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "J・ヘンドリー",
+          "name": "ジャック・ヘンドリー",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "A・ヒッキー",
+          "name": "アーロン・ヒッキー",
           "position": "DF"
         },
         {
           "number": 16,
-          "name": "D・ハイアム",
+          "name": "ドミニク・ハイアム",
           "position": "DF"
         },
         {
           "number": 26,
-          "name": "S・マッケンナ",
+          "name": "スコット・マッケンナ",
           "position": "DF"
         },
         {
           "number": 22,
-          "name": "N・パターソン",
+          "name": "ネイサン・パターソン",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "A・ラルストン",
+          "name": "アンソニー・ラルストン",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "A・ロバートソン",
+          "name": "アンドリュー・ロバートソン",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "J・スーター",
+          "name": "ジョン・スーター",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "K・ティアニー",
+          "name": "キーラン・ティアニー",
           "position": "DF"
         },
         {
           "number": 11,
-          "name": "R・クリスティー",
+          "name": "ライアン・クリスティー",
           "position": "MF"
         },
         {
           "number": 19,
-          "name": "L・ファーガソン",
+          "name": "ルイス・ファーガソン",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "T・フレッチャー",
+          "name": "トーマス・フレッチャー",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "J.  McGinn",
+          "name": "ジョン・マッギン",
           "position": "MF"
         },
         {
           "number": 23,
-          "name": "K・マクリーン",
+          "name": "ケニー・マクリーン",
           "position": "MF"
         },
         {
           "number": 4,
-          "name": "S・マクトミネイ",
+          "name": "スコット・マクトミネイ",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "C・アダムス",
+          "name": "チェ・アダムス",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "L・ダイクス",
+          "name": "ライドン・ダイクス",
           "position": "FW"
         },
         {
           "number": 17,
-          "name": "B・ドーク",
+          "name": "ベン・ドーク",
           "position": "MF"
         },
         {
           "number": 18,
-          "name": "G・ハースト",
+          "name": "グレアム・ハースト",
           "position": "FW"
         },
         {
           "number": 20,
-          "name": "L・シャンクランド",
+          "name": "ローレンス・シャンクランド",
           "position": "FW"
         },
         {
           "number": 14,
-          "name": "R・スチュワート",
+          "name": "ロス・スチュワート",
           "position": "FW"
         },
         {
           "number": 25,
-          "name": "F・カーティス",
+          "name": "フィンリー・カーティス",
           "position": "FW"
         }
       ],
@@ -2053,132 +2053,132 @@
       "squad": [
         {
           "number": 1,
-          "name": "Y・ブヌ",
+          "name": "ヤシン・ブヌ",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "M・モハメディ",
+          "name": "ムニル・モハメディ",
           "position": "GK"
         },
         {
           "number": 22,
-          "name": "A・タグナウティ",
+          "name": "アフメド・タグナウティ",
           "position": "GK"
         },
         {
           "number": 5,
-          "name": "N・アゲルド",
+          "name": "ナイフ・アゲルド",
           "position": "DF"
         },
         {
           "number": 14,
-          "name": "I・ディオプ",
+          "name": "イブラヒマ・ディオプ",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "Z・エル・ウアディ",
+          "name": "ザカリア・エル・ウアディ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "A・ハキミ",
+          "name": "アクラフ・ハキミ",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "R・ハルハル",
+          "name": "ラドワーン・ハルハル",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "N・マズラウィ",
+          "name": "ヌサイル・マズラウィ",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "C・リアド",
+          "name": "シャディ・リアド",
           "position": "DF"
         },
         {
           "number": 26,
-          "name": "A・サラフ・エディン",
+          "name": "アミン・サラフ・エディン",
           "position": "DF"
         },
         {
           "number": 19,
-          "name": "Y・ベランマリ",
+          "name": "ユセフ・ベランマリ",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "S・アムラバト",
+          "name": "ソフィアン・アムラバト",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "A・ブアディ",
+          "name": "アミン・ブアディ",
           "position": "MF"
         },
         {
           "number": 24,
-          "name": "N・エル・アイナウィ",
+          "name": "ノア・エル・アイナウィ",
           "position": "MF"
         },
         {
           "number": 23,
-          "name": "B・エル・カンヌス",
+          "name": "ビラル・エル・カンヌス",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "S・エル・ムラベト",
+          "name": "ソフィアン・エル・ムラベト",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "A・ウナヒ",
+          "name": "アゼディン・ウナヒ",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "I・サイバリ",
+          "name": "イスマエル・サイバリ",
           "position": "FW"
         },
         {
           "number": 7,
-          "name": "C・タルビ",
+          "name": "シャルル・タルビ",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "G・ヤシン",
+          "name": "ガネム・ヤシン",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "B・ディアス",
+          "name": "ブラヒム・ディアス",
           "position": "MF"
         },
         {
           "number": 21,
-          "name": "A・アマイムニ",
+          "name": "アフマド・アマイムニ",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "A・エル・カービ",
+          "name": "アイユーブ・エル・カービ",
           "position": "FW"
         },
         {
           "number": 17,
-          "name": "A・エザルズリ",
+          "name": "アブデ・エザルズリ",
           "position": "MF"
         },
         {
           "number": 9,
-          "name": "S・ラヒミ",
+          "name": "スフィアン・ラヒミ",
           "position": "FW"
         }
       ],
@@ -2220,132 +2220,132 @@
       "squad": [
         {
           "number": 25,
-          "name": "C・ブレイディ",
+          "name": "クリスチャン・ブレイディ",
           "position": "GK"
         },
         {
           "number": 24,
-          "name": "M・フリーズ",
+          "name": "マット・フリーズ",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "M・ターナー",
+          "name": "マット・ターナー",
           "position": "GK"
         },
         {
           "number": 2,
-          "name": "S・デスト",
+          "name": "セルジーニョ・デスト",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "A・フリーマン",
+          "name": "アーロン・フリーマン",
           "position": "DF"
         },
         {
           "number": 22,
-          "name": "M・マッケンジー",
+          "name": "マーク・マッケンジー",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "T・リーム",
+          "name": "ティム・リーム",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "C・リチャーズ",
+          "name": "クリス・リチャーズ",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "A・ロビンソン",
+          "name": "アントニー・ロビンソン",
           "position": "DF"
         },
         {
           "number": 12,
-          "name": "M・ロビンソン",
+          "name": "マイルズ・ロビンソン",
           "position": "DF"
         },
         {
           "number": 23,
-          "name": "J・スカリー",
+          "name": "ジョー・スカリー",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "A・トラスティ",
+          "name": "オーストン・トラスティ",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "M・アフステン",
+          "name": "マイケル・アフステン",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "S・ベルハルター",
+          "name": "セバスチャン・ベルハルター",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "W・マッケニー",
+          "name": "ウェストン・マッケニー",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "G・レイナ",
+          "name": "ジオバンニ・レイナ",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "C・ロルダン",
+          "name": "クリスティアン・ロルダン",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "M・ティルマン",
+          "name": "マリック・ティルマン",
           "position": "MF"
         },
         {
           "number": 4,
-          "name": "T・アダムス",
+          "name": "タイラー・アダムス",
           "position": "MF"
         },
         {
           "number": 21,
-          "name": "T・ウェア",
+          "name": "ティモシー・ウェア",
           "position": "FW"
         },
         {
           "number": 26,
-          "name": "A・センデハス",
+          "name": "アレハンドロ・センデハス",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "B・アーロンソン",
+          "name": "ブレンデン・アーロンソン",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "F・バログン",
+          "name": "フォラリン・バログン",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "R・ペピ",
+          "name": "リカルド・ペピ",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "C・プリシッチ",
+          "name": "クリスチャン・プリシッチ",
           "position": "MF"
         },
         {
           "number": 19,
-          "name": "H・ライト",
+          "name": "ハジ・ライト",
           "position": "FW"
         }
       ],
@@ -2387,132 +2387,132 @@
       "squad": [
         {
           "number": 1,
-          "name": "R・フェルナンデス",
+          "name": "ロベルト・フェルナンデス",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "O・ギル",
+          "name": "オスカル・ギル",
           "position": "GK"
         },
         {
           "number": 22,
-          "name": "G・オルベイラ",
+          "name": "ガストン・オルベイラ",
           "position": "GK"
         },
         {
           "number": 3,
-          "name": "O・アルデレーテ",
+          "name": "オマール・アルデレーテ",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "J・アロンソ",
+          "name": "ジュニオール・アロンソ",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "J・カセレス",
+          "name": "フアン・カセレス",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "F・バルブエナ",
+          "name": "ファビアン・バルブエナ",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "G・ゴメス",
+          "name": "グスタボ・ゴメス",
           "position": "DF"
         },
         {
           "number": 26,
-          "name": "A・マイダナ",
+          "name": "アレクシス・マイダナ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "G・ベラスケス",
+          "name": "ガブリエル・ベラスケス",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "J・カナレ",
+          "name": "フリオ・カナレ",
           "position": "DF"
         },
         {
           "number": 16,
-          "name": "D・ボバディージャ",
+          "name": "ダニエル・ボバディージャ",
           "position": "MF"
         },
         {
           "number": 24,
-          "name": "G・カバジェロ",
+          "name": "ガブリエル・カバジェロ",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "A・クーバス",
+          "name": "アンヘル・クーバス",
           "position": "MF"
         },
         {
           "number": 23,
-          "name": "M・ガラルサ",
+          "name": "マティアス・ガラルサ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "D・ゴメス",
+          "name": "ディエゴ・ゴメス",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "M・マウリシオ",
+          "name": "ミゲル・マウリシオ",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "B・オヘダ",
+          "name": "ブライアン・オヘダ",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "R・ソサ",
+          "name": "ロケ・ソサ",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "M・アルミロン",
+          "name": "ミゲル・アルミロン",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "A・ロメロ",
+          "name": "アンヘル・ロメロ",
           "position": "FW"
         },
         {
           "number": 18,
-          "name": "A・アルセ",
+          "name": "アントニー・アルセ",
           "position": "FW"
         },
         {
           "number": 21,
-          "name": "G・アバロス",
+          "name": "ガブリエル・アバロス",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "J・エンシソ",
+          "name": "フリオ・エンシソ",
           "position": "FW"
         },
         {
           "number": 25,
-          "name": "I・ピッタ",
+          "name": "イグナシオ・ピッタ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "A・サナブリア",
+          "name": "アントニオ・サナブリア",
           "position": "FW"
         }
       ],
@@ -2554,132 +2554,132 @@
       "squad": [
         {
           "number": 18,
-          "name": "P・ビーチ",
+          "name": "パトリック・ビーチ",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "P・イッツォ",
+          "name": "ポール・イッツォ",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "M・ライアン",
+          "name": "マシュー・ライアン",
           "position": "GK"
         },
         {
           "number": 16,
-          "name": "A・ベーヒッチ",
+          "name": "アジズ・ベーヒッチ",
           "position": "MF"
         },
         {
           "number": 5,
-          "name": "J・ボス",
+          "name": "ジョーダン・ボス",
           "position": "DF"
         },
         {
           "number": 21,
-          "name": "C・バーゲス",
+          "name": "キャメロン・バーゲス",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "A・サーカティ",
+          "name": "アレッサンドロ・サーカティ",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "J・ゲリア",
+          "name": "ジャンニ・ゲリア",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "L・ヘリントン",
+          "name": "ルイス・ヘリントン",
           "position": "DF"
         },
         {
           "number": 19,
-          "name": "H・サウター",
+          "name": "ハリー・サウター",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "M・デゲネク",
+          "name": "ミロシュ・デゲネク",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "J・イタリアーノ",
+          "name": "ジョシュア・イタリアーノ",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "K・トレウィン",
+          "name": "キーガン・トレウィン",
           "position": "MF"
         },
         {
           "number": 22,
-          "name": "J・アーバイン",
+          "name": "ジャクソン・アーバイン",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "C・デヴリン",
+          "name": "カラム・デヴリン",
           "position": "MF"
         },
         {
           "number": 13,
-          "name": "A・オニール",
+          "name": "アイデン・オニール",
           "position": "MF"
         },
         {
           "number": 24,
-          "name": "P・オコン＝エンゲストラー",
+          "name": "パトリック・オコン＝エンゲストラー",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "C・メトカーフ",
+          "name": "コナー・メトカーフ",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "A・フルスティッチ",
+          "name": "アイディン・フルスティッチ",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "C・ヴォルパート",
+          "name": "クリスチャン・ヴォルパート",
           "position": "FW"
         },
         {
           "number": 17,
-          "name": "N・イランクンダ",
+          "name": "ネスター・イランクンダ",
           "position": "FW"
         },
         {
           "number": 7,
-          "name": "M・レッキー",
+          "name": "マシュー・レッキー",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "A・マビル",
+          "name": "アワー・マビル",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "T・イェンギ",
+          "name": "トマス・イェンギ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "M・トゥーレ",
+          "name": "モハメド・トゥーレ",
           "position": "FW"
         },
         {
           "number": 23,
-          "name": "N・ヴェルピライ",
+          "name": "ナサニエル・ヴェルピライ",
           "position": "FW"
         }
       ],
@@ -2721,132 +2721,132 @@
       "squad": [
         {
           "number": 12,
-          "name": "A・バインドゥル",
+          "name": "アルタイ・バインドゥル",
           "position": "GK"
         },
         {
           "number": 23,
-          "name": "U・チャクル",
+          "name": "ウールジャン・チャクル",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "M・ギュノク",
+          "name": "メルト・ギュノク",
           "position": "GK"
         },
         {
           "number": 25,
-          "name": "S・アカイディン",
+          "name": "サメト・アカイディン",
           "position": "DF"
         },
         {
           "number": 14,
-          "name": "A・バルダクチュ",
+          "name": "アブドゥルケリム・バルダクチュ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "Z・チェリク",
+          "name": "ゼキ・チェリク",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "M・デミラル",
+          "name": "メリフ・デミラル",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "E・エルマル",
+          "name": "エレン・エルマル",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "O・カバク",
+          "name": "オザン・カバク",
           "position": "DF"
         },
         {
           "number": 20,
-          "name": "F・カディオール",
+          "name": "フェルディ・カディオール",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "M・ミュルドゥル",
+          "name": "メルト・ミュルドゥル",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "C・ソユンジュ",
+          "name": "ジャグラル・ソユンジュ",
           "position": "DF"
         },
         {
           "number": 10,
-          "name": "H・チャルハノール",
+          "name": "ハカン・チャルハノール",
           "position": "MF"
         },
         {
           "number": 22,
-          "name": "K・アイハン",
+          "name": "カアン・アイハン",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "O・コクチュ",
+          "name": "オルクン・コクチュ",
           "position": "MF"
         },
         {
           "number": 5,
-          "name": "S・オズジャン",
+          "name": "サリフ・オズジャン",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "I・ユクセク",
+          "name": "イスマイル・ユクセク",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "C・ウズン",
+          "name": "カナン・ウズン",
           "position": "MF"
         },
         {
           "number": 24,
-          "name": "O・アイドゥン",
+          "name": "オグズ・アイドゥン",
           "position": "FW"
         },
         {
           "number": 8,
-          "name": "A・ギュレル",
+          "name": "アルダ・ギュレル",
           "position": "MF"
         },
         {
           "number": 19,
-          "name": "Y・アクギュン",
+          "name": "ユヌス・アクギュン",
           "position": "FW"
         },
         {
           "number": 7,
-          "name": "K・アクトゥルコール",
+          "name": "ケレム・アクトゥルコール",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "D・ギュル",
+          "name": "デニス・ギュル",
           "position": "FW"
         },
         {
           "number": 17,
-          "name": "I・カフヴェジ",
+          "name": "イルファン・ジャン・カフヴェジ",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "K・ユルドゥズ",
+          "name": "ケナン・ユルドゥズ",
           "position": "FW"
         },
         {
           "number": 21,
-          "name": "B・ユルマズ",
+          "name": "バリス・アルミ・ユルマズ",
           "position": "MF"
         }
       ],
@@ -2888,132 +2888,132 @@
       "squad": [
         {
           "number": 13,
-          "name": "D・ヘンダーソン",
+          "name": "ディーン・ヘンダーソン",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "J・ピックフォード",
+          "name": "ジョーダン・ピックフォード",
           "position": "GK"
         },
         {
           "number": 23,
-          "name": "J・トラフォード",
+          "name": "ジェームズ・トラフォード",
           "position": "GK"
         },
         {
           "number": 15,
-          "name": "D・バーン",
+          "name": "ダン・バーン",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "M・グエイ",
+          "name": "マルク・グエイ",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "R・ジェームズ",
+          "name": "リース・ジェームズ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "E・コンサ",
+          "name": "エズリ・コンサ",
           "position": "DF"
         },
         {
           "number": 12,
-          "name": "T・リヴラメント",
+          "name": "ティノ・リヴラメント",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "N・オライリー",
+          "name": "ナサニエル・オライリー",
           "position": "DF"
         },
         {
           "number": 26,
-          "name": "J・クアンサー",
+          "name": "ジャレル・クアンサー",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "D・スペンス",
+          "name": "ジェド・スペンス",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "J・ストーンズ",
+          "name": "ジョン・ストーンズ",
           "position": "DF"
         },
         {
           "number": 8,
-          "name": "E・アンダーソン",
+          "name": "エリオット・アンダーソン",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "J・ベリンガム",
+          "name": "ジュード・ベリンガム",
           "position": "MF"
         },
         {
           "number": 21,
-          "name": "E・エゼ",
+          "name": "エベレチ・エゼ",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "J・ヘンダーソン",
+          "name": "ジョーダン・ヘンダーソン",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "K・マイヌー",
+          "name": "コビー・マイヌー",
           "position": "MF"
         },
         {
           "number": 4,
-          "name": "D・ライス",
+          "name": "デクラン・ライス",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "M・ロジャーズ",
+          "name": "モーガン・ロジャーズ",
           "position": "MF"
         },
         {
           "number": 18,
-          "name": "A・ゴードン",
+          "name": "アンソニー・ゴードン",
           "position": "MF"
         },
         {
           "number": 9,
-          "name": "H・ケイン",
+          "name": "ハリー・ケイン",
           "position": "FW"
         },
         {
           "number": 20,
-          "name": "N・マドゥエケ",
+          "name": "ノニ・マドゥエケ",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "M・ラッシュフォード",
+          "name": "マーカス・ラッシュフォード",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "B・サカ",
+          "name": "ブカヨ・サカ",
           "position": "FW"
         },
         {
           "number": 22,
-          "name": "I・トーニー",
+          "name": "イヴァン・トーニー",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "O・ワトキンズ",
+          "name": "オリー・ワトキンズ",
           "position": "MF"
         }
       ],
@@ -3055,132 +3055,132 @@
       "squad": [
         {
           "number": 12,
-          "name": "M・ローザ",
+          "name": "マリオ・ローザ",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "V・ヴォジーニャ",
+          "name": "ヴァグネル・ヴォジーニャ",
           "position": "GK"
         },
         {
           "number": 23,
-          "name": "C・ドス・サントス",
+          "name": "カルロス・ドス・サントス",
           "position": "GK"
         },
         {
           "number": 3,
-          "name": "D・ボルジェス",
+          "name": "デレル・ボルジェス",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "L・コスタ",
+          "name": "ルーベン・コスタ",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "S・ロペス・カブラル",
+          "name": "スティーヴン・ロペス・カブラル",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "P・ピコ",
+          "name": "パウロ・ピコ",
           "position": "DF"
         },
         {
           "number": 22,
-          "name": "S・モレイラ",
+          "name": "スティーヴン・モレイラ",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "W・ピーニャ",
+          "name": "ウィルソン・ピーニャ",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "K・ピレス",
+          "name": "ケヴィン・ピレス",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "S・ストピラ",
+          "name": "ストピラ",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "T・アルカンジョ",
+          "name": "トマス・アルカンジョ",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "D・ドゥアルテ",
+          "name": "デルリス・ドゥアルテ",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "L・ドゥアルテ",
+          "name": "レオナルド・ドゥアルテ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "J・パウロ",
+          "name": "ジョアン・パウロ",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "K・ピーニャ",
+          "name": "ケヴィン・ピーニャ",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "J・モンテイロ",
+          "name": "ジャミロ・モンテイロ",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "Y・セメド",
+          "name": "ヤニク・セメド",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "G・ロドリゲス",
+          "name": "ガリー・ロドリゲス",
           "position": "MF"
         },
         {
           "number": 21,
-          "name": "N・ダ・コスタ",
+          "name": "ヌーノ・ダ・コスタ",
           "position": "FW"
         },
         {
           "number": 7,
-          "name": "J・カブラル",
+          "name": "ジョヴァン・カブラル",
           "position": "FW"
         },
         {
           "number": 17,
-          "name": "W・セメド",
+          "name": "ウィリー・セメド",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "H・ヴァレラ",
+          "name": "エルナンデス・ヴァレラ",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "R・メンデス",
+          "name": "ライアン・メンデス",
           "position": "MF"
         },
         {
           "number": 9,
-          "name": "G・ベンシモール",
+          "name": "グエデソン・ベンシモール",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "D・リヴラメント",
+          "name": "ディエゴ・リヴラメント",
           "position": "FW"
         }
       ],
@@ -3222,132 +3222,132 @@
       "squad": [
         {
           "number": 21,
-          "name": "M・エポロ",
+          "name": "メシェク・エポロ",
           "position": "GK"
         },
         {
           "number": 16,
-          "name": "T・ファユル",
+          "name": "テディ・ファユル",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "L・ムパシ",
+          "name": "ライス・ムパシ",
           "position": "GK"
         },
         {
           "number": 5,
-          "name": "D・バトゥビンシカ",
+          "name": "ディラン・バトゥビンシカ",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "G・カルル",
+          "name": "ギデオン・カルル",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "S・カプアディ",
+          "name": "シラス・カプアディ",
           "position": "DF"
         },
         {
           "number": 12,
-          "name": "J・カイェンベ",
+          "name": "ジョリス・カイェンベ",
           "position": "DF"
         },
         {
           "number": 26,
-          "name": "A・マスアク",
+          "name": "アルチュール・マスアク",
           "position": "DF"
         },
         {
           "number": 22,
-          "name": "C・ムベンバ",
+          "name": "シャンセル・ムベンバ",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "A・トゥアンゼベ",
+          "name": "アクセル・トゥアンゼベ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "A・ワン＝ビサカ",
+          "name": "アーロン・ワン＝ビサカ",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "E・カイェンベ",
+          "name": "エドアルド・カイェンベ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "S・ムトゥサミー",
+          "name": "サミュエル・ムトゥサミー",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "N・ムカウ",
+          "name": "ナサニエル・ムカウ",
           "position": "MF"
         },
         {
           "number": 18,
-          "name": "C・ピッケル",
+          "name": "チャールズ・ピッケル",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "N・サディキ",
+          "name": "ノア・サディキ",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "A・チボラ",
+          "name": "アリストテ・チボラ",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "N・ムブク",
+          "name": "ナタナエル・ムブク",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "T・ボンゴンダ",
+          "name": "テオ・ボンゴンダ",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "C・バカンブ",
+          "name": "セドリック・バカンブ",
           "position": "FW"
         },
         {
           "number": 23,
-          "name": "S・バンザ",
+          "name": "シモン・バンザ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "B・シペンガ",
+          "name": "ブライアン・シペンガ",
           "position": "FW"
         },
         {
           "number": 13,
-          "name": "M・エリア",
+          "name": "ミシャック・エリア",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "G・カクタ",
+          "name": "ガエル・カクタ",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "F・マイェレ",
+          "name": "フィストン・マイェレ",
           "position": "FW"
         },
         {
           "number": 20,
-          "name": "Y・ウィサ",
+          "name": "ヨアン・ウィサ",
           "position": "FW"
         }
       ],
@@ -3389,132 +3389,132 @@
       "squad": [
         {
           "number": 1,
-          "name": "Y・フォファナ",
+          "name": "ヤヒア・フォファナ",
           "position": "GK"
         },
         {
           "number": 16,
-          "name": "M・コネ",
+          "name": "モハメド・コネ",
           "position": "GK"
         },
         {
           "number": 23,
-          "name": "A・ラフォン",
+          "name": "アルバン・ラフォン",
           "position": "GK"
         },
         {
           "number": 20,
-          "name": "E・アグバドゥ",
+          "name": "エマニュエル・アグバドゥ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "O・ディオマンデ",
+          "name": "ウスマン・ディオマンデ",
           "position": "DF"
         },
         {
           "number": 17,
-          "name": "G・ドゥエ",
+          "name": "グエラ・ドゥエ",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "G・コナン",
+          "name": "ガイスラン・コナン",
           "position": "DF"
         },
         {
           "number": 7,
-          "name": "O・コッスヌー",
+          "name": "オディロン・コッスヌー",
           "position": "DF"
         },
         {
           "number": 21,
-          "name": "E・エンディカ",
+          "name": "エヴァン・エンディカ",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "C・オペリ",
+          "name": "シャール・オペリ",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "W・シンゴ",
+          "name": "ウィルフリード・シンゴ",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "S・フォファナ",
+          "name": "セコ・フォファナ",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "C・イナオ・ウライ",
+          "name": "シェイク・イナオ・ウライ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "F・ケシエ",
+          "name": "フランク・ケシエ",
           "position": "MF"
         },
         {
           "number": 18,
-          "name": "I・サンガレ",
+          "name": "イブラヒム・サンガレ",
           "position": "MF"
         },
         {
           "number": 4,
-          "name": "J・セリ",
+          "name": "ジャン・セリ",
           "position": "MF"
         },
         {
           "number": 25,
-          "name": "P・ギアゴン",
+          "name": "パトリック・ギアゴン",
           "position": "MF"
         },
         {
           "number": 24,
-          "name": "B・トゥレ",
+          "name": "ベニ・トラオレ",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "S・アディングラ",
+          "name": "シモン・アディングラ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "A・ボニー",
+          "name": "アミン・ボニー",
           "position": "FW"
         },
         {
           "number": 14,
-          "name": "O・ディアキテ",
+          "name": "ウスマン・ディアキテ",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "A・ディアロ",
+          "name": "アマド・ディアロ",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "Y・ディオマンデ",
+          "name": "ヤオ・ディオマンデ",
           "position": "MF"
         },
         {
           "number": 22,
-          "name": "E・ゲッサン",
+          "name": "エマニュエル・ゲッサン",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "N・ペペ",
+          "name": "ニコラ・ペペ",
           "position": "FW"
         },
         {
           "number": 12,
-          "name": "E・ワヒ",
+          "name": "エリエ・ワヒ",
           "position": "FW"
         }
       ],
@@ -3556,132 +3556,132 @@
       "squad": [
         {
           "number": 1,
-          "name": "T・クルトワ",
+          "name": "ティボー・クルトワ",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "S・ラメンス",
+          "name": "シモン・ラメンス",
           "position": "GK"
         },
         {
           "number": 13,
-          "name": "M・ペンデルス",
+          "name": "マクシム・ペンデルス",
           "position": "GK"
         },
         {
           "number": 21,
-          "name": "T・カスターニュ",
+          "name": "ティモシー・カスターニュ",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "M・デ・カイパー",
+          "name": "マクシム・デ・カイパー",
           "position": "DF"
         },
         {
           "number": 16,
-          "name": "K・デ・ヴィンテル",
+          "name": "キーリアン・デ・ヴィンテル",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "Z・デバスト",
+          "name": "ゼノ・デバスト",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "B・メヘレ",
+          "name": "ブランドン・メヘレ",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "T・ムニエ",
+          "name": "トーマス・ムニエ",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "N・ンゴイ",
+          "name": "ノア・ンゴイ",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "J・セイス",
+          "name": "ヤン・セイス",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "A・テアテ",
+          "name": "アルテュール・テアテ",
           "position": "DF"
         },
         {
           "number": 7,
-          "name": "K・デ・ブライネ",
+          "name": "ケヴィン・デ・ブライネ",
           "position": "MF"
         },
         {
           "number": 24,
-          "name": "A・オナナ",
+          "name": "アマドゥ・オナナ",
           "position": "MF"
         },
         {
           "number": 23,
-          "name": "N・ラスキン",
+          "name": "ニコラス・ラスキン",
           "position": "MF"
         },
         {
           "number": 22,
-          "name": "A・サレマーケルス",
+          "name": "アレクシス・サレマーケルス",
           "position": "FW"
         },
         {
           "number": 8,
-          "name": "Y・ティーレマンス",
+          "name": "ユーリ・ティーレマンス",
           "position": "MF"
         },
         {
           "number": 19,
-          "name": "D・モレイラ",
+          "name": "ディーニョ・モレイラ",
           "position": "FW"
         },
         {
           "number": 20,
-          "name": "H・ヴァナーケン",
+          "name": "ハンス・ヴァナーケン",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "A・ヴィツェル",
+          "name": "アクセル・ヴィツェル",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "J・ドク",
+          "name": "ジェレミー・ドク",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "M・フェルナンデス＝パルド",
+          "name": "マリク・フェルナンデス＝パルド",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "R・ルカク",
+          "name": "ロメル・ルカク",
           "position": "FW"
         },
         {
           "number": 14,
-          "name": "D・ルケバキオ",
+          "name": "ドディ・ルケバキオ",
           "position": "FW"
         },
         {
           "number": 17,
-          "name": "C・デ・ケテラーレ",
+          "name": "シャルル・デ・ケテラーレ",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "L・トロサール",
+          "name": "レアンドロ・トロサール",
           "position": "MF"
         }
       ],
@@ -3723,132 +3723,132 @@
       "squad": [
         {
           "number": 1,
-          "name": "M・クロコンブ",
+          "name": "マイケル・クロコンブ",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "A・ポールセン",
+          "name": "アレックス・ポールセン",
           "position": "GK"
         },
         {
           "number": 22,
-          "name": "M・ワウド",
+          "name": "マイケル・ワウド",
           "position": "GK"
         },
         {
           "number": 4,
-          "name": "T・バインドン",
+          "name": "タイラー・バインドン",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "M・ボクソール",
+          "name": "マイケル・ボクソール",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "L・カカーチェ",
+          "name": "リベラト・カカーチェ",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "F・デ・フリース",
+          "name": "フランシス・デ・フリース",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "C・エリオット",
+          "name": "カラン・エリオット",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "T・ペイン",
+          "name": "ティム・ペイン",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "N・パイナカー",
+          "name": "ナンド・パイナカー",
           "position": "DF"
         },
         {
           "number": 26,
-          "name": "T・スミス",
+          "name": "トミー・スミス",
           "position": "DF"
         },
         {
           "number": 16,
-          "name": "F・サーマン",
+          "name": "フィン・サーマン",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "L・ベイリス",
+          "name": "ルーカス・ベイリー",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "J・ベル",
+          "name": "ジョー・ベル",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "M・ガーベット",
+          "name": "マシュー・ガーベット",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "C・マックカウット",
+          "name": "カラム・マックカウット",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "A・ルーファー",
+          "name": "アレックス・ルーファー",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "S・シン",
+          "name": "サルプリート・シン",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "M・スタメニッチ",
+          "name": "マルコ・スタメニッチ",
           "position": "MF"
         },
         {
           "number": 23,
-          "name": "R・トーマス",
+          "name": "ライアン・トーマス",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "E・ジャスト",
+          "name": "エリジャ・ジャスト",
           "position": "MF"
         },
         {
           "number": 19,
-          "name": "B・オールド",
+          "name": "ベン・オールド",
           "position": "FW"
         },
         {
           "number": 17,
-          "name": "K・バーバロウゼス",
+          "name": "コスタス・バーバロウゼス",
           "position": "FW"
         },
         {
           "number": 21,
-          "name": "J・ランダル",
+          "name": "ジョーダン・ランダル",
           "position": "FW"
         },
         {
           "number": 18,
-          "name": "B・ウェイン",
+          "name": "ベン・ウェイン",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "C・ウッド",
+          "name": "クリス・ウッド",
           "position": "FW"
         }
       ],
@@ -3890,132 +3890,132 @@
       "squad": [
         {
           "number": 1,
-          "name": "A・ベイランヴァンド",
+          "name": "アリレザ・ベイランヴァンド",
           "position": "GK"
         },
         {
           "number": 22,
-          "name": "H・ホセイニ",
+          "name": "ホセイン・ホセイニ",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "P・ニアズマンド",
+          "name": "ペイアム・ニアズマンド",
           "position": "GK"
         },
         {
           "number": 25,
-          "name": "D・エイリ",
+          "name": "ダニエル・エスマーイリファル",
           "position": "DF"
         },
         {
           "number": 23,
-          "name": "R・レザイーアン",
+          "name": "ラミン・レザイーアン",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "E・ハジサフィ",
+          "name": "エフサン・ハジサフィ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "S・ハルダニ",
+          "name": "サレフ・ハルダニ",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "H・カナニ",
+          "name": "ホセイン・カナニザデガン",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "S・ハリルザーデ",
+          "name": "ショジャエ・ハリルザーデ",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "M・モハンマディ",
+          "name": "ミラド・モハンマディ",
           "position": "DF"
         },
         {
           "number": 19,
-          "name": "A・ネマティ",
+          "name": "アミルホセイン・ネマティ",
           "position": "DF"
         },
         {
           "number": 17,
-          "name": "A・ユーセフィ",
+          "name": "アリ・ユーセフィ",
           "position": "DF"
         },
         {
           "number": 7,
-          "name": "A・ジャハンバフシュ",
+          "name": "アリレザ・ジャハンバフシュ",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "R・チェシュミ",
+          "name": "ルーズベー・チェシュミ",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "S・エザトラヒ",
+          "name": "サイード・エザトラヒ",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "S・ゴッドス",
+          "name": "サマン・ゴッドス",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "A・ラッザギニア",
+          "name": "アミルホセイン・ラッザギニア",
           "position": "MF"
         },
         {
           "number": 21,
-          "name": "M・ゴルバニ",
+          "name": "モハンマド・ゴルバニ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "M・モヘビ",
+          "name": "モハンマド・モヘビ",
           "position": "FW"
         },
         {
           "number": 16,
-          "name": "M・トラビ",
+          "name": "メフディ・トラビ",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "M・ガエディ",
+          "name": "メフディ・ガエディ",
           "position": "FW"
         },
         {
           "number": 18,
-          "name": "A・ホセインザーデ",
+          "name": "アリレザ・ホセインザーデ",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "A・アリプール",
+          "name": "アリ・アリプール",
           "position": "FW"
         },
         {
           "number": 20,
-          "name": "S・モガンルー",
+          "name": "シャハリアー・モガンルー",
           "position": "FW"
         },
         {
           "number": 24,
-          "name": "D・エッカート・アジェンサ",
+          "name": "ダニエル・エッカート・アジェンサ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "M・タレミ",
+          "name": "メフディ・タレミ",
           "position": "FW"
         }
       ],
@@ -4057,132 +4057,132 @@
       "squad": [
         {
           "number": 13,
-          "name": "J・ガルシア",
+          "name": "ハビエル・ガルシア",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "D・ラヤ",
+          "name": "ダビド・ラヤ",
           "position": "GK"
         },
         {
           "number": 23,
-          "name": "U・シモン",
+          "name": "ウナイ・シモン",
           "position": "GK"
         },
         {
           "number": 22,
-          "name": "P・クバルシ",
+          "name": "パウ・クバルシ",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "M・ククレジャ",
+          "name": "マルク・ククレジャ",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "E・ガルシア",
+          "name": "エリック・ガルシア",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "A・グリマルド",
+          "name": "アレハンドロ・グリマルド",
           "position": "DF"
         },
         {
           "number": 14,
-          "name": "A・ラポルテ",
+          "name": "アイメリク・ラポルテ",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "M・ジョレンテ",
+          "name": "マルコス・ジョレンテ",
           "position": "MF"
         },
         {
           "number": 12,
-          "name": "P・ポロ",
+          "name": "ペドロ・ポロ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "M・プビル",
+          "name": "マルク・プビル",
           "position": "DF"
         },
         {
           "number": 9,
-          "name": "G・ガビ",
+          "name": "ガビ",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "M・メリノ",
+          "name": "ミケル・メリノ",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "P・ペドリ",
+          "name": "ペドリ",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "R・ロドリ",
+          "name": "ロドリ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "F・ルイス",
+          "name": "ファビアン・ルイス",
           "position": "MF"
         },
         {
           "number": 18,
-          "name": "M・スビメンディ",
+          "name": "マルティン・スビメンディ",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "A・バエナ",
+          "name": "アレックス・バエナ",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "D・オルモ",
+          "name": "ダニ・オルモ",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "B・イグレシアス",
+          "name": "ボルハ・イグレシアス",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "L・ヤマル",
+          "name": "ラミン・ヤマル",
           "position": "FW"
         },
         {
           "number": 25,
-          "name": "V・ムニョス",
+          "name": "ビクトル・ムニョス",
           "position": "FW"
         },
         {
           "number": 21,
-          "name": "M・オヤルサバル",
+          "name": "ミケル・オヤルサバル",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "Y・ピノ",
+          "name": "ジェレミ・ピノ",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "F・トーレス",
+          "name": "フェラン・トーレス",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "N・ウィリアムズ",
+          "name": "ニコ・ウィリアムズ",
           "position": "FW"
         }
       ],
@@ -4224,132 +4224,132 @@
       "squad": [
         {
           "number": 1,
-          "name": "N・アルアキディ",
+          "name": "ナワフ・アルアキディ",
           "position": "GK"
         },
         {
           "number": 22,
-          "name": "A・アルカッサール",
+          "name": "アブドゥッラー・アルカッサール",
           "position": "GK"
         },
         {
           "number": 21,
-          "name": "M・アルオワイス",
+          "name": "モハメド・アルオワイス",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "S・アブドゥルハミド",
+          "name": "サウード・アブドゥルハミド",
           "position": "DF"
         },
         {
           "number": 26,
-          "name": "M・アブアルシャマト",
+          "name": "モハメド・アブアルシャマト",
           "position": "MF"
         },
         {
           "number": 13,
-          "name": "N・ブーシャル",
+          "name": "ナーイフ・ブーシャル",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "A・アルアムリ",
+          "name": "アブドゥルラフマン・アルアムリ",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "M・アルハルビ",
+          "name": "マシャリ・アルハルビ",
           "position": "DF"
         },
         {
           "number": 14,
-          "name": "H・カデシュ",
+          "name": "ハッサン・カデシュ",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "A・ラジャミ",
+          "name": "アリ・ラジャミ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "A・マジラシ",
+          "name": "アブドゥラー・マジラシ",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "H・タンバクティ",
+          "name": "ハッサン・タンバクティ",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "J・タクリー",
+          "name": "ジャベル・タクリー",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "N・アルドサリ",
+          "name": "ナーセル・アルドサリ",
           "position": "MF"
         },
         {
           "number": 28,
-          "name": "M・カンノ",
+          "name": "モハメド・カンノ",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "Z・アルジョハニ",
+          "name": "ザカリア・アルジョハニ",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "M・アルジュワイル",
+          "name": "ムサブ・アルジュワイル",
           "position": "FW"
         },
         {
           "number": 15,
-          "name": "A・アルハイバリ",
+          "name": "アブドゥッラー・アルハイバリ",
           "position": "MF"
         },
         {
           "number": 30,
-          "name": "A・アルハジ",
+          "name": "アブドゥッラー・アルハジ",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "K・アルガンナム",
+          "name": "ハリド・アルガンナム",
           "position": "FW"
         },
         {
           "number": 27,
-          "name": "S・マンダシュ",
+          "name": "サレム・マンダシュ",
           "position": "FW"
         },
         {
           "number": 8,
-          "name": "A・ヤヒヤ",
+          "name": "アイマン・ヤヒヤ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "F・アルブリカン",
+          "name": "フィラス・アルブリカン",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "A・アルハムダン",
+          "name": "アブドゥッラー・アルハムダン",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "S・アルシェフリ",
+          "name": "サレハ・アルシェフリ",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "S・アルドサリ",
+          "name": "サレム・アルドサリ",
           "position": "MF"
         }
       ],
@@ -4391,132 +4391,132 @@
       "squad": [
         {
           "number": 26,
-          "name": "M・アラー",
+          "name": "マフムード・アラー",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "M・エル・シェナウィ",
+          "name": "モハメド・エル・シェナウィ",
           "position": "GK"
         },
         {
           "number": 23,
-          "name": "M・ショベイル",
+          "name": "ムスタファ・ショベイル",
           "position": "GK"
         },
         {
           "number": 16,
-          "name": "A・ソリマン",
+          "name": "アフマド・ソリマン",
           "position": "GK"
         },
         {
           "number": 4,
-          "name": "H・アブデルマジド",
+          "name": "フッサム・アブデルマジド",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "M・アブデルモネム",
+          "name": "モハメド・アブデルモネム",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "A・ファトゥーフ",
+          "name": "アフマド・ファトゥーフ",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "K・ハフェズ",
+          "name": "カリーム・ハフェズ",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "M・ハニ",
+          "name": "モハメド・ハニ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "Y・イブラヒム",
+          "name": "ヤセル・イブラヒム",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "R・ラビア",
+          "name": "ラミ・ラビア",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "T・アラー",
+          "name": "タレク・アラー",
           "position": "DF"
         },
         {
           "number": 8,
-          "name": "E・アシュール",
+          "name": "エマム・アシュール",
           "position": "MF"
         },
         {
           "number": 19,
-          "name": "M・アッティア",
+          "name": "マフムード・アッティア",
           "position": "MF"
         },
         {
           "number": 18,
-          "name": "N・ドゥンガ",
+          "name": "ナビール・ドゥンガ",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "H・ファトヒ",
+          "name": "ハムディ・ファトヒ",
           "position": "DF"
         },
         {
           "number": 17,
-          "name": "M・ラシーン",
+          "name": "マグディ・ラシーン",
           "position": "MF"
         },
         {
           "number": 21,
-          "name": "M・サベール",
+          "name": "モスタファ・サベール",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "M・ジコ",
+          "name": "モハメド・ジコ",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "M・ハッサン",
+          "name": "マフムード・ハッサン",
           "position": "MF"
         },
         {
           "number": 12,
-          "name": "H・ハッサン",
+          "name": "ハッサン・ハッサン",
           "position": "MF"
         },
         {
           "number": 25,
-          "name": "A・ジゾ",
+          "name": "アフメド・ジゾ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "H・アブデルカリム",
+          "name": "ハレド・アブデルカリム",
           "position": "FW"
         },
         {
           "number": 20,
-          "name": "I・アデル",
+          "name": "イブラヒム・アデル",
           "position": "FW"
         },
         {
           "number": 22,
-          "name": "O・マルムッシュ",
+          "name": "オマル・マルムッシュ",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "M・サラー",
+          "name": "モハメド・サラー",
           "position": "FW"
         }
       ],
@@ -4558,132 +4558,132 @@
       "squad": [
         {
           "number": 12,
-          "name": "S・メレ",
+          "name": "セルヒオ・メレ",
           "position": "GK"
         },
         {
           "number": 23,
-          "name": "F・ムスレラ",
+          "name": "フェルナンド・ムスレラ",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "S・ロチェット",
+          "name": "セルヒオ・ロチェット",
           "position": "GK"
         },
         {
           "number": 4,
-          "name": "R・アラウホ",
+          "name": "ロナルド・アラウホ",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "S・ブエノ",
+          "name": "サンティアゴ・ブエノ",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "S・カセレス",
+          "name": "セバスティアン・カセレス",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "H・ヒメネス",
+          "name": "ホセ・マリア・ヒメネス",
           "position": "DF"
         },
         {
           "number": 16,
-          "name": "M・オリベラ",
+          "name": "マティアス・オリベラ",
           "position": "DF"
         },
         {
           "number": 13,
-          "name": "G・バレラ",
+          "name": "ギジェルモ・バレラ",
           "position": "DF"
         },
         {
           "number": 17,
-          "name": "M・ビーニャ",
+          "name": "マティアス・ビーニャ",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "R・ベンタンクール",
+          "name": "ロドリゴ・ベンタンクール",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "E・マルティネス",
+          "name": "エリアス・マルティネス",
           "position": "MF"
         },
         {
           "number": 25,
-          "name": "H・サナブリア",
+          "name": "エルナン・サナブリア",
           "position": "MF"
         },
         {
           "number": 5,
-          "name": "M・ウガルテ",
+          "name": "マヌエル・ウガルテ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "F・バルベルデ",
+          "name": "フェデリコ・バルベルデ",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "R・サラサール",
+          "name": "ロドリゴ・サラサール",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "G・デ・アラスカエタ",
+          "name": "ジョルジアン・デ・アラスカエタ",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "N・デ・ラ・クルス",
+          "name": "ニコラス・デ・ラ・クルス",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "M・アラウホ",
+          "name": "マキシミリアーノ・アラウホ",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "A・カノッビオ",
+          "name": "アグスティン・カノッビオ",
           "position": "MF"
         },
         {
           "number": 19,
-          "name": "R・アギーレ",
+          "name": "ロドリゴ・アギーレ",
           "position": "FW"
         },
         {
           "number": 22,
-          "name": "H・ピケレス",
+          "name": "ホアキン・ピケレス",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "D・ヌニェス",
+          "name": "ダルウィン・ヌニェス",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "F・ペリストリ",
+          "name": "ファクンド・ペリストリ",
           "position": "FW"
         },
         {
           "number": 18,
-          "name": "B・ロドリゲス",
+          "name": "ブライアン・ロドリゲス",
           "position": "FW"
         },
         {
           "number": 21,
-          "name": "F・ビーニャス",
+          "name": "フェデリコ・ビーニャス",
           "position": "FW"
         }
       ],
@@ -4725,132 +4725,132 @@
       "squad": [
         {
           "number": 1,
-          "name": "Y・アブレイラ",
+          "name": "ヤジード・アブレイラ",
           "position": "GK"
         },
         {
           "number": 22,
-          "name": "A・アルファクリー",
+          "name": "アブドゥッラー・アルファクリー",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "N・ザイド",
+          "name": "ニザール・ザイド",
           "position": "GK"
         },
         {
           "number": 4,
-          "name": "H・アブアルダハブ",
+          "name": "ハディ・アブアルダハブ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "M・アブハシーシュ",
+          "name": "モハマド・アブハシーシュ",
           "position": "DF"
         },
         {
           "number": 16,
-          "name": "M・アブアルナディ",
+          "name": "モハンナド・アブアルナディ",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "Y・アルアラブ",
+          "name": "ヤザン・アルアラブ",
           "position": "DF"
         },
         {
           "number": 19,
-          "name": "S・アルロサン",
+          "name": "サエド・アルロサン",
           "position": "DF"
         },
         {
           "number": 26,
-          "name": "A・バダウィ",
+          "name": "アナス・バダウィ",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "A・ナシブ",
+          "name": "アブドゥッラー・ナシブ",
           "position": "DF"
         },
         {
           "number": 17,
-          "name": "S・オバイド",
+          "name": "サディク・オバイド",
           "position": "DF"
         },
         {
           "number": 23,
-          "name": "E・ハダード",
+          "name": "エフサン・ハダード",
           "position": "DF"
         },
         {
           "number": 20,
-          "name": "M・アブタハ",
+          "name": "モハンナド・アブタハ",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "M・アルダウド",
+          "name": "マジュディ・アルダウド",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "I・サーデ",
+          "name": "イブラヒム・サーデ",
           "position": "MF"
         },
         {
           "number": 21,
-          "name": "N・アルラシダン",
+          "name": "ニザール・アルラシダン",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "N・アルラワブデ",
+          "name": "ヌール・アルラワブデ",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "R・アイェド",
+          "name": "ラジャエイ・アイェド",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "A・ジャムース",
+          "name": "アナス・ジャムース",
           "position": "MF"
         },
         {
           "number": 13,
-          "name": "M・アルマルディ",
+          "name": "マフムード・アルマルディ",
           "position": "FW"
         },
         {
           "number": 7,
-          "name": "M・アブズレイグ",
+          "name": "モハマド・アブズレイグ",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "O・アルファクリー",
+          "name": "オマル・アルファクリー",
           "position": "FW"
         },
         {
           "number": 24,
-          "name": "A・アザイゼ",
+          "name": "アフマド・アザイゼ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "A・オルワン",
+          "name": "アリ・オルワン",
           "position": "FW"
         },
         {
           "number": 18,
-          "name": "I・サブラ",
+          "name": "イブラヒム・サブラ",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "M・タマリ",
+          "name": "ムーサ・タマリ",
           "position": "MF"
         }
       ],
@@ -4892,132 +4892,132 @@
       "squad": [
         {
           "number": 23,
-          "name": "M・フレッケン",
+          "name": "マルク・フレッケン",
           "position": "GK"
         },
         {
           "number": 13,
-          "name": "R・ルーフス",
+          "name": "ルーベン・ルーフス",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "B・フェルブルッヘン",
+          "name": "バルト・フェルブルッヘン",
           "position": "GK"
         },
         {
           "number": 5,
-          "name": "N・アケ",
+          "name": "ナタン・アケ",
           "position": "DF"
         },
         {
           "number": 22,
-          "name": "D・ダンフリース",
+          "name": "デンゼル・ダンフリース",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "J・ハト",
+          "name": "ヨレル・ハト",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "J・ティンバー",
+          "name": "ユリエン・ティンバー",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "V・ファン・ダイク",
+          "name": "フィルジル・ファン・ダイク",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "J・ファン・ヘッケ",
+          "name": "ヤン・ポール・ファン・ヘッケ",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "M・ファン・デ・フェン",
+          "name": "ミッキー・ファン・デ・フェン",
           "position": "DF"
         },
         {
           "number": 12,
-          "name": "M・ウィーファー",
+          "name": "マッツ・ウィーファー",
           "position": "DF"
         },
         {
           "number": 8,
-          "name": "R・グラフェンベルフ",
+          "name": "ライアン・グラフェンベルフ",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "T・コープマイネルス",
+          "name": "テウン・コープマイネルス",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "T・レインデルス",
+          "name": "ティジャーニ・レインデルス",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "G・ティル",
+          "name": "ガス・ティル",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "Q・ティンバー",
+          "name": "クインテン・ティンバー",
           "position": "MF"
         },
         {
           "number": 21,
-          "name": "F・デ・ヨング",
+          "name": "フレンキー・デ・ヨング",
           "position": "MF"
         },
         {
           "number": 3,
-          "name": "M・デ・ローン",
+          "name": "マルテン・デ・ローン",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "J・クライファート",
+          "name": "ジャスティン・クライファート",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "B・ブロビー",
+          "name": "ブライアン・ブロビー",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "M・デパイ",
+          "name": "メンフィス・デパイ",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "C・ガクポ",
+          "name": "コディ・ガクポ",
           "position": "FW"
         },
         {
           "number": 17,
-          "name": "N・ラング",
+          "name": "ノア・ラング",
           "position": "FW"
         },
         {
           "number": 18,
-          "name": "D・マレン",
+          "name": "ドニエル・マレン",
           "position": "FW"
         },
         {
           "number": 24,
-          "name": "C・サマービル",
+          "name": "クライセンシオ・サマービル",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "W・ヴェグホルスト",
+          "name": "ボウト・ヴェグホルスト",
           "position": "FW"
         }
       ],
@@ -5059,132 +5059,132 @@
       "squad": [
         {
           "number": 12,
-          "name": "O・バウマン",
+          "name": "オリヴァー・バウマン",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "M・ノイアー",
+          "name": "マヌエル・ノイアー",
           "position": "GK"
         },
         {
           "number": 21,
-          "name": "A・ニューベル",
+          "name": "アレクサンダー・ニューベル",
           "position": "GK"
         },
         {
           "number": 3,
-          "name": "W・アントン",
+          "name": "ヴァルデマール・アントン",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "N・ブラウン",
+          "name": "ニコ・ブラウン",
           "position": "DF"
         },
         {
           "number": 22,
-          "name": "D・ラウム",
+          "name": "ダヴィド・ラウム",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "A・リュディガー",
+          "name": "アントニオ・リュディガー",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "N・シュロッターベック",
+          "name": "ニコ・シュロッターベック",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "J・ター",
+          "name": "ヨナタン・ター",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "M・ティアウ",
+          "name": "マリク・ティアウ",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "J・キミッヒ",
+          "name": "ヨシュア・キミッヒ",
           "position": "DF"
         },
         {
           "number": 20,
-          "name": "N・アミリ",
+          "name": "ナディーム・アミリ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "L・ゴレツカ",
+          "name": "レオン・ゴレツカ",
           "position": "MF"
         },
         {
           "number": 13,
-          "name": "P・グロース",
+          "name": "パスカル・グロース",
           "position": "MF"
         },
         {
           "number": 25,
-          "name": "L・カール",
+          "name": "ラース・カール",
           "position": "MF"
         },
         {
           "number": 9,
-          "name": "J・レベリング",
+          "name": "ヤニク・レベリング",
           "position": "FW"
         },
         {
           "number": 10,
-          "name": "J・ムシアラ",
+          "name": "ジャマル・ムシアラ",
           "position": "MF"
         },
         {
           "number": 23,
-          "name": "F・ヌメチャ",
+          "name": "フェリックス・ヌメチャ",
           "position": "MF"
         },
         {
           "number": 5,
-          "name": "A・パブロビッチ",
+          "name": "アレクサンダル・パブロビッチ",
           "position": "MF"
         },
         {
           "number": 19,
-          "name": "L・サネ",
+          "name": "レロイ・サネ",
           "position": "MF"
         },
         {
           "number": 16,
-          "name": "A・シュティラー",
+          "name": "アンジェロ・シュティラー",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "F・ヴィルツ",
+          "name": "フロリアン・ヴィルツ",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "K・ハフェルツ",
+          "name": "カイ・ハフェルツ",
           "position": "FW"
         },
         {
           "number": 14,
-          "name": "M・バイアー",
+          "name": "マクシミリアン・バイアー",
           "position": "FW"
         },
         {
           "number": 26,
-          "name": "D・ウンダフ",
+          "name": "デニズ・ウンダフ",
           "position": "FW"
         },
         {
           "number": 11,
-          "name": "N・ヴォルテマーデ",
+          "name": "ニック・ヴォルテマーデ",
           "position": "FW"
         }
       ],
@@ -5226,132 +5226,132 @@
       "squad": [
         {
           "number": 1,
-          "name": "H・ガリンデス",
+          "name": "エルナン・ガリンデス",
           "position": "GK"
         },
         {
           "number": 12,
-          "name": "M・ラミレス",
+          "name": "モイセス・ラミレス",
           "position": "GK"
         },
         {
           "number": 22,
-          "name": "G・バジェ",
+          "name": "ガブリエル・バジェ",
           "position": "GK"
         },
         {
           "number": 7,
-          "name": "P・エストゥピニャン",
+          "name": "ペルビス・エストゥピニャン",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "P・インカピエ",
+          "name": "ピエロ・インカピエ",
           "position": "DF"
         },
         {
           "number": 26,
-          "name": "Y・メディナ",
+          "name": "ヤイマル・メディナ",
           "position": "MF"
         },
         {
           "number": 4,
-          "name": "J・オルドニェス",
+          "name": "ホルディ・オルドニェス",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "W・パチョ",
+          "name": "ウィリアン・パチョ",
           "position": "DF"
         },
         {
           "number": 25,
-          "name": "J・ポロソ",
+          "name": "ジャクソン・ポロソ",
           "position": "DF"
         },
         {
           "number": 17,
-          "name": "A・プレシアード",
+          "name": "アンジェロ・プレシアード",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "F・トーレス",
+          "name": "フェリックス・トーレス",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "J・アルシバル",
+          "name": "ホルディ・アルシバル",
           "position": "MF"
         },
         {
           "number": 23,
-          "name": "M・カイセド",
+          "name": "モイセス・カイセド",
           "position": "MF"
         },
         {
           "number": 18,
-          "name": "D・カスティージョ",
+          "name": "ディクソン・カスティージョ",
           "position": "MF"
         },
         {
           "number": 21,
-          "name": "A・フランコ",
+          "name": "アラン・フランコ",
           "position": "DF"
         },
         {
           "number": 10,
-          "name": "K・パエス",
+          "name": "ケンドリー・パエス",
           "position": "FW"
         },
         {
           "number": 14,
-          "name": "A・ミンダ",
+          "name": "アリエル・ミンダ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "A・バレンシア",
+          "name": "アンヘル・バレンシア",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "P・ビテ",
+          "name": "パベル・ビテ",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "K・ロドリゲス",
+          "name": "ケビン・ロドリゲス",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "J・ジェボア",
+          "name": "ジョアン・ジェボア",
           "position": "FW"
         },
         {
           "number": 20,
-          "name": "N・アングロ",
+          "name": "ニーザー・アングロ",
           "position": "FW"
         },
         {
           "number": 16,
-          "name": "J・カイセド",
+          "name": "ホルディ・カイセド",
           "position": "FW"
         },
         {
           "number": 24,
-          "name": "J・アレバロ",
+          "name": "ジャスティン・アレバロ",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "G・プラタ",
+          "name": "ゴンサロ・プラタ",
           "position": "FW"
         },
         {
           "number": 13,
-          "name": "E・バレンシア",
+          "name": "エネル・バレンシア",
           "position": "FW"
         }
       ],
@@ -5393,132 +5393,132 @@
       "squad": [
         {
           "number": 25,
-          "name": "T・ボダック",
+          "name": "タイソン・ボダック",
           "position": "GK"
         },
         {
           "number": 26,
-          "name": "T・ドールンブッシュ",
+          "name": "トレヴァー・ドールンブッシュ",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "E・ルーム",
+          "name": "エロイ・ルーム",
           "position": "GK"
         },
         {
           "number": 23,
-          "name": "R・バゾアー",
+          "name": "リーフェッドリー・バゾアー",
           "position": "DF"
         },
         {
           "number": 20,
-          "name": "J・ブレネト",
+          "name": "ジョシュア・ブレネト",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "S・フロラヌス",
+          "name": "シドニー・フロラヌス",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "D・フォンヴィル",
+          "name": "デイヴィソン・フォンヴィル",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "J・ガーリ",
+          "name": "ユリエン・ガーリ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "S・サンボ",
+          "name": "シュランディ・サンボ",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "R・ファン・エイマ",
+          "name": "ロション・ファン・エイマ",
           "position": "DF"
         },
         {
           "number": 18,
-          "name": "A・オビスポ",
+          "name": "アルマンド・オビスポ",
           "position": "DF"
         },
         {
           "number": 10,
-          "name": "L・バクーナ",
+          "name": "レアンドロ・バクーナ",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "A・マルタ",
+          "name": "アンソニー・マルタ",
           "position": "MF"
         },
         {
           "number": 13,
-          "name": "T・ノスリン",
+          "name": "テレン・ノスリン",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "L・コメネンシア",
+          "name": "レアンドロ・コメネンシア",
           "position": "MF"
         },
         {
           "number": 22,
-          "name": "K・フェリダ",
+          "name": "ケニー・フェリダ",
           "position": "MF"
         },
         {
           "number": 21,
-          "name": "T・チョン",
+          "name": "タヒス・チョン",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "G・ルーメラトゥ",
+          "name": "ゴッドフリード・ルーメラトゥ",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "J・バクーナ",
+          "name": "ジュニーニョ・バクーナ",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "J・アントニッセ",
+          "name": "ジャイール・アントニッセ",
           "position": "FW"
         },
         {
           "number": 17,
-          "name": "B・クーワス",
+          "name": "ブランドリー・クーワス",
           "position": "FW"
         },
         {
           "number": 14,
-          "name": "K・ゴレ",
+          "name": "ケンジ・ゴレ",
           "position": "FW"
         },
         {
           "number": 12,
-          "name": "S・ハンセン",
+          "name": "スティーヴン・ハンセン",
           "position": "FW"
         },
         {
           "number": 19,
-          "name": "G・カスターニア",
+          "name": "ジョヴァニ・カスターニア",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "J・ロカディア",
+          "name": "ユルゲン・ロカディア",
           "position": "FW"
         },
         {
           "number": 16,
-          "name": "J・マルガリータ",
+          "name": "ジェアル・マルガリータ",
           "position": "FW"
         }
       ],
@@ -5560,132 +5560,132 @@
       "squad": [
         {
           "number": 22,
-          "name": "S・ベン・ハサン",
+          "name": "サミー・ベン・ハサン",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "C・アブデルムヒブ",
+          "name": "シャディ・アブデルムヒブ",
           "position": "GK"
         },
         {
           "number": 16,
-          "name": "A・ダーメン",
+          "name": "アイメン・ダーメン",
           "position": "GK"
         },
         {
           "number": 2,
-          "name": "A・アブディ",
+          "name": "アリ・アブディ",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "A・アロウス",
+          "name": "アラン・アロウス",
           "position": "DF"
         },
         {
           "number": 21,
-          "name": "A・ベン・フミダ",
+          "name": "アハメド・ベン・フミダ",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "D・ブロン",
+          "name": "ディラン・ブロン",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "R・チカウイ",
+          "name": "ラミー・チカウイ",
           "position": "DF"
         },
         {
           "number": 23,
-          "name": "M・ネファティ",
+          "name": "モハメド・ネファティ",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "O・レキク",
+          "name": "オマル・レキク",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "M・タルビ",
+          "name": "モンタサル・タルビ",
           "position": "DF"
         },
         {
           "number": 20,
-          "name": "Y・ヴァレリー",
+          "name": "ヤン・ヴァレリー",
           "position": "DF"
         },
         {
           "number": 12,
-          "name": "M・ベン・ワネス",
+          "name": "モハメド・ベン・ワネス",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "K・アヤリ",
+          "name": "カイス・アヤリ",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "I・ガルビ",
+          "name": "イサク・ガルビ",
           "position": "FW"
         },
         {
           "number": 13,
-          "name": "R・ケディラ",
+          "name": "ラニ・ケディラ",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "H・メイブリ",
+          "name": "ハニバル・メイブリ",
           "position": "MF"
         },
         {
           "number": 17,
-          "name": "E・スキリ",
+          "name": "エリス・スキリ",
           "position": "MF"
         },
         {
           "number": 25,
-          "name": "A・ベン・スリマン",
+          "name": "アニース・ベン・スリマン",
           "position": "MF"
         },
         {
           "number": 15,
-          "name": "H・マフムード",
+          "name": "ハムザ・マフムード",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "S・トゥネクティ",
+          "name": "サイフェディン・トゥネクティ",
           "position": "FW"
         },
         {
           "number": 7,
-          "name": "E・アシュリ",
+          "name": "エリヤス・アシュリ",
           "position": "MF"
         },
         {
           "number": 19,
-          "name": "F・シャワット",
+          "name": "ファハド・シャワット",
           "position": "FW"
         },
         {
           "number": 18,
-          "name": "R・エルミ",
+          "name": "ラミー・エルミ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "H・マストゥーリ",
+          "name": "ハキム・マストゥーリ",
           "position": "FW"
         },
         {
           "number": 8,
-          "name": "E・サアド",
+          "name": "エヤド・サアド",
           "position": "FW"
         }
       ],
@@ -5727,132 +5727,132 @@
       "squad": [
         {
           "number": 12,
-          "name": "V・ヨハンソン",
+          "name": "ヴィクトル・ヨハンソン",
           "position": "GK"
         },
         {
           "number": 23,
-          "name": "K・ノルドフェルト",
+          "name": "クリストファー・ノルドフェルト",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "J・ヴィデル・ゼッターシュトローム",
+          "name": "ヤコブ・ヴィデル・ゼッターシュトローム",
           "position": "GK"
         },
         {
           "number": 14,
-          "name": "H・エクダル",
+          "name": "ヤルマル・エクダル",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "G・グズムンドソン",
+          "name": "ガブリエル・グズムンドソン",
           "position": "MF"
         },
         {
           "number": 4,
-          "name": "I・ヒエン",
+          "name": "イサク・ヒエン",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "G・ラーゲルビエルケ",
+          "name": "グスタフ・ラーゲルビエルケ",
           "position": "DF"
         },
         {
           "number": 3,
-          "name": "V・リンデロフ",
+          "name": "ヴィクトル・リンデロフ",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "C・スターフェルト",
+          "name": "カール・スターフェルト",
           "position": "DF"
         },
         {
           "number": 6,
-          "name": "H・ヨハンソン",
+          "name": "ハンプス・ヨハンソン",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "E・スミス",
+          "name": "エミル・スミス",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "E・ストラウド",
+          "name": "エドウィン・ストラウド",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "D・スヴェンソン",
+          "name": "ダニエル・スヴェンソン",
           "position": "DF"
         },
         {
           "number": 21,
-          "name": "A・ベルンハルドソン",
+          "name": "アダム・ベルンハルドソン",
           "position": "MF"
         },
         {
           "number": 18,
-          "name": "Y・アヤリ",
+          "name": "ヤシン・アヤリ",
           "position": "MF"
         },
         {
           "number": 7,
-          "name": "L・ベルグヴァル",
+          "name": "ルーカス・ベルグヴァル",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "B・ニーグレン",
+          "name": "ベンヤミン・ニーグレン",
           "position": "FW"
         },
         {
           "number": 16,
-          "name": "J・カールストローム",
+          "name": "イェスパー・カールストローム",
           "position": "MF"
         },
         {
           "number": 13,
-          "name": "K・セマ",
+          "name": "ケン・セマ",
           "position": "MF"
         },
         {
           "number": 19,
-          "name": "M・スヴァンベリ",
+          "name": "マティアス・スヴァンベリ",
           "position": "MF"
         },
         {
           "number": 22,
-          "name": "B・ゼネリ",
+          "name": "ベンジャミン・ゼネリ",
           "position": "MF"
         },
         {
           "number": 26,
-          "name": "T・アリ",
+          "name": "タイシーア・アリ",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "A・エランガ",
+          "name": "アンソニー・エランガ",
           "position": "FW"
         },
         {
           "number": 17,
-          "name": "V・ギョケレス",
+          "name": "ヴィクトル・ギョケレス",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "A・イサク",
+          "name": "アレクサンデル・イサク",
           "position": "FW"
         },
         {
           "number": 25,
-          "name": "G・ニルソン",
+          "name": "グスタフ・ニルソン",
           "position": "FW"
         }
       ],
@@ -5894,132 +5894,132 @@
       "squad": [
         {
           "number": 16,
-          "name": "M・メニャン",
+          "name": "マイク・メニャン",
           "position": "GK"
         },
         {
           "number": 23,
-          "name": "R・リッセール",
+          "name": "ロマン・リッセール",
           "position": "GK"
         },
         {
           "number": 1,
-          "name": "B・サンバ",
+          "name": "ブリセ・サンバ",
           "position": "GK"
         },
         {
           "number": 3,
-          "name": "L・ディニュ",
+          "name": "ルカ・ディニュ",
           "position": "DF"
         },
         {
           "number": 2,
-          "name": "M・ギュスト",
+          "name": "マロ・ギュスト",
           "position": "DF"
         },
         {
           "number": 21,
-          "name": "L・エルナンデス",
+          "name": "リュカ・エルナンデス",
           "position": "DF"
         },
         {
           "number": 19,
-          "name": "T・エルナンデス",
+          "name": "テオ・エルナンデス",
           "position": "DF"
         },
         {
           "number": 15,
-          "name": "I・コナテ",
+          "name": "イブラヒマ・コナテ",
           "position": "DF"
         },
         {
           "number": 5,
-          "name": "J・クンデ",
+          "name": "ジュール・クンデ",
           "position": "DF"
         },
         {
           "number": 26,
-          "name": "M・ラクロワ",
+          "name": "マックスウェル・ラクロワ",
           "position": "DF"
         },
         {
           "number": 17,
-          "name": "W・サリバ",
+          "name": "ウィリアム・サリバ",
           "position": "DF"
         },
         {
           "number": 4,
-          "name": "D・ウパメカノ",
+          "name": "ダヨ・ウパメカノ",
           "position": "DF"
         },
         {
           "number": 24,
-          "name": "R・シェルキ",
+          "name": "ラヤン・シェルキ",
           "position": "MF"
         },
         {
           "number": 13,
-          "name": "N・カンテ",
+          "name": "エンゴロ・カンテ",
           "position": "MF"
         },
         {
           "number": 6,
-          "name": "M・コネ",
+          "name": "マヌ・コネ",
           "position": "MF"
         },
         {
           "number": 14,
-          "name": "A・ラビオ",
+          "name": "アドリアン・ラビオ",
           "position": "MF"
         },
         {
           "number": 8,
-          "name": "A・チュアメニ",
+          "name": "オーレリアン・チュアメニ",
           "position": "MF"
         },
         {
           "number": 18,
-          "name": "W・ザイール＝エメリ",
+          "name": "ウォーレン・ザイール＝エメリ",
           "position": "MF"
         },
         {
           "number": 25,
-          "name": "M・アクリウシュ",
+          "name": "マグネス・アクリウシュ",
           "position": "MF"
         },
         {
           "number": 12,
-          "name": "B・バルコラ",
+          "name": "ブラッドリー・バルコラ",
           "position": "FW"
         },
         {
           "number": 22,
-          "name": "J・マテタ",
+          "name": "ジャン＝フィリップ・マテタ",
           "position": "FW"
         },
         {
           "number": 7,
-          "name": "O・デンベレ",
+          "name": "ウスマン・デンベレ",
           "position": "MF"
         },
         {
           "number": 20,
-          "name": "D・ドゥエ",
+          "name": "デジレ・ドゥエ",
           "position": "MF"
         },
         {
           "number": 10,
-          "name": "K・エムバペ",
+          "name": "キリアン・エムバペ",
           "position": "FW"
         },
         {
           "number": 9,
-          "name": "M・テュラム",
+          "name": "マルクス・テュラム",
           "position": "MF"
         },
         {
           "number": 11,
-          "name": "M・オリーズ",
+          "name": "マイケル・オリーズ",
           "position": "MF"
         }
       ],
@@ -6042,1760 +6042,6 @@
           "date": "6/25 2:00 JST",
           "home": "フランス",
           "away": "セルビア",
-          "score": "- - -",
-          "status": "予定"
-        }
-      ]
-    }
-  },
-  "セネガル": {
-    "timestamp": 1781345647434,
-    "data": {
-      "info": {
-        "coach": "アリウ・シセ",
-        "rank": "17位",
-        "appearances": "4回",
-        "titles": "0回",
-        "description": "強力なフィジカルとスピードを活かし、組織的な守備から鋭いカウンターを繰り出す。アフリカ王者としての経験も豊富で、2026年大会でも台風の目となるか。"
-      },
-      "squad": [
-        {
-          "number": 1,
-          "name": "エ・メンディ",
-          "position": "GK"
-        },
-        {
-          "number": 16,
-          "name": "セ・ディエン",
-          "position": "GK"
-        },
-        {
-          "number": 23,
-          "name": "モ・ディアウ",
-          "position": "GK"
-        },
-        {
-          "number": 3,
-          "name": "カ・クリバリ",
-          "position": "DF"
-        },
-        {
-          "number": 2,
-          "name": "イ・ヤコブス",
-          "position": "DF"
-        },
-        {
-          "number": 4,
-          "name": "ア・ディアロ",
-          "position": "DF"
-        },
-        {
-          "number": 5,
-          "name": "フ・メンディ",
-          "position": "DF"
-        },
-        {
-          "number": 12,
-          "name": "ム・ニアカテ",
-          "position": "DF"
-        },
-        {
-          "number": 22,
-          "name": "ノ・ファディガ",
-          "position": "DF"
-        },
-        {
-          "number": 19,
-          "name": "ア・セック",
-          "position": "DF"
-        },
-        {
-          "number": 6,
-          "name": "パ・マ・サール",
-          "position": "MF"
-        },
-        {
-          "number": 8,
-          "name": "ラ・カマラ",
-          "position": "MF"
-        },
-        {
-          "number": 15,
-          "name": "パ・グエイ",
-          "position": "MF"
-        },
-        {
-          "number": 17,
-          "name": "ク・ディアッタ",
-          "position": "MF"
-        },
-        {
-          "number": 20,
-          "name": "イ・ゲイェ",
-          "position": "MF"
-        },
-        {
-          "number": 18,
-          "name": "パ・シス",
-          "position": "MF"
-        },
-        {
-          "number": 10,
-          "name": "サ・マネ",
-          "position": "FW"
-        },
-        {
-          "number": 9,
-          "name": "ブ・ディア",
-          "position": "FW"
-        },
-        {
-          "number": 7,
-          "name": "イ・サール",
-          "position": "FW"
-        },
-        {
-          "number": 11,
-          "name": "ニ・ジャクソン",
-          "position": "FW"
-        },
-        {
-          "number": 13,
-          "name": "イ・ンディアイ",
-          "position": "FW"
-        },
-        {
-          "number": 14,
-          "name": "バ・ディエン",
-          "position": "FW"
-        }
-      ],
-      "fixtures": [
-        {
-          "date": "6/15 5:00 JST",
-          "home": "セネガル",
-          "away": "オランダ",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/20 2:00 JST",
-          "home": "アメリカ",
-          "away": "セネガル",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/25 21:00 JST",
-          "home": "セネガル",
-          "away": "オーストラリア",
-          "score": "- - -",
-          "status": "予定"
-        }
-      ]
-    }
-  },
-  "ノルウェー": {
-    "timestamp": 1781345668315,
-    "data": {
-      "info": {
-        "coach": "ストーレ・ソルバッケン",
-        "rank": "25位",
-        "appearances": "4回",
-        "titles": "0回",
-        "description": "エリク・ハーランドとマルティン・ウーデゴールを中心に、攻撃的なサッカーを展開。フィジカルと速攻が特徴だが、守備の安定が課題。"
-      },
-      "squad": [
-        {
-          "number": 1,
-          "name": "Ø・ニーラン",
-          "position": "GK"
-        },
-        {
-          "number": 12,
-          "name": "M・クリスティアンセン",
-          "position": "GK"
-        },
-        {
-          "number": 22,
-          "name": "E・セルヴィク",
-          "position": "GK"
-        },
-        {
-          "number": 2,
-          "name": "D・モラー・ウォルフ",
-          "position": "DF"
-        },
-        {
-          "number": 3,
-          "name": "L・ウスティゴール",
-          "position": "DF"
-        },
-        {
-          "number": 4,
-          "name": "K・ハンチェ＝オルセン",
-          "position": "DF"
-        },
-        {
-          "number": 5,
-          "name": "J・ライアソン",
-          "position": "DF"
-        },
-        {
-          "number": 14,
-          "name": "B・メルリング",
-          "position": "DF"
-        },
-        {
-          "number": 15,
-          "name": "K・アジェル",
-          "position": "DF"
-        },
-        {
-          "number": 16,
-          "name": "M・ペデルセン",
-          "position": "DF"
-        },
-        {
-          "number": 6,
-          "name": "S・バーゲ",
-          "position": "MF"
-        },
-        {
-          "number": 7,
-          "name": "F・アウネス",
-          "position": "MF"
-        },
-        {
-          "number": 8,
-          "name": "M・ウーデゴール",
-          "position": "MF"
-        },
-        {
-          "number": 10,
-          "name": "O・ソルバッケン",
-          "position": "MF"
-        },
-        {
-          "number": 13,
-          "name": "M・トルスビー",
-          "position": "MF"
-        },
-        {
-          "number": 17,
-          "name": "H・ヴェトエセン",
-          "position": "MF"
-        },
-        {
-          "number": 18,
-          "name": "P・バーグ",
-          "position": "MF"
-        },
-        {
-          "number": 9,
-          "name": "E・ハーランド",
-          "position": "FW"
-        },
-        {
-          "number": 11,
-          "name": "A・セルロート",
-          "position": "FW"
-        },
-        {
-          "number": 20,
-          "name": "J・ストランド・ラーセン",
-          "position": "FW"
-        },
-        {
-          "number": 21,
-          "name": "O・ボブ",
-          "position": "FW"
-        },
-        {
-          "number": 23,
-          "name": "A・ヌーサ",
-          "position": "FW"
-        }
-      ],
-      "fixtures": [
-        {
-          "date": "6/16 5:00 JST",
-          "home": "ノルウェー",
-          "away": "ブラジル",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/21 2:00 JST",
-          "home": "スイス",
-          "away": "ノルウェー",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/26 8:00 JST",
-          "home": "ノルウェー",
-          "away": "韓国",
-          "score": "- - -",
-          "status": "予定"
-        }
-      ]
-    }
-  },
-  "イラク": {
-    "timestamp": 1781345682858,
-    "data": {
-      "info": {
-        "coach": "ヘスス・カサス",
-        "rank": "62位",
-        "appearances": "2回",
-        "titles": "0回",
-        "description": "中東の雄。情熱的なプレースタイルと粘り強い守備をベースに、カウンターでゴールを狙う。経験豊富なベテランと若手が融合。"
-      },
-      "squad": [
-        {
-          "number": 1,
-          "name": "F・タラリ",
-          "position": "GK"
-        },
-        {
-          "number": 12,
-          "name": "J・ハッサン",
-          "position": "GK"
-        },
-        {
-          "number": 2,
-          "name": "A・アブドゥルアミル",
-          "position": "DF"
-        },
-        {
-          "number": 3,
-          "name": "M・ムハナド",
-          "position": "DF"
-        },
-        {
-          "number": 4,
-          "name": "R・スラカ",
-          "position": "DF"
-        },
-        {
-          "number": 5,
-          "name": "F・アティヤ",
-          "position": "DF"
-        },
-        {
-          "number": 15,
-          "name": "D・タハ",
-          "position": "DF"
-        },
-        {
-          "number": 22,
-          "name": "M・ハサン",
-          "position": "DF"
-        },
-        {
-          "number": 6,
-          "name": "A・アマリ",
-          "position": "MF"
-        },
-        {
-          "number": 7,
-          "name": "H・アブドゥルカリム",
-          "position": "MF"
-        },
-        {
-          "number": 8,
-          "name": "I・アリ",
-          "position": "MF"
-        },
-        {
-          "number": 10,
-          "name": "Z・イカル",
-          "position": "MF"
-        },
-        {
-          "number": 11,
-          "name": "B・アブドゥル",
-          "position": "MF"
-        },
-        {
-          "number": 13,
-          "name": "O・フセイン",
-          "position": "MF"
-        },
-        {
-          "number": 14,
-          "name": "H・アルサイード",
-          "position": "MF"
-        },
-        {
-          "number": 19,
-          "name": "K・アミル",
-          "position": "MF"
-        },
-        {
-          "number": 9,
-          "name": "A・フセイン",
-          "position": "FW"
-        },
-        {
-          "number": 17,
-          "name": "M・アリ",
-          "position": "FW"
-        },
-        {
-          "number": 18,
-          "name": "F・ラシド",
-          "position": "FW"
-        },
-        {
-          "number": 20,
-          "name": "A・アブドゥラ",
-          "position": "FW"
-        },
-        {
-          "number": 21,
-          "name": "Y・アミル",
-          "position": "FW"
-        }
-      ],
-      "fixtures": [
-        {
-          "date": "6/14 2:00 JST",
-          "home": "ブラジル",
-          "away": "イラク",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/19 5:00 JST",
-          "home": "イラク",
-          "away": "セルビア",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/24 8:00 JST",
-          "home": "ナイジェリア",
-          "away": "イラク",
-          "score": "- - -",
-          "status": "予定"
-        }
-      ]
-    }
-  },
-  "アルゼンチン": {
-    "timestamp": 1781345706683,
-    "data": {
-      "info": {
-        "coach": "リオネル・スカローニ",
-        "rank": "1位",
-        "appearances": "18回",
-        "titles": "3回",
-        "description": "現世界王者としての揺るぎない自信と、攻守に組織されたバランスの取れた戦術が特徴。若手の台頭も著しく、連覇を狙う優勝候補筆頭。"
-      },
-      "squad": [
-        {
-          "number": 1,
-          "name": "E・マルティネス",
-          "position": "GK"
-        },
-        {
-          "number": 12,
-          "name": "J・ルジ",
-          "position": "GK"
-        },
-        {
-          "number": 23,
-          "name": "W・ベニテス",
-          "position": "GK"
-        },
-        {
-          "number": 13,
-          "name": "C・ロメロ",
-          "position": "DF"
-        },
-        {
-          "number": 4,
-          "name": "L・マルティネス",
-          "position": "DF"
-        },
-        {
-          "number": 26,
-          "name": "N・モリーナ",
-          "position": "DF"
-        },
-        {
-          "number": 3,
-          "name": "V・バルコ",
-          "position": "DF"
-        },
-        {
-          "number": 2,
-          "name": "G・モンティエル",
-          "position": "DF"
-        },
-        {
-          "number": 19,
-          "name": "L・バレルディ",
-          "position": "DF"
-        },
-        {
-          "number": 16,
-          "name": "P・ペレス",
-          "position": "DF"
-        },
-        {
-          "number": 24,
-          "name": "E・フェルナンデス",
-          "position": "MF"
-        },
-        {
-          "number": 20,
-          "name": "A・マク・アリスター",
-          "position": "MF"
-        },
-        {
-          "number": 7,
-          "name": "R・デ・ポール",
-          "position": "MF"
-        },
-        {
-          "number": 14,
-          "name": "E・パラシオス",
-          "position": "MF"
-        },
-        {
-          "number": 8,
-          "name": "V・カルボーニ",
-          "position": "MF"
-        },
-        {
-          "number": 15,
-          "name": "F・ブオナノッテ",
-          "position": "MF"
-        },
-        {
-          "number": 10,
-          "name": "L・メッシ",
-          "position": "FW"
-        },
-        {
-          "number": 22,
-          "name": "L・マルティネス",
-          "position": "FW"
-        },
-        {
-          "number": 9,
-          "name": "J・アルバレス",
-          "position": "FW"
-        },
-        {
-          "number": 11,
-          "name": "A・ガルナチョ",
-          "position": "FW"
-        },
-        {
-          "number": 21,
-          "name": "T・アルマダ",
-          "position": "FW"
-        },
-        {
-          "number": 17,
-          "name": "N・ゴンサレス",
-          "position": "FW"
-        }
-      ],
-      "fixtures": [
-        {
-          "date": "6/14 2:00 JST",
-          "home": "アルゼンチン",
-          "away": "デンマーク",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/19 8:00 JST",
-          "home": "モロッコ",
-          "away": "アルゼンチン",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/23 5:00 JST",
-          "home": "アルゼンチン",
-          "away": "カナダ",
-          "score": "- - -",
-          "status": "予定"
-        }
-      ]
-    }
-  },
-  "アルジェリア": {
-    "timestamp": 1781345724535,
-    "data": {
-      "info": {
-        "coach": "ウラジミール・ペトコビッチ",
-        "rank": "28位",
-        "appearances": "5回",
-        "titles": "0回",
-        "description": "高い技術と情熱を併せ持つ北アフリカの雄。中盤の支配力と破壊力ある攻撃が武器。"
-      },
-      "squad": [
-        {
-          "number": 1,
-          "name": "A・マンデア",
-          "position": "GK"
-        },
-        {
-          "number": 16,
-          "name": "A・ウキジャ",
-          "position": "GK"
-        },
-        {
-          "number": 23,
-          "name": "M・ゼグバ",
-          "position": "GK"
-        },
-        {
-          "number": 2,
-          "name": "A・マンディ",
-          "position": "DF"
-        },
-        {
-          "number": 3,
-          "name": "R・ベンセバイニ",
-          "position": "DF"
-        },
-        {
-          "number": 4,
-          "name": "M・A・トゥーガイ",
-          "position": "DF"
-        },
-        {
-          "number": 5,
-          "name": "Y・アタル",
-          "position": "DF"
-        },
-        {
-          "number": 12,
-          "name": "R・アイ・ヌーリ",
-          "position": "DF"
-        },
-        {
-          "number": 20,
-          "name": "K・ゲイトゥン",
-          "position": "DF"
-        },
-        {
-          "number": 21,
-          "name": "A・トゥーバ",
-          "position": "DF"
-        },
-        {
-          "number": 6,
-          "name": "N・ベンタレブ",
-          "position": "MF"
-        },
-        {
-          "number": 7,
-          "name": "I・ベンナセル",
-          "position": "MF"
-        },
-        {
-          "number": 8,
-          "name": "H・アワール",
-          "position": "MF"
-        },
-        {
-          "number": 10,
-          "name": "F・シャイビ",
-          "position": "MF"
-        },
-        {
-          "number": 14,
-          "name": "R・ゼルルキ",
-          "position": "MF"
-        },
-        {
-          "number": 17,
-          "name": "H・ブダウイ",
-          "position": "MF"
-        },
-        {
-          "number": 9,
-          "name": "M・E・アムラ",
-          "position": "FW"
-        },
-        {
-          "number": 11,
-          "name": "A・グイリ",
-          "position": "FW"
-        },
-        {
-          "number": 13,
-          "name": "A・ウナス",
-          "position": "FW"
-        },
-        {
-          "number": 15,
-          "name": "S・ベンラーマ",
-          "position": "FW"
-        },
-        {
-          "number": 19,
-          "name": "B・ブアニ",
-          "position": "FW"
-        }
-      ],
-      "fixtures": [
-        {
-          "date": "6/15 8:00 JST",
-          "home": "ベルギー",
-          "away": "アルジェリア",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/20 5:00 JST",
-          "home": "アルジェリア",
-          "away": "ペルー",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/25 25:00 JST",
-          "home": "韓国",
-          "away": "アルジェリア",
-          "score": "- - -",
-          "status": "予定"
-        }
-      ]
-    }
-  },
-  "オーストリア": {
-    "timestamp": 1781345741132,
-    "data": {
-      "info": {
-        "coach": "ラルフ・ラングニック",
-        "rank": "22位",
-        "appearances": "7回",
-        "titles": "0回",
-        "description": "ラルフ・ラングニック監督の下、組織的なハイプレスと前線からの連動が持ち味。経験と若手の融合が進み、高い戦術理解度と粘り強さで世界の強豪に挑む。"
-      },
-      "squad": [
-        {
-          "number": 1,
-          "name": "P・ペンツ",
-          "position": "GK"
-        },
-        {
-          "number": 12,
-          "name": "D・バッハマン",
-          "position": "GK"
-        },
-        {
-          "number": 23,
-          "name": "A・シュラーガー",
-          "position": "GK"
-        },
-        {
-          "number": 4,
-          "name": "D・アラバ",
-          "position": "DF"
-        },
-        {
-          "number": 3,
-          "name": "M・ヴェーバー",
-          "position": "DF"
-        },
-        {
-          "number": 2,
-          "name": "K・ダンソ",
-          "position": "DF"
-        },
-        {
-          "number": 15,
-          "name": "P・リーンハルト",
-          "position": "DF"
-        },
-        {
-          "number": 5,
-          "name": "S・ポッシュ",
-          "position": "DF"
-        },
-        {
-          "number": 13,
-          "name": "P・ムウェネ",
-          "position": "DF"
-        },
-        {
-          "number": 6,
-          "name": "K・ライマー",
-          "position": "MF"
-        },
-        {
-          "number": 9,
-          "name": "M・ザビッツァー",
-          "position": "MF"
-        },
-        {
-          "number": 10,
-          "name": "C・バウムガルトナー",
-          "position": "MF"
-        },
-        {
-          "number": 14,
-          "name": "F・グリリッチュ",
-          "position": "MF"
-        },
-        {
-          "number": 8,
-          "name": "X・シュラーガー",
-          "position": "MF"
-        },
-        {
-          "number": 16,
-          "name": "N・ザイヴァルト",
-          "position": "MF"
-        },
-        {
-          "number": 17,
-          "name": "R・シュミット",
-          "position": "MF"
-        },
-        {
-          "number": 7,
-          "name": "M・アルナウトヴィッチ",
-          "position": "FW"
-        },
-        {
-          "number": 11,
-          "name": "M・グレゴリッチュ",
-          "position": "FW"
-        },
-        {
-          "number": 18,
-          "name": "S・カラジッチ",
-          "position": "FW"
-        },
-        {
-          "number": 19,
-          "name": "P・ヴィマー",
-          "position": "FW"
-        },
-        {
-          "number": 20,
-          "name": "D・リュビチッチ",
-          "position": "FW"
-        }
-      ],
-      "fixtures": [
-        {
-          "date": "6/14 2:00 JST",
-          "home": "オーストリア",
-          "away": "ペルー",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/19 5:00 JST",
-          "home": "デンマーク",
-          "away": "オーストリア",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/24 21:00 JST",
-          "home": "オーストリア",
-          "away": "サウジアラビア",
-          "score": "- - -",
-          "status": "予定"
-        }
-      ]
-    }
-  },
-  "ポルトガル": {
-    "timestamp": 1781345758859,
-    "data": {
-      "info": {
-        "coach": "ロベルト・マルティネス",
-        "rank": "6位",
-        "appearances": "9回",
-        "titles": "0回",
-        "description": "経験豊富なベテランと才能溢れる若手が融合した、バランスの取れた強力なチーム。高い技術と戦術的な柔軟性を持ち、攻撃的なサッカーで頂点を目指す。"
-      },
-      "squad": [
-        {
-          "number": 1,
-          "name": "D・コスタ",
-          "position": "GK"
-        },
-        {
-          "number": 12,
-          "name": "J・サ",
-          "position": "GK"
-        },
-        {
-          "number": 22,
-          "name": "S・ソアレス",
-          "position": "GK"
-        },
-        {
-          "number": 2,
-          "name": "D・ダロト",
-          "position": "DF"
-        },
-        {
-          "number": 3,
-          "name": "G・イナシオ",
-          "position": "DF"
-        },
-        {
-          "number": 4,
-          "name": "R・ディアス",
-          "position": "DF"
-        },
-        {
-          "number": 5,
-          "name": "N・メンデス",
-          "position": "DF"
-        },
-        {
-          "number": 14,
-          "name": "A・シウバ",
-          "position": "DF"
-        },
-        {
-          "number": 20,
-          "name": "J・カンセロ",
-          "position": "DF"
-        },
-        {
-          "number": 24,
-          "name": "D・ペレイラ",
-          "position": "DF"
-        },
-        {
-          "number": 6,
-          "name": "J・パリーニャ",
-          "position": "MF"
-        },
-        {
-          "number": 8,
-          "name": "B・フェルナンデス",
-          "position": "MF"
-        },
-        {
-          "number": 10,
-          "name": "B・シウバ",
-          "position": "MF"
-        },
-        {
-          "number": 15,
-          "name": "V・フェレイラ",
-          "position": "MF"
-        },
-        {
-          "number": 16,
-          "name": "J・ネヴェス",
-          "position": "MF"
-        },
-        {
-          "number": 18,
-          "name": "R・ネヴェス",
-          "position": "MF"
-        },
-        {
-          "number": 23,
-          "name": "M・ヌネス",
-          "position": "MF"
-        },
-        {
-          "number": 7,
-          "name": "R・レオン",
-          "position": "FW"
-        },
-        {
-          "number": 9,
-          "name": "G・ラモス",
-          "position": "FW"
-        },
-        {
-          "number": 11,
-          "name": "J・フェリックス",
-          "position": "FW"
-        },
-        {
-          "number": 17,
-          "name": "D・ジョッタ",
-          "position": "FW"
-        },
-        {
-          "number": 19,
-          "name": "P・ネト",
-          "position": "FW"
-        },
-        {
-          "number": 21,
-          "name": "F・コンセイソン",
-          "position": "FW"
-        }
-      ],
-      "fixtures": [
-        {
-          "date": "6/13 6:00 JST",
-          "home": "ポルトガル",
-          "away": "デンマーク",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/18 2:00 JST",
-          "home": "韓国",
-          "away": "ポルトガル",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/23 22:00 JST",
-          "home": "ポルトガル",
-          "away": "モロッコ",
-          "score": "- - -",
-          "status": "予定"
-        }
-      ]
-    }
-  },
-  "ウズベキスタン": {
-    "timestamp": 1781345782415,
-    "data": {
-      "info": {
-        "coach": "スレチコ・カタネッツ",
-        "rank": "38位",
-        "appearances": "1回",
-        "titles": "0回",
-        "description": "中央アジアの雄が悲願の初出場。組織的な守備とタレント溢れる攻撃陣で旋風を狙う。規律と情熱を胸に、世界を驚かせる準備は整っている。"
-      },
-      "squad": [
-        {
-          "number": 1,
-          "name": "U・ユスポフ",
-          "position": "GK"
-        },
-        {
-          "number": 2,
-          "name": "H・アリジョノフ",
-          "position": "DF"
-        },
-        {
-          "number": 3,
-          "name": "R・アシュルマトフ",
-          "position": "DF"
-        },
-        {
-          "number": 4,
-          "name": "U・エシュムラドフ",
-          "position": "DF"
-        },
-        {
-          "number": 5,
-          "name": "H・アリクロフ",
-          "position": "DF"
-        },
-        {
-          "number": 6,
-          "name": "O・シュクロフ",
-          "position": "MF"
-        },
-        {
-          "number": 7,
-          "name": "E・ショムロドフ",
-          "position": "FW"
-        },
-        {
-          "number": 8,
-          "name": "J・マシャリポフ",
-          "position": "MF"
-        },
-        {
-          "number": 9,
-          "name": "B・アブディホリコフ",
-          "position": "FW"
-        },
-        {
-          "number": 10,
-          "name": "J・ジャロリディノフ",
-          "position": "MF"
-        },
-        {
-          "number": 11,
-          "name": "A・ファイズラエフ",
-          "position": "FW"
-        },
-        {
-          "number": 12,
-          "name": "A・ネマトフ",
-          "position": "GK"
-        },
-        {
-          "number": 13,
-          "name": "F・サイフィエフ",
-          "position": "DF"
-        },
-        {
-          "number": 14,
-          "name": "O・ハムロベコフ",
-          "position": "MF"
-        },
-        {
-          "number": 15,
-          "name": "S・ムハンマディエフ",
-          "position": "DF"
-        },
-        {
-          "number": 16,
-          "name": "K・エルキノフ",
-          "position": "MF"
-        },
-        {
-          "number": 17,
-          "name": "H・ノルチャエフ",
-          "position": "FW"
-        },
-        {
-          "number": 18,
-          "name": "D・ホルマトフ",
-          "position": "MF"
-        },
-        {
-          "number": 19,
-          "name": "A・アシュロフ",
-          "position": "DF"
-        },
-        {
-          "number": 20,
-          "name": "A・トゥルグンボエフ",
-          "position": "MF"
-        },
-        {
-          "number": 21,
-          "name": "A・イスマイロフ",
-          "position": "FW"
-        },
-        {
-          "number": 22,
-          "name": "S・ラフマノフ",
-          "position": "MF"
-        },
-        {
-          "number": 23,
-          "name": "B・エルガシェフ",
-          "position": "GK"
-        }
-      ],
-      "fixtures": [
-        {
-          "date": "6/14 2:00 JST",
-          "home": "ブラジル",
-          "away": "ウズベキスタン",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/19 8:00 JST",
-          "home": "ウズベキスタン",
-          "away": "セルビア",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/24 5:00 JST",
-          "home": "ガーナ",
-          "away": "ウズベキスタン",
-          "score": "- - -",
-          "status": "予定"
-        }
-      ]
-    }
-  },
-  "コロンビア": {
-    "timestamp": 1781345803909,
-    "data": {
-      "info": {
-        "coach": "ネストル・ロレンソ",
-        "rank": "15位",
-        "appearances": "7回",
-        "titles": "0回",
-        "description": "南米らしい技巧的なパスワークと個人技、そして情熱的なプレーが魅力。L・ディアスを中心に攻撃を組み立て、経験豊富な守備陣が支える。"
-      },
-      "squad": [
-        {
-          "number": 1,
-          "name": "C・バルガス",
-          "position": "GK"
-        },
-        {
-          "number": 12,
-          "name": "A・モンテーロ",
-          "position": "GK"
-        },
-        {
-          "number": 22,
-          "name": "K・ミエル",
-          "position": "GK"
-        },
-        {
-          "number": 2,
-          "name": "D・サンチェス",
-          "position": "DF"
-        },
-        {
-          "number": 3,
-          "name": "J・ルクミ",
-          "position": "DF"
-        },
-        {
-          "number": 4,
-          "name": "D・ムニョス",
-          "position": "DF"
-        },
-        {
-          "number": 5,
-          "name": "C・クエスタ",
-          "position": "DF"
-        },
-        {
-          "number": 13,
-          "name": "J・モヒカ",
-          "position": "DF"
-        },
-        {
-          "number": 17,
-          "name": "D・マチャド",
-          "position": "DF"
-        },
-        {
-          "number": 15,
-          "name": "Y・ミナ",
-          "position": "DF"
-        },
-        {
-          "number": 6,
-          "name": "J・レルマ",
-          "position": "MF"
-        },
-        {
-          "number": 8,
-          "name": "W・バリオス",
-          "position": "MF"
-        },
-        {
-          "number": 10,
-          "name": "J・アリアス",
-          "position": "MF"
-        },
-        {
-          "number": 16,
-          "name": "K・カスタニョ",
-          "position": "MF"
-        },
-        {
-          "number": 20,
-          "name": "J・カラスカル",
-          "position": "MF"
-        },
-        {
-          "number": 14,
-          "name": "M・ウリベ",
-          "position": "MF"
-        },
-        {
-          "number": 7,
-          "name": "L・ディアス",
-          "position": "FW"
-        },
-        {
-          "number": 9,
-          "name": "J・ドゥラン",
-          "position": "FW"
-        },
-        {
-          "number": 11,
-          "name": "R・ボレ",
-          "position": "FW"
-        },
-        {
-          "number": 18,
-          "name": "L・シニステラ",
-          "position": "FW"
-        },
-        {
-          "number": 19,
-          "name": "O・コルテス",
-          "position": "FW"
-        },
-        {
-          "number": 21,
-          "name": "J・キニョネス",
-          "position": "FW"
-        }
-      ],
-      "fixtures": [
-        {
-          "date": "6/15 8:00 JST",
-          "home": "スペイン",
-          "away": "コロンビア",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/20 5:00 JST",
-          "home": "コロンビア",
-          "away": "ガーナ",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/25 8:00 JST",
-          "home": "オーストラリア",
-          "away": "コロンビア",
-          "score": "- - -",
-          "status": "予定"
-        }
-      ]
-    }
-  },
-  "クロアチア": {
-    "timestamp": 1781345825501,
-    "data": {
-      "info": {
-        "coach": "Z・ダリッチ",
-        "rank": "8位",
-        "appearances": "7回",
-        "titles": "0回",
-        "description": "経験豊富なベテランと若手が融合。堅守速攻をベースに、中盤の創造性と粘り強さで試合をコントロールする。"
-      },
-      "squad": [
-        {
-          "number": 1,
-          "name": "D・リヴァコヴィッチ",
-          "position": "GK"
-        },
-        {
-          "number": 12,
-          "name": "I・グルビッチ",
-          "position": "GK"
-        },
-        {
-          "number": 23,
-          "name": "N・ラボス",
-          "position": "GK"
-        },
-        {
-          "number": 20,
-          "name": "J・グヴァルディオル",
-          "position": "DF"
-        },
-        {
-          "number": 6,
-          "name": "J・シュタロ",
-          "position": "DF"
-        },
-        {
-          "number": 19,
-          "name": "B・ソサ",
-          "position": "DF"
-        },
-        {
-          "number": 22,
-          "name": "J・ユラノヴィッチ",
-          "position": "DF"
-        },
-        {
-          "number": 2,
-          "name": "J・スタニシッチ",
-          "position": "DF"
-        },
-        {
-          "number": 5,
-          "name": "M・エリッチ",
-          "position": "DF"
-        },
-        {
-          "number": 3,
-          "name": "D・チャレタ＝ツァル",
-          "position": "DF"
-        },
-        {
-          "number": 11,
-          "name": "M・ブロゾヴィッチ",
-          "position": "MF"
-        },
-        {
-          "number": 8,
-          "name": "M・コヴァチッチ",
-          "position": "MF"
-        },
-        {
-          "number": 15,
-          "name": "L・マジェル",
-          "position": "MF"
-        },
-        {
-          "number": 10,
-          "name": "L・スチッチ",
-          "position": "MF"
-        },
-        {
-          "number": 13,
-          "name": "N・ヴラシッチ",
-          "position": "MF"
-        },
-        {
-          "number": 14,
-          "name": "M・パシャリッチ",
-          "position": "MF"
-        },
-        {
-          "number": 17,
-          "name": "L・イヴァヌシェツ",
-          "position": "MF"
-        },
-        {
-          "number": 9,
-          "name": "A・クラマリッチ",
-          "position": "FW"
-        },
-        {
-          "number": 16,
-          "name": "B・ペトコヴィッチ",
-          "position": "FW"
-        },
-        {
-          "number": 18,
-          "name": "M・リヴァヤ",
-          "position": "FW"
-        },
-        {
-          "number": 21,
-          "name": "P・ムサ",
-          "position": "FW"
-        },
-        {
-          "number": 7,
-          "name": "M・フリガン",
-          "position": "FW"
-        }
-      ],
-      "fixtures": [
-        {
-          "date": "6/14 2:00 JST",
-          "home": "クロアチア",
-          "away": "カナダ",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/19 23:00 JST",
-          "home": "イングランド",
-          "away": "クロアチア",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/24 5:00 JST",
-          "home": "クロアチア",
-          "away": "モロッコ",
-          "score": "- - -",
-          "status": "予定"
-        }
-      ]
-    }
-  },
-  "ガーナ": {
-    "timestamp": 1781345849975,
-    "data": {
-      "info": {
-        "coach": "サミュエル・アッドー",
-        "rank": "48位",
-        "appearances": "5回",
-        "titles": "0回",
-        "description": "若き才能と経験豊富な選手が融合。高速カウンターとフィジカルの強さを武器に、W杯でサプライズを狙うアフリカの雄。"
-      },
-      "squad": [
-        {
-          "number": 1,
-          "name": "L・アティ＝ジギ",
-          "position": "GK"
-        },
-        {
-          "number": 16,
-          "name": "J・ウォラコット",
-          "position": "GK"
-        },
-        {
-          "number": 23,
-          "name": "M・アブドゥル・ヌーア",
-          "position": "GK"
-        },
-        {
-          "number": 2,
-          "name": "T・ランプティ",
-          "position": "DF"
-        },
-        {
-          "number": 3,
-          "name": "G・メンサー",
-          "position": "DF"
-        },
-        {
-          "number": 4,
-          "name": "M・サルス",
-          "position": "DF"
-        },
-        {
-          "number": 5,
-          "name": "S・クアテング",
-          "position": "DF"
-        },
-        {
-          "number": 14,
-          "name": "A・ジク",
-          "position": "DF"
-        },
-        {
-          "number": 17,
-          "name": "A・ドンコル",
-          "position": "DF"
-        },
-        {
-          "number": 24,
-          "name": "P・アッピアー",
-          "position": "DF"
-        },
-        {
-          "number": 6,
-          "name": "T・パーティ",
-          "position": "MF"
-        },
-        {
-          "number": 8,
-          "name": "M・クドゥス",
-          "position": "MF"
-        },
-        {
-          "number": 11,
-          "name": "S・アブドゥル・サメド",
-          "position": "MF"
-        },
-        {
-          "number": 15,
-          "name": "A・ワカソ",
-          "position": "MF"
-        },
-        {
-          "number": 20,
-          "name": "E・オウス",
-          "position": "MF"
-        },
-        {
-          "number": 21,
-          "name": "F・アコラトセ",
-          "position": "MF"
-        },
-        {
-          "number": 7,
-          "name": "K・スレマナ",
-          "position": "FW"
-        },
-        {
-          "number": 9,
-          "name": "A・セメンヨ",
-          "position": "FW"
-        },
-        {
-          "number": 10,
-          "name": "I・ウィリアムズ",
-          "position": "FW"
-        },
-        {
-          "number": 13,
-          "name": "O・ブカリ",
-          "position": "FW"
-        },
-        {
-          "number": 22,
-          "name": "A・ジエドゥ",
-          "position": "FW"
-        }
-      ],
-      "fixtures": [
-        {
-          "date": "6/15 5:00 JST",
-          "home": "ガーナ",
-          "away": "ブラジル",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/20 22:00 JST",
-          "home": "スイス",
-          "away": "ガーナ",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/25 8:00 JST",
-          "home": "コスタリカ",
-          "away": "ガーナ",
-          "score": "- - -",
-          "status": "予定"
-        }
-      ]
-    }
-  },
-  "パナマ": {
-    "timestamp": 1781345864823,
-    "data": {
-      "info": {
-        "coach": "トーマス・クリスティアンセン",
-        "rank": "52位",
-        "appearances": "2回",
-        "titles": "0回",
-        "description": "粘り強い守備と身体能力を活かしたカウンターが特徴。若手とベテランが融合し、中米のリズムで戦う。組織的な守備で強豪に挑む。"
-      },
-      "squad": [
-        {
-          "number": 1,
-          "name": "O・モスケラ",
-          "position": "GK"
-        },
-        {
-          "number": 12,
-          "name": "L・メヒア",
-          "position": "GK"
-        },
-        {
-          "number": 22,
-          "name": "F・ロドリゲス",
-          "position": "GK"
-        },
-        {
-          "number": 2,
-          "name": "F・エスコバル",
-          "position": "DF"
-        },
-        {
-          "number": 3,
-          "name": "A・アンドラーデ",
-          "position": "DF"
-        },
-        {
-          "number": 4,
-          "name": "E・デイビス",
-          "position": "DF"
-        },
-        {
-          "number": 13,
-          "name": "M・ムリージョ",
-          "position": "DF"
-        },
-        {
-          "number": 15,
-          "name": "J・コルドバ",
-          "position": "DF"
-        },
-        {
-          "number": 16,
-          "name": "C・ブラックマン",
-          "position": "DF"
-        },
-        {
-          "number": 23,
-          "name": "M・バルセナス",
-          "position": "DF"
-        },
-        {
-          "number": 6,
-          "name": "A・カラスキージャ",
-          "position": "MF"
-        },
-        {
-          "number": 8,
-          "name": "A・ゴドイ",
-          "position": "MF"
-        },
-        {
-          "number": 10,
-          "name": "A・キンテーロ",
-          "position": "MF"
-        },
-        {
-          "number": 11,
-          "name": "E・バルセナス",
-          "position": "MF"
-        },
-        {
-          "number": 19,
-          "name": "C・マルティネス",
-          "position": "MF"
-        },
-        {
-          "number": 20,
-          "name": "J・ウェルチ",
-          "position": "MF"
-        },
-        {
-          "number": 21,
-          "name": "C・ロドリゲス",
-          "position": "MF"
-        },
-        {
-          "number": 7,
-          "name": "J・ファハルド",
-          "position": "FW"
-        },
-        {
-          "number": 9,
-          "name": "C・ワテルマン",
-          "position": "FW"
-        },
-        {
-          "number": 14,
-          "name": "I・ディアス",
-          "position": "FW"
-        },
-        {
-          "number": 17,
-          "name": "E・ゲレーロ",
-          "position": "FW"
-        },
-        {
-          "number": 18,
-          "name": "C・ヤニス",
-          "position": "FW"
-        }
-      ],
-      "fixtures": [
-        {
-          "date": "6/16 2:00 JST",
-          "home": "ポルトガル",
-          "away": "パナマ",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/21 5:00 JST",
-          "home": "パナマ",
-          "away": "スイス",
-          "score": "- - -",
-          "status": "予定"
-        },
-        {
-          "date": "6/25 2:00 JST",
-          "home": "ガーナ",
-          "away": "パナマ",
           "score": "- - -",
           "status": "予定"
         }
