@@ -300,7 +300,18 @@ async function detectEnvironment() {
 }
 
 function openTeamDetail(teamName, teamFlag, groupId) {
-  // Update selected styling
+  // グループフィルターのボタン状態を更新
+  document.querySelectorAll('.gf-btn').forEach(b => {
+    b.classList.remove('active');
+    if (b.dataset.filter === groupId) {
+      b.classList.add('active');
+    }
+  });
+
+  // 左側のグリッドをそのグループに絞り込んで再描画
+  renderGroups(groupId);
+
+  // 選択されたチームのスタイル更新（再描画後にselectedを付与する必要がある）
   document.querySelectorAll('.team-name.clickable').forEach(el => {
     el.classList.remove('selected');
     if (el.textContent.includes(teamName)) {
@@ -314,6 +325,15 @@ function openTeamDetail(teamName, teamFlag, groupId) {
   document.getElementById('tdpFlag').textContent = teamFlag;
   document.getElementById('tdpName').textContent = teamName;
   document.getElementById('tdpSubtitle').textContent = 'GROUP ' + groupId + ' — FIFA WORLD CUP 2026';
+
+  // グループの絞り込みに合わせて、画面をグループセクションの先頭へスムーズにスクロールさせる
+  const groupsSection = document.getElementById('groups');
+  if (groupsSection) {
+    window.scrollTo({
+      top: groupsSection.offsetTop - 80,
+      behavior: 'smooth'
+    });
+  }
   
   // Show loader and clear old data
   document.getElementById('tdpLoader').classList.add('show');
@@ -323,17 +343,7 @@ function openTeamDetail(teamName, teamFlag, groupId) {
   
 
 
-  // Optionally auto-filter to the group to save space if not already filtered
-  const btn = document.querySelector(`.gf-btn[data-filter="${groupId}"]`);
-  if(btn && !btn.classList.contains('active')) {
-     btn.click();
-     // Re-apply selection because renderGroups overwrote HTML
-     setTimeout(() => {
-       document.querySelectorAll('.team-name.clickable').forEach(el => {
-         if (el.textContent.includes(teamName)) el.classList.add('selected');
-       });
-     }, 50);
-  }
+
 
   // Fetch or use cache
   if (TEAM_CACHE[teamName]) {
@@ -382,8 +392,14 @@ function openTeamDetail(teamName, teamFlag, groupId) {
 document.getElementById('tdpClose').addEventListener('click', () => {
   document.getElementById('groupsLayout').classList.remove('split');
   document.querySelectorAll('.team-name.clickable').forEach(el => el.classList.remove('selected'));
-  // 必要に応じて全表示に戻す
-  // document.querySelector('.gf-btn[data-filter="all"]').click();
+  
+  // フィルターを「すべて」に戻す
+  const allBtn = document.querySelector('.gf-btn[data-filter="all"]');
+  if (allBtn) {
+    document.querySelectorAll('.gf-btn').forEach(b => b.classList.remove('active'));
+    allBtn.classList.add('active');
+    renderGroups('all');
+  }
 });
 
 document.querySelectorAll('.tdp-tab').forEach(tab => {

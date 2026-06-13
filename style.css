@@ -117,10 +117,35 @@ button,select,input{font-family:inherit}
 .groups-layout:not(.split) .groups-grid { width: 100%; flex: 1; }
 .groups-layout:not(.split) .groups-grid.single-group { display: block; }
 .groups-layout:not(.split) .groups-grid.single-group .group-card { max-width: 580px; width: 100%; margin: 0 auto; }
-.groups-layout.split .groups-grid { flex: 0 0 32%; max-width: 32%; display: flex; flex-direction: column; gap: 20px; }
-.groups-layout.split .groups-grid .group-card { width: 100%; margin-bottom: 0; }
+.groups-layout.split .groups-grid {
+  width: 420px;
+  flex: 0 0 420px;
+}
 .groups-layout .team-detail-panel { display: none; }
-.groups-layout.split .team-detail-panel { display: flex; flex-direction: column; flex: 1; background: #fff; border-radius: 12px; box-shadow: var(--card-shadow); border: 1px solid var(--border); overflow: hidden; animation: fadeInRight 0.3s ease; position: sticky; top: 100px; }
+.groups-layout.split .team-detail-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%) translateX(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
 @keyframes fadeInRight { from { opacity: 0; transform: translateX(20px); } to { opacity: 1; transform: none; } }
 
@@ -174,9 +199,17 @@ button,select,input{font-family:inherit}
 .jp-row .team-name.clickable.selected { background: var(--orange); }
 
 @media(max-width:992px){
-  .groups-layout.split { flex-direction: column; align-items: stretch; }
-  .groups-layout.split .groups-grid { max-width: 100%; flex: none; width: 100%; }
-  .groups-layout.split .team-detail-panel { position: static; width: 100%; flex: none; min-width: 0; }
+  .groups-layout.split .groups-grid { width: 100%; flex: none; }
+  .groups-layout.split .team-detail-panel {
+    position: fixed;
+    top: 70px;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+    width: auto;
+    max-width: none;
+    z-index: 1000;
+  }
   .groups-layout.split .tdp-content-wrap { box-sizing: border-box; }
   .groups-layout.split .squad-list { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
 }
