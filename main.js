@@ -43,17 +43,17 @@ const GROUPS = [
 const SCHEDULE_DAYS = [
   {key:'d612',label:'6/12 金',matches:[
     {time:'4:00',grp:'A',jp:false,teams:'メキシコ vs 南アフリカ',venue:'エスタディオ・アステカ',note:'DAZN / NHK総合（開幕戦）',score:'2-0'},
-    {time:'11:00',grp:'A',jp:false,teams:'韓国 vs チェコ',venue:'グアダラハラ・スタジアム',note:'DAZN'},
+    {time:'11:00',grp:'A',jp:false,teams:'韓国 vs チェコ',venue:'グアダラハラ・スタジアム',note:'DAZN',score:'2-1'},
   ]},
   {key:'d613',label:'6/13 土',matches:[
     {time:'4:00',grp:'B',jp:false,teams:'カナダ vs ボスニア・H',venue:'トロント・スタジアム',note:'DAZN / NHK総合',score:'1-1'},
     {time:'10:00',grp:'D',jp:false,teams:'アメリカ vs パラグアイ',venue:'ロサンゼルス・スタジアム',note:'DAZN',score:'4-1'},
   ]},
   {key:'d614',label:'6/14 日',matches:[
-    {time:'4:00',grp:'B',jp:false,teams:'カタール vs スイス',venue:'SF・ベイエリア・スタジアム',note:'DAZN'},
-    {time:'7:00',grp:'C',jp:false,teams:'ブラジル vs モロッコ',venue:'NY/NJ・スタジアム',note:'DAZN'},
-    {time:'10:00',grp:'C',jp:false,teams:'ハイチ vs スコットランド',venue:'ボストン・スタジアム',note:'DAZN / NHK総合'},
-    {time:'13:00',grp:'D',jp:false,teams:'オーストラリア vs トルコ',venue:'BCプレイス（バンクーバー）',note:'DAZN'},
+    {time:'4:00',grp:'B',jp:false,teams:'カタール vs スイス',venue:'SF・ベイエリア・スタジアム',note:'DAZN',score:'1-1'},
+    {time:'7:00',grp:'C',jp:false,teams:'ブラジル vs モロッコ',venue:'NY/NJ・スタジアム',note:'DAZN',score:'1-1'},
+    {time:'10:00',grp:'C',jp:false,teams:'ハイチ vs スコットランド',venue:'ボストン・スタジアム',note:'DAZN / NHK総合',score:'0-1'},
+    {time:'13:00',grp:'D',jp:false,teams:'オーストラリア vs トルコ',venue:'BCプレイス（バンクーバー）',note:'DAZN',score:'2-0'},
   ]},
   {key:'d615',label:'6/15 月 ★',matches:[
     {time:'2:00',grp:'E',jp:false,teams:'ドイツ vs キュラソー',venue:'ヒューストン・スタジアム',note:'DAZN'},
