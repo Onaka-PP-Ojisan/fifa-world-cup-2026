@@ -42,30 +42,30 @@ const GROUPS = [
 
 const SCHEDULE_DAYS = [
   {key:'d612',label:'6/12 金',matches:[
-    {time:'4:00',grp:'A',jp:false,teams:'メキシコ vs 南アフリカ',venue:'エスタディオ・アステカ',note:'DAZN / NHK総合（開幕戦）',score:'2-0'},
-    {time:'11:00',grp:'A',jp:false,teams:'韓国 vs チェコ',venue:'グアダラハラ・スタジアム',note:'DAZN',score:'2-1'},
+    {time:'4:00',grp:'A',jp:false,teams:'メキシコ vs 南アフリカ',venue:'エスタディオ・アステカ',note:'DAZN / NHK総合（開幕戦）',score:'2-0',scorers:{'メキシコ':['フリアン・キニョネス 8\'','ラウル・ヒメネス 66\''],'南アフリカ':[]}},
+    {time:'11:00',grp:'A',jp:false,teams:'韓国 vs チェコ',venue:'グアダラハラ・スタジアム',note:'DAZN',score:'2-1',scorers:{'韓国':['ファン・インボム 67\'','オ・ヒョンギュ 80\''],'チェコ':['ラディスラフ・クライチ 59\'']}},
   ]},
   {key:'d613',label:'6/13 土',matches:[
-    {time:'4:00',grp:'B',jp:false,teams:'カナダ vs ボスニア・H',venue:'トロント・スタジアム',note:'DAZN / NHK総合',score:'1-1'},
-    {time:'10:00',grp:'D',jp:false,teams:'アメリカ vs パラグアイ',venue:'ロサンゼルス・スタジアム',note:'DAZN',score:'4-1'},
+    {time:'4:00',grp:'B',jp:false,teams:'カナダ vs ボスニア・H',venue:'トロント・スタジアム',note:'DAZN / NHK総合',score:'1-1',scorers:{'カナダ':['サイル・ラリン 78\''],'ボスニア・H':['ヨヴォ・ルキッチ 21\'']}},
+    {time:'10:00',grp:'D',jp:false,teams:'アメリカ vs パラグアイ',venue:'ロサンゼルス・スタジアム',note:'DAZN',score:'4-1',scorers:{'アメリカ':['オウンゴール 6\'','フォラリン・バログン 30\'','フォラリン・バログン 45\'+4','ジョバンニ・レイナ 90\'+7'],'パラグアイ':['マウリシオ 72\'']}},
   ]},
   {key:'d614',label:'6/14 日',matches:[
-    {time:'4:00',grp:'B',jp:false,teams:'カタール vs スイス',venue:'SF・ベイエリア・スタジアム',note:'DAZN',score:'1-1'},
-    {time:'7:00',grp:'C',jp:false,teams:'ブラジル vs モロッコ',venue:'NY/NJ・スタジアム',note:'DAZN',score:'1-1'},
-    {time:'10:00',grp:'C',jp:false,teams:'ハイチ vs スコットランド',venue:'ボストン・スタジアム',note:'DAZN / NHK総合',score:'0-1'},
-    {time:'13:00',grp:'D',jp:false,teams:'オーストラリア vs トルコ',venue:'BCプレイス（バンクーバー）',note:'DAZN',score:'2-0'},
+    {time:'4:00',grp:'B',jp:false,teams:'カタール vs スイス',venue:'SF・ベイエリア・スタジアム',note:'DAZN',score:'1-1',scorers:{'カタール':['オウンゴール（ミロ・ムハイム） 90\'+4'],'スイス':['ブレール・エンボロ 17\' PK']}},
+    {time:'7:00',grp:'C',jp:false,teams:'ブラジル vs モロッコ',venue:'NY/NJ・スタジアム',note:'DAZN',score:'1-1',scorers:{'ブラジル':['ヴィニシウス・ジュニオール 32\''],'モロッコ':['イスマエル・サイビ 21\'']}},
+    {time:'10:00',grp:'C',jp:false,teams:'ハイチ vs スコットランド',venue:'ボストン・スタジアム',note:'DAZN / NHK総合',score:'0-1',scorers:{'ハイチ':[],'スコットランド':['ジョン・マッギン 28\'']}},
+    {time:'13:00',grp:'D',jp:false,teams:'オーストラリア vs トルコ',venue:'BCプレイス（バンクーバー）',note:'DAZN',score:'2-0',scorers:{'オーストラリア':['ネストリー・イランクンダ 27\'','コナー・メトカーフ 75\''],'トルコ':[]}},
   ]},
   {key:'d615',label:'6/15 月 ★',matches:[
-    {time:'2:00',grp:'E',jp:false,teams:'ドイツ vs キュラソー',venue:'ヒューストン・スタジアム',note:'DAZN',score:'7-1'},
-    {time:'5:00',grp:'F',jp:true,teams:'🇳🇱 オランダ vs 日本 🇯🇵',venue:'ダラス・スタジアム',note:'DAZN 無料 / NHK総合',score:'2-2'},
-    {time:'8:00',grp:'E',jp:false,teams:'コートジボワール vs エクアドル',venue:'フィラデルフィア・スタジアム',note:'DAZN',score:'1-0'},
-    {time:'11:00',grp:'F',jp:false,teams:'スウェーデン vs チュニジア',venue:'エスタディオ・モンテレイ',note:'DAZN',score:'5-1'},
+    {time:'2:00',grp:'E',jp:false,teams:'ドイツ vs キュラソー',venue:'ヒューストン・スタジアム',note:'DAZN',score:'7-1',scorers:{'ドイツ':['フェリックス・ヌメチャ 6\'','ニコ・シュロッターベック 38\'','カイ・ハフェルツ 45\'+5 PK','ジャマル・ムシアラ 47\'','ナサニエル・ブラウン 68\'','デニズ・ウンダフ 78\'','カイ・ハフェルツ 88\''],'キュラソー':['リヴァノ・コメネンシア 21\'']}},
+    {time:'5:00',grp:'F',jp:true,teams:'🇳🇱 オランダ vs 日本 🇯🇵',venue:'ダラス・スタジアム',note:'DAZN 無料 / NHK総合',score:'2-2',scorers:{'オランダ':['フィルジル・ファン・ダイク 50\'','クリセンシオ・サマーヴィル 63\''],'日本':['中村敬斗 56\'','鎌田大地 88\'']}},
+    {time:'8:00',grp:'E',jp:false,teams:'コートジボワール vs エクアドル',venue:'フィラデルフィア・スタジアム',note:'DAZN',score:'1-0',scorers:{'コートジボワール':['アマド・ディアロ 90\''],'エクアドル':[]}},
+    {time:'11:00',grp:'F',jp:false,teams:'スウェーデン vs チュニジア',venue:'エスタディオ・モンテレイ',note:'DAZN',score:'5-1',scorers:{'スウェーデン':['ヤシン・アヤリ 7\'','アレクサンデル・イサク 40\'','ヴィクトル・ギェケレシュ 59\'','マティアス・スヴァンベリ 84\'','ヤシン・アヤリ 90\'+6'],'チュニジア':['オマル・レキク 43\'']}},
   ]},
   {key:'d616',label:'6/16 火',matches:[
-    {time:'1:00',grp:'H',jp:false,teams:'スペイン vs カーボベルデ',venue:'アトランタ・スタジアム',note:'DAZN / NHK総合',score:'0-0'},
-    {time:'4:00',grp:'G',jp:false,teams:'ベルギー vs エジプト',venue:'シアトル・スタジアム',note:'DAZN / NHK総合',score:'1-1'},
-    {time:'7:00',grp:'H',jp:false,teams:'サウジアラビア vs ウルグアイ',venue:'マイアミ・スタジアム',note:'DAZN',score:'1-1'},
-    {time:'10:00',grp:'G',jp:false,teams:'イラン vs ニュージーランド',venue:'ロサンゼルス・スタジアム',note:'DAZN',score:'2-2'},
+    {time:'1:00',grp:'H',jp:false,teams:'スペイン vs カーボベルデ',venue:'アトランタ・スタジアム',note:'DAZN / NHK総合',score:'0-0',scorers:{'スペイン':[],'カーボベルデ':[]}},
+    {time:'4:00',grp:'G',jp:false,teams:'ベルギー vs エジプト',venue:'シアトル・スタジアム',note:'DAZN / NHK総合',score:'1-1',scorers:{'ベルギー':['オウンゴール（モハメド・ハニー） 66\''],'エジプト':['エマム・アショウル 19\'']}},
+    {time:'7:00',grp:'H',jp:false,teams:'サウジアラビア vs ウルグアイ',venue:'マイアミ・スタジアム',note:'DAZN',score:'1-1',scorers:{'サウジアラビア':['アブドゥルエラ・アル＝アムリ 41\''],'ウルグアイ':['マキシ・アラウホ 80\'']}},
+    {time:'10:00',grp:'G',jp:false,teams:'イラン vs ニュージーランド',venue:'ロサンゼルス・スタジアム',note:'DAZN',score:'2-2',scorers:{'イラン':['ラミン・レザエイアン 31\'','モハンマド・モヘビ 63\''],'ニュージーランド':['エライジャ・ジャスト 6\'','エライジャ・ジャスト 54\'']}},
   ]},
   {key:'d617',label:'6/17 水',matches:[
     {time:'4:00',grp:'I',jp:false,teams:'フランス vs セネガル',venue:'NY/NJ・スタジアム',note:'DAZN / フジ'},
@@ -469,7 +469,8 @@ function renderTeamDetails(data) {
           home: parts[0],
           away: parts[1],
           score: m.score || '- - -',
-          status: m.score ? '終了' : '予定'
+          status: m.score ? '終了' : '予定',
+          scorers: m.scorers || null
         });
       }
     });
@@ -478,13 +479,32 @@ function renderTeamDetails(data) {
   if (teamFixtures.length > 0) {
     teamFixtures.forEach(f => {
       const isFT = f.status === '終了' || f.status === 'FT';
+      
+      let homeScorersHtml = '';
+      let awayScorersHtml = '';
+      if (f.scorers) {
+        const homeKey = Object.keys(f.scorers).find(k => k === f.home);
+        const awayKey = Object.keys(f.scorers).find(k => k === f.away);
+        
+        if (homeKey && f.scorers[homeKey]) {
+          homeScorersHtml = f.scorers[homeKey].map(s => `<div>${s}</div>`).join('');
+        }
+        if (awayKey && f.scorers[awayKey]) {
+          awayScorersHtml = f.scorers[awayKey].map(s => `<div>${s}</div>`).join('');
+        }
+      }
+
       fixHtml += `
         <div class="fixture-item">
           <div class="fixture-date">${f.date}</div>
-          <div class="fixture-teams">
-            <span>${f.home}</span>
-            <span class="fixture-score">${f.score}</span>
-            <span>${f.away}</span>
+          <div class="fixture-teams-container">
+            <div class="fixture-scorer home-scorer">${homeScorersHtml}</div>
+            <div class="fixture-teams-row">
+              <span class="team-name-lbl">${f.home}</span>
+              <span class="fixture-score">${f.score}</span>
+              <span class="team-name-lbl">${f.away}</span>
+            </div>
+            <div class="fixture-scorer away-scorer">${awayScorersHtml}</div>
           </div>
           <div class="fixture-status ${isFT ? 'ft' : 'ns'}">${f.status}</div>
         </div>
