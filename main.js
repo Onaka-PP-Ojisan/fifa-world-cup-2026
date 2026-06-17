@@ -68,10 +68,10 @@ const SCHEDULE_DAYS = [
     {time:'10:00',grp:'G',jp:false,teams:'イラン vs ニュージーランド',venue:'ロサンゼルス・スタジアム',note:'DAZN',score:'2-2',scorers:{'イラン':['ラミン・レザエイアン 31\'','モハンマド・モヘビ 63\''],'ニュージーランド':['エライジャ・ジャスト 6\'','エライジャ・ジャスト 54\'']}},
   ]},
   {key:'d617',label:'6/17 水',matches:[
-    {time:'4:00',grp:'I',jp:false,teams:'フランス vs セネガル',venue:'NY/NJ・スタジアム',note:'DAZN / フジ'},
-    {time:'7:00',grp:'I',jp:false,teams:'イラク vs ノルウェー',venue:'ボストン・スタジアム',note:'DAZN'},
-    {time:'10:00',grp:'J',jp:false,teams:'アルゼンチン vs アルジェリア',venue:'カンザスシティ・スタジアム',note:'DAZN / NHK総合'},
-    {time:'13:00',grp:'J',jp:false,teams:'オーストリア vs ヨルダン',venue:'SF・ベイエリア・スタジアム',note:'DAZN'},
+    {time:'4:00',grp:'I',jp:false,teams:'フランス vs セネガル',venue:'NY/NJ・スタジアム',note:'DAZN / フジ',score:'3-1',scorers:{'フランス':['キリアン・エムバペ 66\'','ブラッドリー・バルコラ 82\'','キリアン・エムバペ 90\'+6'],'セネガル':['イブラヒム・ンバイエ 90\'+5']}},
+    {time:'7:00',grp:'I',jp:false,teams:'イラク vs ノルウェー',venue:'ボストン・スタジアム',note:'DAZN',score:'1-4',scorers:{'イラク':['アイメン・フセイン 39\''],'ノルウェー':['アーリング・ハーランド 29\'','アーリング・ハーランド 43\'','レオ・オスティガール 76\'','オウンゴール（アイメン・フセイン） 90\'+6']}},
+    {time:'10:00',grp:'J',jp:false,teams:'アルゼンチン vs アルジェリア',venue:'カンザスシティ・スタジアム',note:'DAZN / NHK総合',score:'3-0',scorers:{'アルゼンチン':['リオネル・メッシ 17\'','リオネル・メッシ 60\'','リオネル・メッシ 76\''],'アルジェリア':[]}},
+    {time:'13:00',grp:'J',jp:false,teams:'オーストリア vs ヨルダン',venue:'SF・ベイエリア・スタジアム',note:'DAZN',score:'3-1',scorers:{'オーストリア':['ロマーノ・シュミット 21\'','オウンゴール（ヤザン・アル＝アラブ） 76\'','マルコ・アルナウトビッチ 90\'+12 PK'],'ヨルダン':['アリ・オルワン 50\'']}},
   ]},
   {key:'d618',label:'6/18 木',matches:[
     {time:'2:00',grp:'K',jp:false,teams:'ポルトガル vs コンゴDR',venue:'SF・ベイエリア・スタジアム',note:'DAZN'},
