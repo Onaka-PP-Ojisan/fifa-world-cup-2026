@@ -74,10 +74,10 @@ const SCHEDULE_DAYS = [
     {time:'13:00',grp:'J',jp:false,teams:'オーストリア vs ヨルダン',venue:'SF・ベイエリア・スタジアム',note:'DAZN',score:'3-1',scorers:{'オーストリア':['ロマーノ・シュミット 21\'','オウンゴール（ヤザン・アル＝アラブ） 76\'','マルコ・アルナウトビッチ 90\'+12 PK'],'ヨルダン':['アリ・オルワン 50\'']}},
   ]},
   {key:'d618',label:'6/18 木',matches:[
-    {time:'2:00',grp:'K',jp:false,teams:'ポルトガル vs コンゴDR',venue:'SF・ベイエリア・スタジアム',note:'DAZN'},
-    {time:'5:00',grp:'L',jp:false,teams:'イングランド vs クロアチア',venue:'ダラス・スタジアム',note:'DAZN'},
-    {time:'8:00',grp:'L',jp:false,teams:'ガーナ vs パナマ',venue:'トロント・スタジアム',note:'DAZN'},
-    {time:'11:00',grp:'K',jp:false,teams:'ウズベキスタン vs コロンビア',venue:'シアトル・スタジアム',note:'DAZN'},
+    {time:'2:00',grp:'K',jp:false,teams:'ポルトガル vs コンゴDR',venue:'SF・ベイエリア・スタジアム',note:'DAZN',score:'1-1',scorers:{'ポルトガル':['ジョアン・ネベス 6\''],'コンゴDR':['ヨアヌ・ウィサ 45\'+5']}},
+    {time:'5:00',grp:'L',jp:false,teams:'イングランド vs クロアチア',venue:'ダラス・スタジアム',note:'DAZN',score:'4-2',scorers:{'イングランド':['ハリー・ケイン 12\' PK','ハリー・ケイン 42\'','ジュード・ベリンガム 47\'','マーカス・ラッシュフォード 85\''],'クロアチア':['マルティン・バトゥリナ 36\'','ペタル・ムサ 45\'+5']}},
+    {time:'8:00',grp:'L',jp:false,teams:'ガーナ vs パナマ',venue:'トロント・スタジアム',note:'DAZN',score:'1-0',scorers:{'ガーナ':['カレブ・イレンキー 90\'+5'],'パナマ':[]}},
+    {time:'11:00',grp:'K',jp:false,teams:'ウズベキスタン vs コロンビア',venue:'シアトル・スタジアム',note:'DAZN',score:'1-3',scorers:{'ウズベキスタン':['アッボスベク・ファイズラエフ 60\''],'コロンビア':['ダニエル・ムニョス 40\'','ルイス・ディアス 65\'','ハミントン・カンパス 90\'+9']}},
   ]},
   {key:'d619',label:'6/19 金',matches:[
     {time:'1:00',grp:'A',jp:false,teams:'チェコ vs 南アフリカ',venue:'グアダラハラ・スタジアム',note:'DAZN'},
