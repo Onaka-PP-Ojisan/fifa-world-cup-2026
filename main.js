@@ -80,10 +80,10 @@ const SCHEDULE_DAYS = [
     {time:'11:00',grp:'K',jp:false,teams:'ウズベキスタン vs コロンビア',venue:'シアトル・スタジアム',note:'DAZN',score:'1-3',scorers:{'ウズベキスタン':['アッボスベク・ファイズラエフ 60\''],'コロンビア':['ダニエル・ムニョス 40\'','ルイス・ディアス 65\'','ハミントン・カンパス 90\'+9']}},
   ]},
   {key:'d619',label:'6/19 金',matches:[
-    {time:'1:00',grp:'A',jp:false,teams:'チェコ vs 南アフリカ',venue:'グアダラハラ・スタジアム',note:'DAZN'},
-    {time:'4:00',grp:'B',jp:false,teams:'スイス vs ボスニア・H',venue:'バンクーバー',note:'DAZN'},
-    {time:'7:00',grp:'B',jp:false,teams:'カナダ vs カタール',venue:'トロント・スタジアム',note:'DAZN'},
-    {time:'10:00',grp:'A',jp:false,teams:'メキシコ vs 韓国',venue:'エスタディオ・アステカ',note:'DAZN'},
+    {time:'1:00',grp:'A',jp:false,teams:'チェコ vs 南アフリカ',venue:'グアダラハラ・スタジアム',note:'DAZN',score:'1-1',scorers:{'チェコ':['ミハル・サジレク 6\''],'南アフリカ':['テボホ・モコエナ 83\' PK']}},
+    {time:'4:00',grp:'B',jp:false,teams:'スイス vs ボスニア・H',venue:'バンクーバー',note:'DAZN',score:'4-1',scorers:{'スイス':['ヨハン・マンザンビ 74\'','ルーベン・バルガス 84\'','ヨハン・マンザンビ 90\'','グラニット・シャカ 90\'+7 PK'],'ボスニア・H':['エルミン・マフミッチ 90\'+3']}},
+    {time:'7:00',grp:'B',jp:false,teams:'カナダ vs カタール',venue:'トロント・スタジアム',note:'DAZN',score:'6-0',scorers:{'カナダ':['カイル・ラリン 17\'','ジョナサン・デイビッド 29\'','ジョナサン・デイビッド 45\'+3','ネイサン・サリバ 64\'','オウンゴール（モハメド・マナイ） 75\'','ジョナサン・デイビッド 90\'+2\''],'カタール':[]}},
+    {time:'10:00',grp:'A',jp:false,teams:'メキシコ vs 韓国',venue:'エスタディオ・アステカ',note:'DAZN',score:'1-0',scorers:{'メキシコ':['ルイス・ロモ 50\''],'韓国':[]}},
   ]},
   {key:'d620',label:'6/20 土',matches:[
     {time:'4:00',grp:'D',jp:false,teams:'アメリカ vs オーストラリア',venue:'ロサンゼルス・スタジアム',note:'DAZN'},
