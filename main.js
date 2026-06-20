@@ -86,10 +86,10 @@ const SCHEDULE_DAYS = [
     {time:'10:00',grp:'A',jp:false,teams:'メキシコ vs 韓国',venue:'エスタディオ・アステカ',note:'DAZN',score:'1-0',scorers:{'メキシコ':['ルイス・ロモ 50\''],'韓国':[]}},
   ]},
   {key:'d620',label:'6/20 土',matches:[
-    {time:'4:00',grp:'D',jp:false,teams:'アメリカ vs オーストラリア',venue:'ロサンゼルス・スタジアム',note:'DAZN'},
-    {time:'7:00',grp:'C',jp:false,teams:'スコットランド vs モロッコ',venue:'ボストン・スタジアム',note:'DAZN'},
-    {time:'10:00',grp:'C',jp:false,teams:'ブラジル vs ハイチ',venue:'NY/NJ・スタジアム',note:'DAZN'},
-    {time:'13:00',grp:'D',jp:false,teams:'トルコ vs パラグアイ',venue:'シアトル・スタジアム',note:'DAZN'},
+    {time:'4:00',grp:'D',jp:false,teams:'アメリカ vs オーストラリア',venue:'ロサンゼルス・スタジアム',note:'DAZN',score:'2-0',scorers:{'アメリカ':['オウンゴール（キャメロン・バージェス） 11\'','アレックス・フリーマン 43\''],'オーストラリア':[]}},
+    {time:'7:00',grp:'C',jp:false,teams:'スコットランド vs モロッコ',venue:'ボストン・スタジアム',note:'DAZN',score:'0-1',scorers:{'スコットランド':[],'モロッコ':['イスマエル・サイバリ 2\'']}},
+    {time:'10:00',grp:'C',jp:false,teams:'ブラジル vs ハイチ',venue:'NY/NJ・スタジアム',note:'DAZN',score:'3-0',scorers:{'ブラジル':['マテウス・クーニャ 23\'','マテウス・クーニャ 36\'','ヴィニシウス・ジュニオール 45\'+3'],'ハイチ':[]}},
+    {time:'13:00',grp:'D',jp:false,teams:'トルコ vs パラグアイ',venue:'シアトル・スタジアム',note:'DAZN',score:'0-1',scorers:{'トルコ':[],'パラグアイ':['マティアス・ガラルサ 2\'']}},
   ]},
   {key:'d621',label:'6/21 日 ★',matches:[
     {time:'2:00',grp:'F',jp:false,teams:'オランダ vs スウェーデン',venue:'ダラス・スタジアム',note:'DAZN'},
