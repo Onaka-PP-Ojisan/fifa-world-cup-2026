@@ -92,10 +92,10 @@ const SCHEDULE_DAYS = [
     {time:'13:00',grp:'D',jp:false,teams:'トルコ vs パラグアイ',venue:'シアトル・スタジアム',note:'DAZN',score:'0-1',scorers:{'トルコ':[],'パラグアイ':['マティアス・ガラルサ 2\'']}},
   ]},
   {key:'d621',label:'6/21 日 ★',matches:[
-    {time:'2:00',grp:'F',jp:false,teams:'オランダ vs スウェーデン',venue:'ダラス・スタジアム',note:'DAZN'},
-    {time:'5:00',grp:'E',jp:false,teams:'ドイツ vs コートジボワール',venue:'ヒューストン・スタジアム',note:'DAZN'},
-    {time:'9:00',grp:'E',jp:false,teams:'エクアドル vs キュラソー',venue:'フィラデルフィア・スタジアム',note:'DAZN'},
-    {time:'13:00',grp:'F',jp:true,teams:'🇹🇳 チュニジア vs 日本 🇯🇵',venue:'エスタディオBBVA（モンテレイ）',note:'DAZN 無料 / 日テレ / NHK BS'},
+    {time:'2:00',grp:'F',jp:false,teams:'オランダ vs スウェーデン',venue:'ダラス・スタジアム',note:'DAZN',score:'5-1',scorers:{'オランダ':['ブライアン・ブロビー 5\'','ブライアン・ブロビー 17\'','コディ・ガクポ 47\'','コディ・ガクポ 54\'','クリセンシオ・サマーヴィル 90\''],'スウェーデン':['アンソニー・エランガ 59\'']}},
+    {time:'5:00',grp:'E',jp:false,teams:'ドイツ vs コートジボワール',venue:'ヒューストン・スタジアム',note:'DAZN',score:'2-1',scorers:{'ドイツ':['デニズ・ウンダフ 68\'','デニズ・ウンダフ 90\'+4'],'コートジボワール':['フランク・ケシエ 30\'']}},
+    {time:'9:00',grp:'E',jp:false,teams:'エクアドル vs キュラソー',venue:'フィラデルフィア・スタジアム',note:'DAZN',score:'0-0',scorers:{'エクアドル':[],'キュラソー':[]}},
+    {time:'13:00',grp:'F',jp:true,teams:'🇹🇳 チュニジア vs 日本 🇯🇵',venue:'エスタディオBBVA（モンテレイ）',note:'DAZN 無料 / 日テレ / NHK BS',score:'0-4',scorers:{'チュニジア':[],'日本':['鎌田大地 4\'','上田綺世 31\'','伊東純也 69\'','上田綺世 83\'']}},
   ]},
   {key:'d622',label:'6/22 月',matches:[
     {time:'1:00',grp:'H',jp:false,teams:'スペイン vs サウジアラビア',venue:'アトランタ・スタジアム',note:'DAZN'},
@@ -698,22 +698,58 @@ function closeModal(){ document.getElementById('modalBackdrop').classList.remove
    COUNTDOWN
 ================================================================ */
 const cdTargets = [
-  {el:'cd1', ts: new Date('2026-06-15T05:00:00+09:00')},
-  {el:'cd2', ts: new Date('2026-06-21T13:00:00+09:00')},
-  {el:'cd3', ts: new Date('2026-06-26T08:00:00+09:00')},
+  {el:'cd1', ts: new Date('2026-06-15T05:00:00+09:00'), matchKey:'🇳🇱 オランダ vs 日本 🇯🇵'},
+  {el:'cd2', ts: new Date('2026-06-21T13:00:00+09:00'), matchKey:'🇹🇳 チュニジア vs 日本 🇯🇵'},
+  {el:'cd3', ts: new Date('2026-06-26T08:00:00+09:00'), matchKey:'🇯🇵 日本 vs スウェーデン 🇸🇪'},
 ];
+
+function findMatchInSchedule(matchKey) {
+  for (const day of SCHEDULE_DAYS) {
+    const found = day.matches.find(m => m.teams === matchKey);
+    if (found) return found;
+  }
+  return null;
+}
+
 function updateCountdowns(){
-  cdTargets.forEach(({el,ts}) => {
+  cdTargets.forEach(({el,ts,matchKey}) => {
     const div = document.getElementById(el);
     if(!div) return;
     const diff = ts - new Date();
     if(diff > 0){
       const d=Math.floor(diff/86400000), h=Math.floor(diff%86400000/3600000), m=Math.floor(diff%3600000/60000);
+      div.className = 'jp-countdown';
       div.textContent = `⏳ キックオフまで ${d}日 ${h}時間 ${m}分`;
     } else if(diff > -7200000){
+      div.className = 'jp-countdown';
       div.textContent = '🔴 ライブ配信中 — DAZNで今すぐ視聴';
     } else {
-      div.textContent = '✅ 試合終了（DAZN見逃し配信あり）';
+      const m = findMatchInSchedule(matchKey);
+      if (m && m.score) {
+        let scorersHtml = '';
+        if (m.scorers) {
+          const scorerList = [];
+          for (const team of Object.keys(m.scorers)) {
+            if (m.scorers[team] && m.scorers[team].length > 0) {
+              const cleanedTeam = team.replace(/[\u{1F1E0}-\u{1F1FF}\u{1F3F4}\u{E0020}-\u{E007F}\u{FE0F}]/gu,'').trim();
+              scorerList.push(`<strong>[${cleanedTeam}]</strong> ${m.scorers[team].join('、')}`);
+            }
+          }
+          if (scorerList.length > 0) {
+            scorersHtml = `<div class="jp-result-scorers">${scorerList.join('<br>')}</div>`;
+          }
+        }
+        
+        div.className = 'jp-result-box';
+        div.innerHTML = `
+          <div class="jp-result-status">✅ 試合終了</div>
+          <div class="jp-result-score">${m.score}</div>
+          ${scorersHtml}
+        `;
+      } else {
+        div.className = 'jp-countdown';
+        div.textContent = '✅ 試合終了（DAZN見逃し配信あり）';
+      }
     }
   });
 }

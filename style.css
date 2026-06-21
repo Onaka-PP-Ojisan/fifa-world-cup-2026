@@ -430,3 +430,38 @@ footer a{color:#ccc}
   }
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ===== JAPAN CARD RESULTS ===== */
+.jp-result-box {
+  margin-top: 12px;
+  padding: 12px;
+  background: var(--sub-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.02);
+}
+.jp-result-status {
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--teal);
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+.jp-result-score {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #222;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 4px 0;
+  letter-spacing: 0.05em;
+}
+.jp-result-scorers {
+  font-size: 0.74rem;
+  color: var(--light-text);
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
+}
