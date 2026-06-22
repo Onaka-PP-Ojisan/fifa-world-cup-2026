@@ -98,10 +98,10 @@ const SCHEDULE_DAYS = [
     {time:'13:00',grp:'F',jp:true,teams:'🇹🇳 チュニジア vs 日本 🇯🇵',venue:'エスタディオBBVA（モンテレイ）',note:'DAZN 無料 / 日テレ / NHK BS',score:'0-4',scorers:{'チュニジア':[],'日本':['鎌田大地 4\'','上田綺世 31\'','伊東純也 69\'','上田綺世 83\'']}},
   ]},
   {key:'d622',label:'6/22 月',matches:[
-    {time:'1:00',grp:'H',jp:false,teams:'スペイン vs サウジアラビア',venue:'アトランタ・スタジアム',note:'DAZN'},
-    {time:'4:00',grp:'G',jp:false,teams:'ベルギー vs イラン',venue:'ロサンゼルス・スタジアム',note:'DAZN'},
-    {time:'7:00',grp:'H',jp:false,teams:'ウルグアイ vs カーボベルデ',venue:'マイアミ・スタジアム',note:'DAZN'},
-    {time:'10:00',grp:'G',jp:false,teams:'ニュージーランド vs エジプト',venue:'BCプレイス（バンクーバー）',note:'DAZN'},
+    {time:'1:00',grp:'H',jp:false,teams:'スペイン vs サウジアラビア',venue:'アトランタ・スタジアム',note:'DAZN',score:'4-0',scorers:{'スペイン':['ラミン・ヤマル 10\'','ミケル・オヤルサバル 21\'','ミケル・オヤルサバル 24\'','オウンゴール（ハッサン・アル＝タンバクティ） 49\''],'サウジアラビア':[]}},
+    {time:'4:00',grp:'G',jp:false,teams:'ベルギー vs イラン',venue:'ロサンゼルス・スタジアム',note:'DAZN',score:'0-0',scorers:{'ベルギー':[],'イラン':[]}},
+    {time:'7:00',grp:'H',jp:false,teams:'ウルグアイ vs カーボベルデ',venue:'マイアミ・スタジアム',note:'DAZN',score:'2-2',scorers:{'ウルグアイ':['マキシ・アラウホ 44\'','アグスティン・カノビオ 45\'+6'],'カーボベルデ':['ケビン・ピナ 21\'','エリオ・バレラ 61\'']}},
+    {time:'10:00',grp:'G',jp:false,teams:'ニュージーランド vs エジプト',venue:'BCプレイス（バンクーバー）',note:'DAZN',score:'1-3',scorers:{'ニュージーランド':['フィン・サーマン 15\''],'エジプト':['モスタファ・ジコ 59\'','モハメド・サラー 67\'','トレゼゲ 84\'']}},
   ]},
   {key:'d623',label:'6/23 火',matches:[
     {time:'2:00',grp:'J',jp:false,teams:'アルゼンチン vs オーストリア',venue:'ダラス・スタジアム',note:'DAZN'},
