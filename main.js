@@ -110,10 +110,10 @@ const SCHEDULE_DAYS = [
     {time:'12:00',grp:'J',jp:false,teams:'ヨルダン vs アルジェリア',venue:'SF・ベイエリア・スタジアム',note:'DAZN',score:'1-2',scorers:{'ヨルダン':['アル＝ラシュダン 36\''],'アルジェリア':['ナディール・ベンブアリ 69\'','アミン・グイリ 82\'']}},
   ]},
   {key:'d624',label:'6/24 水',matches:[
-    {time:'2:00',grp:'K',jp:false,teams:'ポルトガル vs ウズベキスタン',venue:'ヒューストン・スタジアム',note:'DAZN'},
-    {time:'5:00',grp:'L',jp:false,teams:'イングランド vs ガーナ',venue:'ボストン・スタジアム',note:'DAZN'},
-    {time:'8:00',grp:'L',jp:false,teams:'パナマ vs クロアチア',venue:'ボストン・スタジアム',note:'DAZN'},
-    {time:'11:00',grp:'K',jp:false,teams:'コロンビア vs コンゴDR',venue:'グアダラハラ・スタジアム',note:'DAZN'},
+    {time:'2:00',grp:'K',jp:false,teams:'ポルトガル vs ウズベキスタン',venue:'ヒューストン・スタジアム',note:'DAZN',score:'5-0',scorers:{'ポルトガル':['クリスティアーノ・ロナウド 6\'','ヌノ・メンデス 17\'','クリスティアーノ・ロナウド 39\'','オウンゴール（アブドゥヴォヒド・ネマトフ） 60\'','ラファエル・レオン 87\''],'ウズベキスタン':[]}},
+    {time:'5:00',grp:'L',jp:false,teams:'イングランド vs ガーナ',venue:'ボストン・スタジアム',note:'DAZN',score:'0-0',scorers:{'イングランド':[],'ガーナ':[]}},
+    {time:'8:00',grp:'L',jp:false,teams:'パナマ vs クロアチア',venue:'ボストン・スタジアム',note:'DAZN',score:'0-1',scorers:{'パナマ':[],'クロアチア':['アンテ・ブディミル 54\'']}},
+    {time:'11:00',grp:'K',jp:false,teams:'コロンビア vs コンゴDR',venue:'グアダラハラ・スタジアム',note:'DAZN',score:'1-0',scorers:{'コロンビア':['ダニエル・ムニョス 76\''],'コンゴDR':[]}},
   ]},
   {key:'d625',label:'6/25 木',matches:[
     {time:'4:00',grp:'B',jp:false,teams:'スイス vs カナダ',venue:'BCプレイス（バンクーバー）',note:'DAZN'},
