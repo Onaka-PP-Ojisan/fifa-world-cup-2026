@@ -116,12 +116,12 @@ const SCHEDULE_DAYS = [
     {time:'11:00',grp:'K',jp:false,teams:'コロンビア vs コンゴDR',venue:'グアダラハラ・スタジアム',note:'DAZN',score:'1-0',scorers:{'コロンビア':['ダニエル・ムニョス 76\''],'コンゴDR':[]}},
   ]},
   {key:'d625',label:'6/25 木',matches:[
-    {time:'4:00',grp:'B',jp:false,teams:'スイス vs カナダ',venue:'BCプレイス（バンクーバー）',note:'DAZN'},
-    {time:'4:00',grp:'B',jp:false,teams:'ボスニア・H vs カタール',venue:'シアトル・スタジアム',note:'DAZN'},
-    {time:'7:00',grp:'C',jp:false,teams:'モロッコ vs ハイチ',venue:'アトランタ・スタジアム',note:'DAZN'},
-    {time:'7:00',grp:'C',jp:false,teams:'スコットランド vs ブラジル',venue:'マイアミ・スタジアム',note:'DAZN'},
-    {time:'10:00',grp:'A',jp:false,teams:'南アフリカ vs 韓国',venue:'エスタディオBBVA（モンテレイ）',note:'DAZN'},
-    {time:'10:00',grp:'A',jp:false,teams:'チェコ vs メキシコ',venue:'エスタディオ・アステカ',note:'DAZN'},
+    {time:'4:00',grp:'B',jp:false,teams:'スイス vs カナダ',venue:'BCプレイス（バンクーバー）',note:'DAZN',score:'2-1',scorers:{'スイス':['ルベン・バルガス 46\'','ヨハン・マンザンビ 57\''],'カナダ':['プロミス・デイビッド 76\'']}},
+    {time:'4:00',grp:'B',jp:false,teams:'ボスニア・H vs カタール',venue:'シアトル・スタジアム',note:'DAZN',score:'3-1',scorers:{'ボスニア・H':['ケリム・アライベゴビッチ 29\'','オウンゴール（マフムード・アブナダ） 34\'','エルミン・マフミッチ 80\''],'カタール':['ハッサン・アル＝ハイドス 42\'']}},
+    {time:'7:00',grp:'C',jp:false,teams:'モロッコ vs ハイチ',venue:'アトランタ・スタジアム',note:'DAZN',score:'4-2',scorers:{'モロッコ':['アクラフ・ハキミ 39\'','アブデサマド・サイビリ 45\'+1','スフィアン・ラヒミ 78\'','ジェシム・ヤシン 89\''],'ハイチ':['オウンゴール（ヤシン・ブヌ） 10\'','ダニロ・イシドール 43\'']}},
+    {time:'7:00',grp:'C',jp:false,teams:'スコットランド vs ブラジル',venue:'マイアミ・スタジアム',note:'DAZN',score:'0-3',scorers:{'スコットランド':[],'ブラジル':['ヴィニシウス・ジュニオール 7\'','ヴィニシウス・ジュニオール 45\'+3','マテウス・クーニャ 60\'']}},
+    {time:'10:00',grp:'A',jp:false,teams:'南アフリカ vs 韓国',venue:'エスタディオBBVA（モンテレイ）',note:'DAZN',score:'1-0',scorers:{'南アフリカ':['タペロ・マセコ 63\''],'韓国':[]}},
+    {time:'10:00',grp:'A',jp:false,teams:'チェコ vs メキシコ',venue:'エスタディオ・アステカ',note:'DAZN',score:'0-3',scorers:{'チェコ':[],'メキシコ':['マテオ・チャベス 55\'','フリアン・キニョネス 61\'','アルバロ・フィダルゴ 90\'+4']}},
   ]},
   {key:'d626',label:'6/26 金 ★',matches:[
     {time:'5:00',grp:'E',jp:false,teams:'エクアドル vs ドイツ',venue:'ヒューストン・スタジアム',note:'DAZN'},
