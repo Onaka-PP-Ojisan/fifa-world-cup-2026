@@ -465,3 +465,16 @@ footer a{color:#ccc}
   padding-top: 8px;
   border-top: 1px dashed var(--border);
 }
+
+/* ===== CLICKABLE BRACKET TEAMS ===== */
+.match-team.clickable-team {
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.match-team.clickable-team:hover {
+  background-color: rgba(0, 160, 184, 0.08);
+  color: var(--teal);
+}
+.match-team.clickable-team:hover .team-txt {
+  text-decoration: underline;
+}

@@ -150,13 +150,82 @@ const SCHEDULE_DAYS = [
 ];
 
 /* Bracket data — 編集可能 */
+/* ★ 6/26更新：FIFA公式ブラケット構造に基づくR32対戦表
+   確定グループ(A,B,C)はチーム名入り。未確定は「X1位」「3位(候補群)」表記。
+   各試合クリックで手動編集可能。 */
 const bracketData = {
-  r32: Array.from({length:16},(_,i)=>({id:`r32_${i+1}`,label:`R32-${i+1}`,date:'6/28〜7/3',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}})),
-  r16: Array.from({length:8},(_,i)=>({id:`r16_${i+1}`,label:`R16-${i+1}`,date:'7/4〜7/7',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}})),
-  qf:  Array.from({length:4},(_,i)=>({id:`qf_${i+1}`,label:`QF-${i+1}`,date:'7/9〜7/11',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}})),
-  sf:  Array.from({length:2},(_,i)=>({id:`sf_${i+1}`,label:`SF-${i+1}`,date:'7/14〜7/15',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}})),
-  tp:  [{id:'tp',label:'3位決定戦',date:'7/18（土）',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}}],
-  fin: [{id:'fin',label:'決勝 🏆',date:'7/19（日）JST 7/20 4:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}}],
+  r32: [
+    // 1. M74: ドイツ vs グループABCDF 3位 (6/30 火 5:30) (ドイツはE1確定)
+    {id:'r32_2',label:'R32-2（M74）',date:'6/30（火）5:30',
+     t1:{name:'ドイツ',flag:'🇩🇪',score:''},t2:{name:'グループABCDF 3位',flag:'',score:''}},
+    // 2. M77: グループI 1位 vs グループCDFGH 3位 (7/1 水 6:00)
+    {id:'r32_5',label:'R32-5（M77）',date:'7/1（水）6:00',
+     t1:{name:'グループI 1位',flag:'',score:''},t2:{name:'グループCDFGH 3位',flag:'',score:''}},
+    // 3. M73: 南アフリカ vs カナダ (6/29 月 4:00) → ✅確定
+    {id:'r32_1',label:'R32-1（M73）',date:'6/29（月）4:00',
+     t1:{name:'南アフリカ',flag:'🇿🇦',score:''},t2:{name:'カナダ',flag:'🇨🇦',score:''}},
+    // 4. M75: グループF 1位 vs モロッコ (6/30 火 10:00) → モロッコはC2確定
+    {id:'r32_3',label:'R32-3（M75）',date:'6/30（火）10:00',
+     t1:{name:'グループF 1位',flag:'',score:''},t2:{name:'モロッコ',flag:'🇲🇦',score:''}},
+    // 5. M83: グループK 2位 vs グループL 2位 (7/3 金 8:00)
+    {id:'r32_11',label:'R32-11（M83）',date:'7/3（金）8:00',
+     t1:{name:'グループK 2位',flag:'',score:''},t2:{name:'グループL 2位',flag:'',score:''}},
+    // 6. M84: グループH 1位 vs グループJ 2位 (7/3 金 4:00) (※main.jsでのM84)
+    {id:'r32_12',label:'R32-12（M84）',date:'7/3（金）4:00',
+     t1:{name:'グループH 1位',flag:'',score:''},t2:{name:'グループJ 2位',flag:'',score:''}},
+    // 7. M81: アメリカ vs グループBEFIJ 3位 (7/2 木 9:00) (アメリカはD1確定)
+    {id:'r32_9',label:'R32-9（M81）',date:'7/2（木）9:00',
+     t1:{name:'アメリカ',flag:'🇺🇸',score:''},t2:{name:'グループBEFIJ 3位',flag:'',score:''}},
+    // 8. M82: グループG 1位 vs グループAEHIJ 3位 (7/2 木 5:00)
+    {id:'r32_10',label:'R32-10（M82）',date:'7/2（木）5:00',
+     t1:{name:'グループG 1位',flag:'',score:''},t2:{name:'グループAEHIJ 3位',flag:'',score:''}},
+    // 9. M76: ブラジル vs グループF 2位 (6/30 火 2:00) → ブラジルはC1確定
+    {id:'r32_4',label:'R32-4（M76）',date:'6/30（火）2:00',
+     t1:{name:'ブラジル',flag:'🇧🇷',score:''},t2:{name:'グループF 2位',flag:'',score:''}},
+    // 10. M78: グループE 2位 vs グループI 2位 (7/1 水 2:00)
+    {id:'r32_6',label:'R32-6（M78）',date:'7/1（水）2:00',
+     t1:{name:'グループE 2位',flag:'',score:''},t2:{name:'グループI 2位',flag:'',score:''}},
+    // 11. M79: メキシコ vs グループCEFHI 3位 (7/1 水 10:00) → メキシコはA1確定
+    {id:'r32_7',label:'R32-7（M79）',date:'7/1（水）10:00',
+     t1:{name:'メキシコ',flag:'🇲🇽',score:''},t2:{name:'グループCEFHI 3位',flag:'',score:''}},
+    // 12. M80: グループL 1位 vs グループEHIJK 3位 (7/2 木 1:00)
+    {id:'r32_8',label:'R32-8（M80）',date:'7/2（木）1:00',
+     t1:{name:'グループL 1位',flag:'',score:''},t2:{name:'グループEHIJK 3位',flag:'',score:''}},
+    // 13. M86: アルゼンチン vs グループH 2位 (7/4 土 7:00) (アルゼンチンはJ1確定。main.jsでのM86)
+    {id:'r32_14',label:'R32-14（M86）',date:'7/4（土）7:00',
+     t1:{name:'アルゼンチン',flag:'🇦🇷',score:''},t2:{name:'グループH 2位',flag:'',score:''}},
+    // 14. M88: グループD 2位 vs グループG 2位 (7/4 土 3:00)
+    {id:'r32_16',label:'R32-16（M88）',date:'7/4（土）3:00',
+     t1:{name:'グループD 2位',flag:'',score:''},t2:{name:'グループG 2位',flag:'',score:''}},
+    // 15. M85: スイス vs グループEFGIJ 3位 (7/3 金 12:00) → スイスはB1確定 (main.jsでのM85)
+    {id:'r32_13',label:'R32-13（M85）',date:'7/3（金）12:00',
+     t1:{name:'スイス',flag:'🇨🇭',score:''},t2:{name:'グループEFGIJ 3位',flag:'',score:''}},
+    // 16. M87: グループK 1位 vs グループDEIJL 3位 (7/4 土 10:30) (main.jsでのM87)
+    {id:'r32_15',label:'R32-15（M87）',date:'7/4（土）10:30',
+     t1:{name:'グループK 1位',flag:'',score:''},t2:{name:'グループDEIJL 3位',flag:'',score:''}},
+  ],
+  r16: [
+    {id:'r16_1',label:'R16-1',date:'7/5（日）6:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_2',label:'R16-2',date:'7/5（日）2:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_3',label:'R16-3',date:'7/7（火）4:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_4',label:'R16-4',date:'7/7（火）9:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_5',label:'R16-5',date:'7/6（月）5:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_6',label:'R16-6',date:'7/6（月）9:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_7',label:'R16-7',date:'7/8（水）1:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_8',label:'R16-8',date:'7/8（水）5:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+  ],
+  qf: [
+    {id:'qf_1',label:'準々決勝 1',date:'7/10（金）5:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'qf_2',label:'準々決勝 2',date:'7/11（土）4:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'qf_3',label:'準々決勝 3',date:'7/12（日）6:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'qf_4',label:'準々決勝 4',date:'7/12（日）10:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+  ],
+  sf: [
+    {id:'sf_1',label:'準決勝 1',date:'7/15（水）4:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'sf_2',label:'準決勝 2',date:'7/16（木）4:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+  ],
+  tp:  [{id:'tp',label:'3位決定戦',date:'7/19（日）6:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}}],
+  fin: [{id:'fin',label:'決勝 🏆',date:'7/20（月）4:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}}],
 };
 
 /* ================================================================
@@ -164,6 +233,23 @@ const bracketData = {
 ================================================================ */
 function stripFlags(s){
   return s.replace(/[\u{1F1E0}-\u{1F1FF}\u{1F3F4}\u{E0020}-\u{E007F}\u{FE0F}]/gu,'').trim();
+}
+function findTeamGroupAndFlag(teamName) {
+  if (!teamName || teamName === 'TBD') return null;
+  const cleanName = stripFlags(teamName);
+  for (const g of GROUPS) {
+    const t = g.teams.find(x => x.name === cleanName);
+    if (t) {
+      return { flag: t.flag, groupId: g.id };
+    }
+  }
+  return null;
+}
+function handleBracketTeamClick(teamName) {
+  const info = findTeamGroupAndFlag(teamName);
+  if (info) {
+    openTeamDetail(stripFlags(teamName), info.flag, info.groupId);
+  }
 }
 function computeStandings(){
   const stats = {};
@@ -335,6 +421,13 @@ function openTeamDetail(teamName, teamFlag, groupId) {
     });
   }
   
+  // デフォルトで「試合日程」タブを表示
+  document.querySelectorAll('.tdp-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tdp-content').forEach(c => c.classList.remove('active'));
+  const fixturesTab = document.querySelector('.tdp-tab[data-tab="fixtures"]');
+  if (fixturesTab) fixturesTab.classList.add('active');
+  document.getElementById('tab-fixtures').classList.add('active');
+
   // Show loader and clear old data
   document.getElementById('tdpLoader').classList.add('show');
   document.getElementById('tab-info').innerHTML = '';
@@ -477,6 +570,7 @@ function renderTeamDetails(data) {
   });
 
   if (teamFixtures.length > 0) {
+    fixHtml += '<div style="font-size:.75rem;font-weight:700;color:#00A0B8;margin-bottom:6px;padding:4px 8px;background:#e0f7fa;border-radius:4px;display:inline-block">⚽ グループステージ</div>';
     teamFixtures.forEach(f => {
       const isFT = f.status === '終了' || f.status === 'FT';
       
@@ -513,6 +607,47 @@ function renderTeamDetails(data) {
   } else {
     fixHtml = '<div style="color:#888;text-align:center;padding:20px;">試合日程データがありません</div>';
   }
+
+  // ノックアウトステージの試合をbracketDataから検索して追加
+  const koFixtures = [];
+  const stageLabels = {r32:'ラウンド32',r16:'ラウンド16',qf:'準々決勝',sf:'準決勝',tp:'3位決定戦',fin:'決勝'};
+  for (const [stage, matches] of Object.entries(bracketData)) {
+    matches.forEach(m => {
+      const t1Clean = stripFlags(m.t1.name);
+      const t2Clean = stripFlags(m.t2.name);
+      if (t1Clean === teamClean || t2Clean === teamClean) {
+        koFixtures.push({
+          stage: stageLabels[stage] || stage,
+          label: m.label,
+          date: m.date,
+          t1: m.t1,
+          t2: m.t2
+        });
+      }
+    });
+  }
+
+  if (koFixtures.length > 0) {
+    fixHtml += '<div style="font-size:.75rem;font-weight:700;color:#d4a017;margin:16px 0 6px;padding:4px 8px;background:#fff8e1;border-radius:4px;display:inline-block">🏆 決勝トーナメント</div>';
+    koFixtures.forEach(ko => {
+      const score = (ko.t1.score !== '' && ko.t2.score !== '') ? `${ko.t1.score} - ${ko.t2.score}` : '- - -';
+      const isFT = ko.t1.score !== '' && ko.t2.score !== '';
+      fixHtml += `
+        <div class="fixture-item" style="border-left:3px solid #d4a017">
+          <div class="fixture-date">${ko.date}　${ko.stage}</div>
+          <div class="fixture-teams-container">
+            <div class="fixture-teams-row">
+              <span class="team-name-lbl">${ko.t1.flag} ${ko.t1.name}</span>
+              <span class="fixture-score">${score}</span>
+              <span class="team-name-lbl">${ko.t2.flag} ${ko.t2.name}</span>
+            </div>
+          </div>
+          <div class="fixture-status ${isFT ? 'ft' : 'ns'}">${isFT ? '終了' : '予定'}</div>
+        </div>
+      `;
+    });
+  }
+
   document.getElementById('tab-fixtures').innerHTML = fixHtml;
 }
 
@@ -610,20 +745,29 @@ renderSchedule();
 function renderMatchSlot(m){
   const w1 = m.t1.score !== '' && m.t2.score !== '' && Number(m.t1.score) > Number(m.t2.score);
   const w2 = m.t1.score !== '' && m.t2.score !== '' && Number(m.t2.score) > Number(m.t1.score);
+  
+  const info1 = findTeamGroupAndFlag(m.t1.name);
+  const info2 = findTeamGroupAndFlag(m.t2.name);
+
+  const t1Class = `match-team ${w1?'winner':''} ${!m.t1.name||m.t1.name==='TBD'?'tbd':''} ${info1?'clickable-team':''}`.trim();
+  const t2Class = `match-team ${w2?'winner':''} ${!m.t2.name||m.t2.name==='TBD'?'tbd':''} ${info2?'clickable-team':''}`.trim();
+
+  const t1Onclick = info1 ? `onclick="handleBracketTeamClick('${m.t1.name.replace(/'/g, "\\'")}')"` : '';
+  const t2Onclick = info2 ? `onclick="handleBracketTeamClick('${m.t2.name.replace(/'/g, "\\'")}')"` : '';
+
   return `
-    <div class="match-slot ${m.id==='fin'?'final-slot':''}" data-id="${m.id}" onclick="openModal('${m.id}')">
+    <div class="match-slot ${m.id==='fin'?'final-slot':''}" data-id="${m.id}">
       <div class="ms-head"><span>${m.label}</span><span class="ms-date">${m.date}</span></div>
-      <div class="match-team ${w1?'winner':''}${!m.t1.name||m.t1.name==='TBD'?'tbd':''}">
+      <div class="${t1Class}" ${t1Onclick}>
         <span class="flag">${m.t1.flag}</span>
         <span class="team-txt">${m.t1.name||'TBD'}</span>
         <span class="score">${m.t1.score}</span>
       </div>
-      <div class="match-team ${w2?'winner':''}${!m.t2.name||m.t2.name==='TBD'?'tbd':''}">
+      <div class="${t2Class}" ${t2Onclick}>
         <span class="flag">${m.t2.flag}</span>
         <span class="team-txt">${m.t2.name||'TBD'}</span>
         <span class="score">${m.t2.score}</span>
       </div>
-      <div class="edit-overlay"><span class="edit-icon">✏️ 編集</span></div>
     </div>`;
 }
 
@@ -647,52 +791,7 @@ function renderBracket(){
 }
 renderBracket();
 
-/* ================================================================
-   MODAL EDIT
-================================================================ */
-let currentMatchId = null;
-function findMatch(id){
-  for(const key of Object.keys(bracketData)){
-    const m = bracketData[key].find(x=>x.id===id);
-    if(m) return m;
-  }
-}
-
-function openModal(id){
-  const m = findMatch(id);
-  if(!m) return;
-  currentMatchId = id;
-  document.getElementById('modalMatchLabel').textContent = m.label + ' — ' + m.date;
-  document.getElementById('editTeam1').value = (m.t1.flag + ' ' + (m.t1.name==='TBD'?'':m.t1.name)).trim();
-  document.getElementById('editScore1').value = m.t1.score;
-  document.getElementById('editTeam2').value = (m.t2.flag + ' ' + (m.t2.name==='TBD'?'':m.t2.name)).trim();
-  document.getElementById('editScore2').value = m.t2.score;
-  document.getElementById('modalBackdrop').classList.add('open');
-  document.getElementById('editTeam1').focus();
-}
-
-function parseTeamInput(val){
-  val = val.trim();
-  // extract leading emoji flags (unicode)
-  const flagMatch = val.match(/^([\u{1F1E0}-\u{1F1FF}\u{1F3F4}]{1,4})/u);
-  if(flagMatch){
-    return {flag: flagMatch[1], name: val.replace(flagMatch[1],'').trim() || 'TBD'};
-  }
-  return {flag:'', name: val || 'TBD'};
-}
-
-document.getElementById('modalSave').addEventListener('click', ()=>{
-  const m = findMatch(currentMatchId);
-  if(!m) return;
-  m.t1 = {...parseTeamInput(document.getElementById('editTeam1').value), score: document.getElementById('editScore1').value};
-  m.t2 = {...parseTeamInput(document.getElementById('editTeam2').value), score: document.getElementById('editScore2').value};
-  renderBracket();
-  closeModal();
-});
-document.getElementById('modalCancel').addEventListener('click', closeModal);
-document.getElementById('modalBackdrop').addEventListener('click', e=>{ if(e.target===e.currentTarget) closeModal(); });
-document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeModal(); });
-function closeModal(){ document.getElementById('modalBackdrop').classList.remove('open'); currentMatchId=null; }
+/* モーダル編集機能は削除済み — bracketDataの更新はAIエージェントがmain.jsを直接編集して行います */
 
 /* ================================================================
    COUNTDOWN

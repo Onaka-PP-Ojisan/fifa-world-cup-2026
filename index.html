@@ -183,8 +183,18 @@
     <div class="container">
       <div class="section-header"><span class="section-label">Knockout</span></div>
       <h2 class="section-title" style="display:flex;align-items:center;gap:10px;"><img src="image/trophy_icon.png" alt="Trophy" style="width:40px;height:40px;object-fit:contain;">決勝トーナメント</h2>
-      <div class="ko-notice" role="note">
-        <strong>✏️ 編集可能：</strong>各試合をクリックするとチーム名・スコアを書き換えられます。グループステージの結果が出たら随時アップデートしてください。
+
+      <!-- 進出確定チーム情報 -->
+      <div class="ko-qualified" role="note" style="background:linear-gradient(135deg,#e8f5e9,#f1f8e9);border:1px solid #a5d6a7;border-radius:12px;padding:16px 20px;margin-bottom:18px;font-size:.85rem;line-height:1.7">
+        <strong>🟢 進出決定（6/26時点・15チーム）：</strong><br>
+        🇲🇽 メキシコ（A1位）・🇿🇦 南アフリカ（A2位）・🇨🇭 スイス（B1位）・🇨🇦 カナダ（B2位）・🇧🇦 ボスニア・H（B3位）<br>
+        🇧🇷 ブラジル（C1位）・🇲🇦 モロッコ（C2位）・🇺🇸 アメリカ（D）・🇩🇪 ドイツ（E）<br>
+        🇫🇷 フランス（I）・🇳🇴 ノルウェー（I）・🇦🇷 アルゼンチン（J）・🇨🇴 コロンビア（K）・🇵🇹 ポルトガル（K）・🏴󠁧󠁢󠁥󠁮󠁧󠁿 イングランド（L）
+      </div>
+      <div class="ko-qualified" role="note" style="background:linear-gradient(135deg,#fff3e0,#fff8e1);border:1px solid #ffcc80;border-radius:12px;padding:16px 20px;margin-bottom:18px;font-size:.85rem;line-height:1.7">
+        <strong>🇯🇵 日本代表の進路（本日 8:00 JST 最終節！）：</strong><br>
+        ✦ <strong>F1位通過</strong>の場合 → R32-3（6/30）で 🇲🇦 モロッコ と対戦<br>
+        ✦ <strong>F2位通過</strong>の場合 → R32-4（6/30）で 🇧🇷 ブラジル と対戦
       </div>
 
       <!-- Stage overview table -->
@@ -192,7 +202,7 @@
         <table class="ko-table">
           <thead><tr><th>ステージ</th><th>現地日程</th><th>主な会場</th></tr></thead>
           <tbody>
-            <tr><td><strong>ラウンド32</strong>（16試合）</td><td>6/28（日）〜7/3（金）</td><td>北米各地　初戦：SoFiスタジアム（LA）</td></tr>
+            <tr><td><strong>ラウンド32</strong>（16試合）</td><td>6/29（月）〜7/4（土）</td><td>北米各地　初戦：SoFiスタジアム（LA）</td></tr>
             <tr><td><strong>ラウンド16</strong>（8試合）</td><td>7/4（土）〜7/7（火）</td><td>ヒューストン／フィラデルフィア ほか</td></tr>
             <tr><td><strong>準々決勝</strong>（4試合）</td><td>7/9（木）〜7/11（土）</td><td>ボストン／LA／マイアミ／カンザスシティ</td></tr>
             <tr><td><strong>準決勝</strong>（2試合）</td><td>7/14（火）・7/15（水）</td><td>AT&amp;Tスタジアム（ダラス）／アトランタ</td></tr>
@@ -213,37 +223,9 @@
 
 </main>
 
-<!-- ===== EDIT MODAL ===== -->
-<div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-label="試合結果編集ダイアログ">
-  <div class="modal">
-    <h3>試合結果を編集</h3>
-    <p class="modal-sub" id="modalMatchLabel">ラウンド32 — 試合1</p>
-    <div class="modal-row">
-      <label for="editTeam1">チーム1 (国名)</label>
-      <input type="text" id="editTeam1" placeholder="例：日本">
-      <div class="flag-hint">フラグ絵文字も入力できます 例：🇯🇵 日本</div>
-    </div>
-    <div class="modal-row">
-      <label for="editScore1">スコア1</label>
-      <input type="text" id="editScore1" placeholder="例：2">
-    </div>
-    <div class="modal-row">
-      <label for="editTeam2">チーム2 (国名)</label>
-      <input type="text" id="editTeam2" placeholder="例：ドイツ">
-    </div>
-    <div class="modal-row">
-      <label for="editScore2">スコア2</label>
-      <input type="text" id="editScore2" placeholder="例：1">
-    </div>
-    <div class="modal-actions">
-      <button class="btn-cancel" id="modalCancel" type="button">キャンセル</button>
-      <button class="btn-save" id="modalSave" type="button">保存</button>
-    </div>
-  </div>
-</div>
 
 <footer>
-  <div>FIFA World Cup 2026 観戦ガイド — 最終更新 2026年6月12日</div>
+  <div>FIFA World Cup 2026 観戦ガイド — 最終更新 2026年6月26日</div>
   <div>出典：Goal.com / サッカーキング / スポカレ / Wikipedia　日程・放送予定は変更の場合あり。最新情報は <a href="https://www.dazn.com/ja-JP/home" target="_blank" rel="noopener">DAZN</a> および大会公式サイトをご確認ください。</div>
 </footer>
 
