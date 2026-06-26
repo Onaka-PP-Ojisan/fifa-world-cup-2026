@@ -584,7 +584,9 @@ function renderTeamDetails(data) {
     day.matches.forEach(m => {
       const matchTeams = stripFlags(m.teams);
       const parts = matchTeams.split(' vs ');
-      if (parts.includes(teamClean)) {
+      // 決勝トーナメントの試合（grpがR32, R16など）はグループステージのリストから除外する
+      const isKoStage = ['R32', 'R16', 'QF', 'SF', 'TP', 'FIN'].includes(m.grp ? m.grp.toUpperCase() : '');
+      if (parts.includes(teamClean) && !isKoStage) {
         teamFixtures.push({
           date: `${day.label} ${m.time}`,
           home: parts[0],

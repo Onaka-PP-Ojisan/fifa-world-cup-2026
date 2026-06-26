@@ -70,7 +70,9 @@ button,select,input{font-family:inherit}
 .dazn-btn:hover{background:#fff3ec}
 
 /* ===== JAPAN CARDS ===== */
-.jp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:20px}
+.jp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:992px){.jp-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.jp-grid{grid-template-columns:1fr}}
 .jp-card{background:#fff;border-radius:12px;box-shadow:var(--card-shadow);padding:24px;position:relative;border-top:5px solid var(--orange);transition:transform 0.2s, box-shadow 0.2s}
 .jp-card:hover{transform:translateY(-5px);box-shadow:0 15px 35px rgba(245,112,5,0.12)}
 .jp-card.highlight{border-top-color:var(--teal)}
