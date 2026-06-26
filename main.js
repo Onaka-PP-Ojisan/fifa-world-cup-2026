@@ -124,12 +124,12 @@ const SCHEDULE_DAYS = [
     {time:'10:00',grp:'A',jp:false,teams:'チェコ vs メキシコ',venue:'エスタディオ・アステカ',note:'DAZN',score:'0-3',scorers:{'チェコ':[],'メキシコ':['マテオ・チャベス 55\'','フリアン・キニョネス 61\'','アルバロ・フィダルゴ 90\'+4']}},
   ]},
   {key:'d626',label:'6/26 金 ★',matches:[
-    {time:'5:00',grp:'E',jp:false,teams:'エクアドル vs ドイツ',venue:'ヒューストン・スタジアム',note:'DAZN'},
-    {time:'5:00',grp:'E',jp:false,teams:'キュラソー vs コートジボワール',venue:'フィラデルフィア・スタジアム',note:'DAZN'},
-    {time:'8:00',grp:'F',jp:true,teams:'🇯🇵 日本 vs スウェーデン 🇸🇪',venue:'ダラス・スタジアム',note:'DAZN 無料 / NHK総合'},
-    {time:'8:00',grp:'F',jp:false,teams:'チュニジア vs オランダ',venue:'エスタディオBBVA（モンテレイ）',note:'DAZN'},
-    {time:'11:00',grp:'D',jp:false,teams:'トルコ vs アメリカ',venue:'ロサンゼルス・スタジアム',note:'DAZN'},
-    {time:'11:00',grp:'D',jp:false,teams:'パラグアイ vs オーストラリア',venue:'SF・ベイエリア・スタジアム',note:'DAZN'},
+    {time:'5:00',grp:'E',jp:false,teams:'エクアドル vs ドイツ',venue:'ヒューストン・スタジアム',note:'DAZN',score:'2-1',scorers:{'エクアドル':['ニルソン・アングロ 9\'','ゴンサロ・プラタ 77\''],'ドイツ':['レロイ・サネ 2\'']}},
+    {time:'5:00',grp:'E',jp:false,teams:'キュラソー vs コートジボワール',venue:'フィラデルフィア・スタジアム',note:'DAZN',score:'0-2',scorers:{'キュラソー':[],'コートジボワール':['ニコラ・ペペ 7\'','ニコラ・ペペ 64\'']}},
+    {time:'8:00',grp:'F',jp:true,teams:'🇯🇵 日本 vs スウェーデン 🇸🇪',venue:'ダラス・スタジアム',note:'DAZN 無料 / NHK総合',score:'1-1',scorers:{'日本':['前田大然 56\''],'スウェーデン':['アントニー・エランガ 62\'']}},
+    {time:'8:00',grp:'F',jp:false,teams:'チュニジア vs オランダ',venue:'エスタディオBBVA（モンテレイ）',note:'DAZN',score:'1-3',scorers:{'チュニジア':['ハゼム・マストゥリ 54\''],'オランダ':['オウンゴール（エリス・スキリ） 3\'','ブライアン・ブロビー 7\'','ヤン・ポール・ファン・ヘッケ 62\'']}},
+    {time:'11:00',grp:'D',jp:false,teams:'トルコ vs アメリカ',venue:'ロサンゼルス・スタジアム',note:'DAZN',score:'3-2',scorers:{'トルコ':['アルダ・ギュレル 10\'','オルクン・コクチュ 31\'','カーン・アイハン 90\'+5'],'アメリカ':['オーストン・トラスティー 3\'','セバスティアン・ベルハルター 49\'']}},
+    {time:'11:00',grp:'D',jp:false,teams:'パラグアイ vs オーストラリア',venue:'SF・ベイエリア・スタジアム',note:'DAZN',score:'0-0',scorers:{'パラグアイ':[],'オーストラリア':[]}},
   ]},
   {key:'d627',label:'6/27 土',matches:[
     {time:'4:00',grp:'I',jp:false,teams:'ノルウェー vs フランス',venue:'ボストン・スタジアム',note:'DAZN'},
@@ -146,6 +146,34 @@ const SCHEDULE_DAYS = [
     {time:'8:30',grp:'K',jp:false,teams:'コンゴDR vs ウズベキスタン',venue:'アトランタ・スタジアム',note:'DAZN'},
     {time:'11:00',grp:'J',jp:false,teams:'アルジェリア vs オーストリア',venue:'カンザスシティ・スタジアム',note:'DAZN'},
     {time:'11:00',grp:'J',jp:false,teams:'ヨルダン vs アルゼンチン',venue:'ダラス・スタジアム',note:'DAZN'},
+  ]},
+  {key:'d629',label:'6/29 月',matches:[
+    {time:'4:00',grp:'R32',jp:false,teams:'南アフリカ vs カナダ',venue:'ボストン・スタジアム',note:'DAZN'},
+  ]},
+  {key:'d630',label:'6/30 火',matches:[
+    {time:'2:00',grp:'R32',jp:true,teams:'🇧🇷 ブラジル vs 日本 🇯🇵',venue:'ヒューストン・スタジアム',note:'DAZN',noteLink:'https://www.dazn.com/ja-JP/fixture/ContentId:17ij2c2xdzt125b0fqsd0e6v30/17ij2c2xdzt125b0fqsd0e6v30'},
+    {time:'5:30',grp:'R32',jp:false,teams:'ドイツ vs グループABCDF 3位',venue:'ダラス・スタジアム',note:'DAZN'},
+    {time:'10:00',grp:'R32',jp:false,teams:'オランダ vs モロッコ',venue:'ロサンゼルス・スタジアム',note:'DAZN'},
+  ]},
+  {key:'d701',label:'7/1 水',matches:[
+    {time:'2:00',grp:'R32',jp:false,teams:'コートジボワール vs グループI 2位',venue:'NY/NJ・スタジアム',note:'DAZN'},
+    {time:'6:00',grp:'R32',jp:false,teams:'グループI 1位 vs グループCDFGH 3位',venue:'アトランタ・スタジアム',note:'DAZN'},
+    {time:'10:00',grp:'R32',jp:false,teams:'メキシコ vs グループCEFHI 3位',venue:'メキシコシティ・スタジアム',note:'DAZN'},
+  ]},
+  {key:'d702',label:'7/2 木',matches:[
+    {time:'1:00',grp:'R32',jp:false,teams:'グループL 1位 vs グループEHIJK 3位',venue:'フィラデルフィア・スタジアム',note:'DAZN'},
+    {time:'5:00',grp:'R32',jp:false,teams:'グループG 1位 vs グループAEHIJ 3位',venue:'シアトル・スタジアム',note:'DAZN'},
+    {time:'9:00',grp:'R32',jp:false,teams:'アメリカ vs グループBEFIJ 3位',venue:'サンフランシスコ・スタジアム',note:'DAZN'},
+  ]},
+  {key:'d703',label:'7/3 金',matches:[
+    {time:'4:00',grp:'R32',jp:false,teams:'グループH 1位 vs グループJ 2位',venue:'マイアミ・スタジアム',note:'DAZN'},
+    {time:'8:00',grp:'R32',jp:false,teams:'グループK 2位 vs グループL 2位',venue:'カンザスシティ・スタジアム',note:'DAZN'},
+    {time:'12:00',grp:'R32',jp:false,teams:'スイス vs グループEFGIJ 3位',venue:'トロント・スタジアム',note:'DAZN'},
+  ]},
+  {key:'d704',label:'7/4 土',matches:[
+    {time:'3:00',grp:'R32',jp:false,teams:'オーストラリア vs グループG 2位',venue:'BCプレイス（バンクーバー）',note:'DAZN'},
+    {time:'7:00',grp:'R32',jp:false,teams:'アルゼンチン vs グループH 2位',venue:'グアダラハラ・スタジアム',note:'DAZN'},
+    {time:'10:30',grp:'R32',jp:false,teams:'グループK 1位 vs グループDEIJL 3位',venue:'ヒューストン・スタジアム',note:'DAZN'},
   ]},
 ];
 
@@ -166,7 +194,7 @@ const bracketData = {
      t1:{name:'南アフリカ',flag:'🇿🇦',score:''},t2:{name:'カナダ',flag:'🇨🇦',score:''}},
     // 4. M75: グループF 1位 vs モロッコ (6/30 火 10:00) → モロッコはC2確定
     {id:'r32_3',label:'R32-3（M75）',date:'6/30（火）10:00',
-     t1:{name:'グループF 1位',flag:'',score:''},t2:{name:'モロッコ',flag:'🇲🇦',score:''}},
+     t1:{name:'オランダ',flag:'🇳🇱',score:''},t2:{name:'モロッコ',flag:'🇲🇦',score:''}},
     // 5. M83: グループK 2位 vs グループL 2位 (7/3 金 8:00)
     {id:'r32_11',label:'R32-11（M83）',date:'7/3（金）8:00',
      t1:{name:'グループK 2位',flag:'',score:''},t2:{name:'グループL 2位',flag:'',score:''}},
@@ -181,10 +209,10 @@ const bracketData = {
      t1:{name:'グループG 1位',flag:'',score:''},t2:{name:'グループAEHIJ 3位',flag:'',score:''}},
     // 9. M76: ブラジル vs グループF 2位 (6/30 火 2:00) → ブラジルはC1確定
     {id:'r32_4',label:'R32-4（M76）',date:'6/30（火）2:00',
-     t1:{name:'ブラジル',flag:'🇧🇷',score:''},t2:{name:'グループF 2位',flag:'',score:''}},
+     t1:{name:'ブラジル',flag:'🇧🇷',score:''},t2:{name:'日本',flag:'🇯🇵',score:''}},
     // 10. M78: グループE 2位 vs グループI 2位 (7/1 水 2:00)
     {id:'r32_6',label:'R32-6（M78）',date:'7/1（水）2:00',
-     t1:{name:'グループE 2位',flag:'',score:''},t2:{name:'グループI 2位',flag:'',score:''}},
+     t1:{name:'コートジボワール',flag:'🇨🇮',score:''},t2:{name:'グループI 2位',flag:'',score:''}},
     // 11. M79: メキシコ vs グループCEFHI 3位 (7/1 水 10:00) → メキシコはA1確定
     {id:'r32_7',label:'R32-7（M79）',date:'7/1（水）10:00',
      t1:{name:'メキシコ',flag:'🇲🇽',score:''},t2:{name:'グループCEFHI 3位',flag:'',score:''}},
@@ -196,7 +224,7 @@ const bracketData = {
      t1:{name:'アルゼンチン',flag:'🇦🇷',score:''},t2:{name:'グループH 2位',flag:'',score:''}},
     // 14. M88: グループD 2位 vs グループG 2位 (7/4 土 3:00)
     {id:'r32_16',label:'R32-16（M88）',date:'7/4（土）3:00',
-     t1:{name:'グループD 2位',flag:'',score:''},t2:{name:'グループG 2位',flag:'',score:''}},
+     t1:{name:'オーストラリア',flag:'🇦🇺',score:''},t2:{name:'グループG 2位',flag:'',score:''}},
     // 15. M85: スイス vs グループEFGIJ 3位 (7/3 金 12:00) → スイスはB1確定 (main.jsでのM85)
     {id:'r32_13',label:'R32-13（M85）',date:'7/3（金）12:00',
      t1:{name:'スイス',flag:'🇨🇭',score:''},t2:{name:'グループEFGIJ 3位',flag:'',score:''}},
@@ -719,7 +747,7 @@ function renderSchedule(){
                 <td style="font-weight:${m.jp?'700':'400'}">${m.teams}</td>
                 <td class="c" style="font-weight:700;color:${m.score?'#222':'#bbb'}">${m.score || '-'}</td>
                 <td style="color:#888;white-space:nowrap;max-width:200px;overflow:hidden;text-overflow:ellipsis">${m.venue}</td>
-                <td><a class="dazn-tag ${m.jp?'free-tag':''}" href="https://www.dazn.com/ja-JP/home" target="_blank" rel="noopener">${m.jp?'DAZN 無料':'DAZN'}</a></td>
+                <td><a class="dazn-tag ${m.jp?'free-tag':''}" href="${m.noteLink || 'https://www.dazn.com/ja-JP/home'}" target="_blank" rel="noopener">${m.jp?'DAZN 無料':'DAZN'}</a></td>
               </tr>`).join('')}
           </tbody>
         </table>
@@ -800,12 +828,31 @@ const cdTargets = [
   {el:'cd1', ts: new Date('2026-06-15T05:00:00+09:00'), matchKey:'🇳🇱 オランダ vs 日本 🇯🇵'},
   {el:'cd2', ts: new Date('2026-06-21T13:00:00+09:00'), matchKey:'🇹🇳 チュニジア vs 日本 🇯🇵'},
   {el:'cd3', ts: new Date('2026-06-26T08:00:00+09:00'), matchKey:'🇯🇵 日本 vs スウェーデン 🇸🇪'},
+  {el:'cd4', ts: new Date('2026-06-30T02:00:00+09:00'), matchKey:'🇧🇷 ブラジル vs 日本 🇯🇵'},
 ];
 
 function findMatchInSchedule(matchKey) {
   for (const day of SCHEDULE_DAYS) {
     const found = day.matches.find(m => m.teams === matchKey);
     if (found) return found;
+  }
+  
+  // 決勝トーナメントのデータも検索対象に含める
+  const normalize = s => s ? s.replace(/\s+/g, ' ').trim() : '';
+  const normKey = normalize(matchKey);
+  for (const stage of Object.keys(bracketData)) {
+    for (const m of bracketData[stage]) {
+      const t1Str = m.t1.flag ? `${m.t1.flag} ${m.t1.name}` : m.t1.name;
+      const t2Str = m.t2.flag ? `${m.t2.name} ${m.t2.flag}` : m.t2.name;
+      const teamsStr = `${t1Str} vs ${t2Str}`;
+      if (normalize(teamsStr) === normKey) {
+        return {
+          teams: matchKey,
+          score: (m.t1.score !== undefined && m.t1.score !== '' && m.t2.score !== undefined && m.t2.score !== '') ? `${m.t1.score}-${m.t2.score}` : null,
+          scorers: m.scorers || null
+        };
+      }
+    }
   }
   return null;
 }
