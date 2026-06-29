@@ -148,7 +148,7 @@ const SCHEDULE_DAYS = [
     {time:'11:00',grp:'J',jp:false,teams:'ヨルダン vs アルゼンチン',venue:'ダラス・スタジアム',note:'DAZN',score:'1-3',scorers:{'ヨルダン':['ムサ・アルタマリ 50\''],'アルゼンチン':['ジョバンニ・ロ・セルソ 19\'','ラウタロ・マルティネス 32\' PK','リオネル・メッシ 80\'']}},
   ]},
   {key:'d629',label:'6/29 月',matches:[
-    {time:'4:00',grp:'R32',jp:false,teams:'南アフリカ vs カナダ',venue:'ボストン・スタジアム',note:'DAZN'},
+    {time:'4:00',grp:'R32',jp:false,teams:'南アフリカ vs カナダ',venue:'ボストン・スタジアム',note:'DAZN',score:'0-1',scorers:{'南アフリカ':[],'カナダ':["ステファン・エウスタキオ 90'+2'"]}},
   ]},
   {key:'d630',label:'6/30 火',matches:[
     {time:'2:00',grp:'R32',jp:true,teams:'🇧🇷 ブラジル vs 日本 🇯🇵',venue:'ヒューストン・スタジアム',note:'DAZN',noteLink:'https://www.dazn.com/ja-JP/fixture/ContentId:17ij2c2xdzt125b0fqsd0e6v30/17ij2c2xdzt125b0fqsd0e6v30'},
@@ -191,7 +191,7 @@ const bracketData = {
      t1:{name:'フランス',flag:'🇫🇷',score:''},t2:{name:'スウェーデン',flag:'🇸🇪',score:''}},
     // 3. M73: 南アフリカ vs カナダ (6/29 月 4:00) → ✅確定
     {id:'r32_1',label:'R32-1（M73）',date:'6/29（月）4:00',
-     t1:{name:'南アフリカ',flag:'🇿🇦',score:''},t2:{name:'カナダ',flag:'🇨🇦',score:''}},
+     t1:{name:'南アフリカ',flag:'🇿🇦',score:'0'},t2:{name:'カナダ',flag:'🇨🇦',score:'1'}},
     // 4. M75: グループF 1位 vs モロッコ (6/30 火 10:00) → モロッコはC2確定
     {id:'r32_3',label:'R32-3（M75）',date:'6/30（火）10:00',
      t1:{name:'オランダ',flag:'🇳🇱',score:''},t2:{name:'モロッコ',flag:'🇲🇦',score:''}},
