@@ -156,9 +156,9 @@ const SCHEDULE_DAYS = [
     {time:'10:00',grp:'R32',jp:false,teams:'オランダ vs モロッコ',venue:'ロサンゼルス・スタジアム',note:'DAZN（延長後PK2-3でモロッコ勝利）',score:'1-1',scorers:{'オランダ':["コディ・ガクポ 72'"],'モロッコ':["イサ・ディオプ 90'+1'"]}},
   ]},
   {key:'d701',label:'7/1 水',matches:[
-    {time:'2:00',grp:'R32',jp:false,teams:'コートジボワール vs ノルウェー',venue:'NY/NJ・スタジアム',note:'DAZN'},
-    {time:'6:00',grp:'R32',jp:false,teams:'フランス vs スウェーデン',venue:'アトランタ・スタジアム',note:'DAZN'},
-    {time:'10:00',grp:'R32',jp:false,teams:'メキシコ vs エクアドル',venue:'メキシコシティ・スタジアム',note:'DAZN'},
+    {time:'2:00',grp:'R32',jp:false,teams:'コートジボワール vs ノルウェー',venue:'NY/NJ・スタジアム',note:'DAZN',score:'1-2',scorers:{'コートジボワール':["アマド・ディアロ 74'"],'ノルウェー':["アントニオ・ヌサ 39'","アーリング・ハーランド 86'"]}},
+    {time:'6:00',grp:'R32',jp:false,teams:'フランス vs スウェーデン',venue:'アトランタ・スタジアム',note:'DAZN',score:'3-0',scorers:{'フランス':["キリアン・エムバペ 45'","ブラッドリー・バルコラ 53'","キリアン・エムバペ 74'"],'スウェーデン':[]}},
+    {time:'10:00',grp:'R32',jp:false,teams:'メキシコ vs エクアドル',venue:'メキシコシティ・スタジアム',note:'DAZN',score:'2-0',scorers:{'メキシコ':["フリアン・キニョネス 22'","ラウル・ヒメネス 31'"],'エクアドル':[]}},
   ]},
   {key:'d702',label:'7/2 木',matches:[
     {time:'1:00',grp:'R32',jp:false,teams:'イングランド vs コンゴDR',venue:'フィラデルフィア・スタジアム',note:'DAZN'},
@@ -188,7 +188,7 @@ const bracketData = {
      t1:{name:'ドイツ',flag:'🇩🇪',score:'1'},t2:{name:'パラグアイ',flag:'🇵🇾',score:'1'}},
     // 2. M77: グループI 1位 vs グループCDFGH 3位 (7/1 水 6:00)
     {id:'r32_5',label:'R32-5（M77）',date:'7/1（水）6:00',
-     t1:{name:'フランス',flag:'🇫🇷',score:''},t2:{name:'スウェーデン',flag:'🇸🇪',score:''}},
+     t1:{name:'フランス',flag:'🇫🇷',score:'3'},t2:{name:'スウェーデン',flag:'🇸🇪',score:'0'}},
     // 3. M73: 南アフリカ vs カナダ (6/29 月 4:00) → ✅確定
     {id:'r32_1',label:'R32-1（M73）',date:'6/29（月）4:00',
      t1:{name:'南アフリカ',flag:'🇿🇦',score:'0'},t2:{name:'カナダ',flag:'🇨🇦',score:'1'}},
@@ -212,10 +212,10 @@ const bracketData = {
      t1:{name:'ブラジル',flag:'🇧🇷',score:'2'},t2:{name:'日本',flag:'🇯🇵',score:'1'}},
     // 10. M78: グループE 2位 vs グループI 2位 (7/1 水 2:00)
     {id:'r32_6',label:'R32-6（M78）',date:'7/1（水）2:00',
-     t1:{name:'コートジボワール',flag:'🇨🇮',score:''},t2:{name:'ノルウェー',flag:'🇳🇴',score:''}},
+     t1:{name:'コートジボワール',flag:'🇨🇮',score:'1'},t2:{name:'ノルウェー',flag:'🇳🇴',score:'2'}},
     // 11. M79: メキシコ vs グループCEFHI 3位 (7/1 水 10:00) → メキシコはA1確定
     {id:'r32_7',label:'R32-7（M79）',date:'7/1（水）10:00',
-     t1:{name:'メキシコ',flag:'🇲🇽',score:''},t2:{name:'エクアドル',flag:'🇪🇨',score:''}},
+     t1:{name:'メキシコ',flag:'🇲🇽',score:'2'},t2:{name:'エクアドル',flag:'🇪🇨',score:'0'}},
     // 12. M80: グループL 1位 vs グループEHIJK 3位 (7/2 木 1:00)
     {id:'r32_8',label:'R32-8（M80）',date:'7/2（木）1:00',
      t1:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:''},t2:{name:'コンゴDR',flag:'🇨🇩',score:''}},
@@ -234,14 +234,14 @@ const bracketData = {
   ],
   r16: [
     // M89: パラグアイ(M74勝者・確定) vs フランス/スウェーデン勝者(M77・未定)
-    {id:'r16_1',label:'R16-1',date:'7/5（日）6:00',t1:{name:'パラグアイ',flag:'🇵🇾',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_1',label:'R16-1',date:'7/5（日）6:00',t1:{name:'パラグアイ',flag:'🇵🇾',score:''},t2:{name:'フランス',flag:'🇫🇷',score:''}},
     // M90: カナダ(M73勝者) vs モロッコ(M75勝者) → ✅両者確定
     {id:'r16_2',label:'R16-2',date:'7/5（日）2:00',t1:{name:'カナダ',flag:'🇨🇦',score:''},t2:{name:'モロッコ',flag:'🇲🇦',score:''}},
     {id:'r16_3',label:'R16-3',date:'7/7（火）4:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
     {id:'r16_4',label:'R16-4',date:'7/7（火）9:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
     // M91: ブラジル(M76勝者・確定) vs コートジボワール/ノルウェー勝者(M78・未定)
-    {id:'r16_5',label:'R16-5',date:'7/6（月）5:00',t1:{name:'ブラジル',flag:'🇧🇷',score:''},t2:{name:'TBD',flag:'',score:''}},
-    {id:'r16_6',label:'R16-6',date:'7/6（月）9:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_5',label:'R16-5',date:'7/6（月）5:00',t1:{name:'ブラジル',flag:'🇧🇷',score:''},t2:{name:'ノルウェー',flag:'🇳🇴',score:''}},
+    {id:'r16_6',label:'R16-6',date:'7/6（月）9:00',t1:{name:'メキシコ',flag:'🇲🇽',score:''},t2:{name:'TBD',flag:'',score:''}},
     {id:'r16_7',label:'R16-7',date:'7/8（水）1:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
     {id:'r16_8',label:'R16-8',date:'7/8（水）5:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
   ],
