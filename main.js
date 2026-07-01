@@ -185,7 +185,7 @@ const bracketData = {
   r32: [
     // 1. M74: ドイツ vs パラグアイ (6/30 火 5:30) → ✅確定（延長後PK3-4でパラグアイ勝利）
     {id:'r32_2',label:'R32-2（M74）',date:'6/30（火）5:30',
-     t1:{name:'ドイツ',flag:'🇩🇪',score:'1'},t2:{name:'パラグアイ',flag:'🇵🇾',score:'1'}},
+     t1:{name:'ドイツ',flag:'🇩🇪',score:'1'},t2:{name:'パラグアイ',flag:'🇵🇾',score:'1',win:true}},
     // 2. M77: グループI 1位 vs グループCDFGH 3位 (7/1 水 6:00)
     {id:'r32_5',label:'R32-5（M77）',date:'7/1（水）6:00',
      t1:{name:'フランス',flag:'🇫🇷',score:'3'},t2:{name:'スウェーデン',flag:'🇸🇪',score:'0'}},
@@ -194,7 +194,7 @@ const bracketData = {
      t1:{name:'南アフリカ',flag:'🇿🇦',score:'0'},t2:{name:'カナダ',flag:'🇨🇦',score:'1'}},
     // 4. M75: オランダ vs モロッコ (6/30 火 10:00) → ✅確定（延長後PK2-3でモロッコ勝利）
     {id:'r32_3',label:'R32-3（M75）',date:'6/30（火）10:00',
-     t1:{name:'オランダ',flag:'🇳🇱',score:'1'},t2:{name:'モロッコ',flag:'🇲🇦',score:'1'}},
+     t1:{name:'オランダ',flag:'🇳🇱',score:'1'},t2:{name:'モロッコ',flag:'🇲🇦',score:'1',win:true}},
     // 5. M83: グループK 2位 vs グループL 2位 (7/3 金 8:00)
     {id:'r32_11',label:'R32-11（M83）',date:'7/3（金）8:00',
      t1:{name:'ポルトガル',flag:'🇵🇹',score:''},t2:{name:'クロアチア',flag:'🇭🇷',score:''}},
@@ -625,13 +625,21 @@ function renderTeamDetails(data) {
         <div class="fixture-item">
           <div class="fixture-date">${f.date}</div>
           <div class="fixture-teams-container">
-            <div class="fixture-scorer home-scorer">${homeScorersHtml}</div>
-            <div class="fixture-teams-row">
-              <span class="team-name-lbl">${f.home}</span>
-              <span class="fixture-score">${f.score}</span>
-              <span class="team-name-lbl">${f.away}</span>
+            <div class="fixture-team-block home-block">
+              <div class="team-info-row">
+                <span class="team-name-lbl">${f.home}</span>
+              </div>
+              <div class="fixture-scorer home-scorer">${homeScorersHtml}</div>
             </div>
-            <div class="fixture-scorer away-scorer">${awayScorersHtml}</div>
+            <div class="fixture-score-block">
+              <span class="fixture-score">${f.score}</span>
+            </div>
+            <div class="fixture-team-block away-block">
+              <div class="team-info-row">
+                <span class="team-name-lbl">${f.away}</span>
+              </div>
+              <div class="fixture-scorer away-scorer">${awayScorersHtml}</div>
+            </div>
           </div>
           <div class="fixture-status ${isFT ? 'ft' : 'ns'}">${f.status}</div>
         </div>
@@ -649,12 +657,23 @@ function renderTeamDetails(data) {
       const t1Clean = stripFlags(m.t1.name);
       const t2Clean = stripFlags(m.t2.name);
       if (t1Clean === teamClean || t2Clean === teamClean) {
+        // SCHEDULE_DAYSから得点者データを検索
+        let koScorers = null;
+        for (const day of SCHEDULE_DAYS) {
+          const found = day.matches.find(match => {
+            const clean = stripFlags(match.teams);
+            const parts = clean.split(' vs ');
+            return parts.includes(t1Clean) && parts.includes(t2Clean);
+          });
+          if (found && found.scorers) { koScorers = found.scorers; break; }
+        }
         koFixtures.push({
           stage: stageLabels[stage] || stage,
           label: m.label,
           date: m.date,
           t1: m.t1,
-          t2: m.t2
+          t2: m.t2,
+          scorers: koScorers
         });
       }
     });
@@ -665,14 +684,34 @@ function renderTeamDetails(data) {
     koFixtures.forEach(ko => {
       const score = (ko.t1.score !== '' && ko.t2.score !== '') ? `${ko.t1.score} - ${ko.t2.score}` : '- - -';
       const isFT = ko.t1.score !== '' && ko.t2.score !== '';
+      let t1ScorersHtml = '';
+      let t2ScorersHtml = '';
+      if (ko.scorers) {
+        if (ko.scorers[ko.t1.name] && ko.scorers[ko.t1.name].length > 0) {
+          t1ScorersHtml = `<div class="fixture-scorer home-scorer">${ko.scorers[ko.t1.name].map(s => `<div>${s}</div>`).join('')}</div>`;
+        }
+        if (ko.scorers[ko.t2.name] && ko.scorers[ko.t2.name].length > 0) {
+          t2ScorersHtml = `<div class="fixture-scorer away-scorer">${ko.scorers[ko.t2.name].map(s => `<div>${s}</div>`).join('')}</div>`;
+        }
+      }
       fixHtml += `
         <div class="fixture-item" style="border-left:3px solid #d4a017">
           <div class="fixture-date">${ko.date}　${ko.stage}</div>
           <div class="fixture-teams-container">
-            <div class="fixture-teams-row">
-              <span class="team-name-lbl">${ko.t1.flag} ${ko.t1.name}</span>
+            <div class="fixture-team-block home-block">
+              <div class="team-info-row">
+                <span class="team-name-lbl">${ko.t1.flag} ${ko.t1.name}</span>
+              </div>
+              ${t1ScorersHtml}
+            </div>
+            <div class="fixture-score-block">
               <span class="fixture-score">${score}</span>
-              <span class="team-name-lbl">${ko.t2.flag} ${ko.t2.name}</span>
+            </div>
+            <div class="fixture-team-block away-block">
+              <div class="team-info-row">
+                <span class="team-name-lbl">${ko.t2.flag} ${ko.t2.name}</span>
+              </div>
+              ${t2ScorersHtml}
             </div>
           </div>
           <div class="fixture-status ${isFT ? 'ft' : 'ns'}">${isFT ? '終了' : '予定'}</div>
@@ -779,8 +818,23 @@ renderSchedule();
    RENDER BRACKET
 ================================================================ */
 function renderMatchSlot(m){
-  const w1 = m.t1.score !== '' && m.t2.score !== '' && Number(m.t1.score) > Number(m.t2.score);
-  const w2 = m.t1.score !== '' && m.t2.score !== '' && Number(m.t2.score) > Number(m.t1.score);
+  let w1 = false;
+  let w2 = false;
+  if (m.t1.score !== '' && m.t2.score !== '') {
+    const n1 = Number(m.t1.score);
+    const n2 = Number(m.t2.score);
+    if (n1 > n2) {
+      w1 = true;
+    } else if (n2 > n1) {
+      w2 = true;
+    } else {
+      if (m.t1.win) {
+        w1 = true;
+      } else if (m.t2.win) {
+        w2 = true;
+      }
+    }
+  }
   
   const info1 = findTeamGroupAndFlag(m.t1.name);
   const info2 = findTeamGroupAndFlag(m.t2.name);

@@ -191,30 +191,44 @@ button,select,input{font-family:inherit}
 .fixture-teams-container {
   flex: 1;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
   gap: 12px;
   padding: 4px 0;
   min-width: 0;
 }
-.fixture-teams-row {
+.fixture-team-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.fixture-team-block.home-block {
+  align-items: flex-end;
+}
+.fixture-team-block.away-block {
+  align-items: flex-start;
+}
+.team-info-row {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
+  gap: 6px;
   font-weight: 700;
   font-size: 0.85rem;
-  min-width: 170px;
+}
+.fixture-score-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 70px;
   flex-shrink: 0;
 }
 .fixture-scorer {
   font-size: 0.72rem;
   color: #666;
   line-height: 1.5;
-  flex: 1;
   font-weight: 400;
-  min-width: 0;
-  word-break: break-word;
+  width: 100%;
 }
 .home-scorer {
   text-align: right;
@@ -289,7 +303,7 @@ button,select,input{font-family:inherit}
 .bracket-col{display:flex;flex-direction:column;flex:1;min-width:0;background:#F8FBFB;border-radius:8px;padding:8px}
 .bracket-col-label{font-family:'Roboto Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:.1em;color:#fff;background:linear-gradient(135deg,var(--teal) 0%,#00899e 100%);text-align:center;padding:8px 4px;text-transform:uppercase;border-radius:6px;margin-bottom:8px}
 .bracket-matches{display:flex;flex-direction:column;flex:1;padding:4px;gap:8px;position:relative}
-.match-slot{background:#fff;border:1px solid var(--border);border-radius:8px;margin:4px 0;transition:all .2s;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.04);position:relative}
+.match-slot{background:#fff;border:1px solid var(--border);border-radius:8px;margin:4px 0;transition:all .2s;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.04);position:relative;overflow:hidden}
 .match-slot:hover{border-color:var(--orange);box-shadow:0 8px 20px rgba(245,112,5,.15);transform:translateY(-1px)}
 .match-slot .ms-head{background:var(--sub-bg);padding:6px 10px;font-size:9px;font-weight:700;letter-spacing:.1em;color:var(--teal);border-bottom:1px solid var(--border);display:flex;justify-content:space-between;border-radius:8px 8px 0 0}
 .match-slot .ms-head .ms-date{color:var(--light-text)}
@@ -298,6 +312,7 @@ button,select,input{font-family:inherit}
 .match-team .flag{margin-right:6px;font-size:.95rem}
 .match-team .team-txt{flex:1;color:#333}
 .match-team .score{font-weight:700;color:#222;min-width:14px;text-align:center}
+.match-team.winner{background-color:rgba(245,112,5,0.06)}
 .match-team.winner .team-txt{color:var(--orange);font-weight:700}
 .match-team.tbd .team-txt{color:#aaa;font-style:italic}
 .edit-overlay{position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(245,112,5,.05);opacity:0;transition:.2s;border-radius:8px;display:flex;align-items:center;justify-content:center}
@@ -395,39 +410,49 @@ footer a{color:#ccc}
     flex: none;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
     gap: 8px;
-    align-items: stretch;
   }
-  .fixture-teams-row {
-    width: 100%;
+  .fixture-team-block {
+    flex: 1;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     min-width: 0;
-    font-size: 0.9rem;
-    padding: 4px 0;
+  }
+  .fixture-team-block.home-block {
+    align-items: flex-end;
+  }
+  .fixture-team-block.away-block {
+    align-items: flex-start;
+  }
+  .fixture-score-block {
+    min-width: 50px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
   }
   .fixture-scorer {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     color: var(--light-text);
-    margin-top: -2px;
+    margin-top: 2px;
     background: var(--sub-bg);
     border-radius: 4px;
-    padding: 4px 8px;
+    padding: 2px 6px;
     word-break: break-all;
+    width: auto;
   }
   .fixture-scorer:empty {
     display: none;
   }
   .home-scorer {
-    text-align: left;
-    border-left: 2px solid var(--orange);
+    text-align: right;
+    border-left: none;
     padding-right: 0;
   }
   .away-scorer {
-    text-align: right;
-    border-right: 2px solid var(--teal);
+    text-align: left;
+    border-right: none;
     padding-left: 0;
   }
 }
