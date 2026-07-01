@@ -721,7 +721,10 @@ function renderSchedule(){
 
   // 今日を表すキー（例："d613"）を判定します
   const now = new Date();
-  const todayKey = `d${now.getMonth() + 1}${now.getDate()}`;
+  const jstDateString = now.toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo' });
+  const [year, month, day] = jstDateString.split('/');
+  const paddedDay = day.padStart(2, '0');
+  const todayKey = `d${month}${paddedDay}`;
   
   // スケジュール（SCHEDULE_DAYS）の中に、今日の日付に一致するキーがあるか調べます
   let activeIndex = SCHEDULE_DAYS.findIndex(day => day.key === todayKey);
