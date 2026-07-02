@@ -161,9 +161,9 @@ const SCHEDULE_DAYS = [
     {time:'10:00',grp:'R32',jp:false,teams:'メキシコ vs エクアドル',venue:'メキシコシティ・スタジアム',note:'DAZN',score:'2-0',scorers:{'メキシコ':["フリアン・キニョネス 22'","ラウル・ヒメネス 31'"],'エクアドル':[]}},
   ]},
   {key:'d702',label:'7/2 木',matches:[
-    {time:'1:00',grp:'R32',jp:false,teams:'イングランド vs コンゴDR',venue:'フィラデルフィア・スタジアム',note:'DAZN'},
-    {time:'5:00',grp:'R32',jp:false,teams:'ベルギー vs セネガル',venue:'シアトル・スタジアム',note:'DAZN'},
-    {time:'9:00',grp:'R32',jp:false,teams:'アメリカ vs ボスニア・H',venue:'サンフランシスコ・スタジアム',note:'DAZN'},
+    {time:'1:00',grp:'R32',jp:false,teams:'イングランド vs コンゴDR',venue:'フィラデルフィア・スタジアム',note:'DAZN',score:'2-1',scorers:{'コンゴDR':["ブライアン・チペンガ 7'"],'イングランド':["ハリー・ケイン 75'","ハリー・ケイン 86'"]}},
+    {time:'5:00',grp:'R32',jp:false,teams:'ベルギー vs セネガル',venue:'シアトル・スタジアム',note:'DAZN（延長後ティーレマンスPKでベルギー逆転）',score:'3-2',scorers:{'セネガル':["アビブ・ディアラ 24'","イスマイラ・サール"],'ベルギー':["ロメル・ルカク 86'","ユーリ・ティーレマンス 89'","ユーリ・ティーレマンス 125' PK"]}},
+    {time:'9:00',grp:'R32',jp:false,teams:'アメリカ vs ボスニア・H',venue:'サンフランシスコ・スタジアム',note:'DAZN',score:'2-0',scorers:{'アメリカ':["フォラリン・バログン 45'","マリク・ティルマン 82'"],'ボスニア・H':[]}},
   ]},
   {key:'d703',label:'7/3 金',matches:[
     {time:'4:00',grp:'R32',jp:false,teams:'スペイン vs オーストリア',venue:'マイアミ・スタジアム',note:'DAZN'},
@@ -203,10 +203,10 @@ const bracketData = {
      t1:{name:'スペイン',flag:'🇪🇸',score:''},t2:{name:'オーストリア',flag:'🇦🇹',score:''}},
     // 7. M81: アメリカ vs グループBEFIJ 3位 (7/2 木 9:00) (アメリカはD1確定)
     {id:'r32_9',label:'R32-9（M81）',date:'7/2（木）9:00',
-     t1:{name:'アメリカ',flag:'🇺🇸',score:''},t2:{name:'ボスニア・H',flag:'🇧🇦',score:''}},
+     t1:{name:'アメリカ',flag:'🇺🇸',score:'2',win:true},t2:{name:'ボスニア・H',flag:'🇧🇦',score:'0'}},
     // 8. M82: グループG 1位 vs グループAEHIJ 3位 (7/2 木 5:00)
     {id:'r32_10',label:'R32-10（M82）',date:'7/2（木）5:00',
-     t1:{name:'ベルギー',flag:'🇧🇪',score:''},t2:{name:'セネガル',flag:'🇸🇳',score:''}},
+     t1:{name:'ベルギー',flag:'🇧🇪',score:'3',win:true},t2:{name:'セネガル',flag:'🇸🇳',score:'2'}},
     // 9. M76: ブラジル vs 日本 (6/30 火 2:00) → ✅確定（カゼミーロ56'、マルティネリ90+5'でブラジル勝利）
     {id:'r32_4',label:'R32-4（M76）',date:'6/30（火）2:00',
      t1:{name:'ブラジル',flag:'🇧🇷',score:'2'},t2:{name:'日本',flag:'🇯🇵',score:'1'}},
@@ -218,7 +218,7 @@ const bracketData = {
      t1:{name:'メキシコ',flag:'🇲🇽',score:'2'},t2:{name:'エクアドル',flag:'🇪🇨',score:'0'}},
     // 12. M80: グループL 1位 vs グループEHIJK 3位 (7/2 木 1:00)
     {id:'r32_8',label:'R32-8（M80）',date:'7/2（木）1:00',
-     t1:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:''},t2:{name:'コンゴDR',flag:'🇨🇩',score:''}},
+     t1:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:'2',win:true},t2:{name:'コンゴDR',flag:'🇨🇩',score:'1'}},
     // 13. M86: アルゼンチン vs グループH 2位 (7/4 土 7:00) (アルゼンチンはJ1確定。main.jsでのM86)
     {id:'r32_14',label:'R32-14（M86）',date:'7/4（土）7:00',
      t1:{name:'アルゼンチン',flag:'🇦🇷',score:''},t2:{name:'カーボベルデ',flag:'🇨🇻',score:''}},
@@ -238,10 +238,10 @@ const bracketData = {
     // M90: カナダ(M73勝者) vs モロッコ(M75勝者) → ✅両者確定
     {id:'r16_2',label:'R16-2',date:'7/5（日）2:00',t1:{name:'カナダ',flag:'🇨🇦',score:''},t2:{name:'モロッコ',flag:'🇲🇦',score:''}},
     {id:'r16_3',label:'R16-3',date:'7/7（火）4:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
-    {id:'r16_4',label:'R16-4',date:'7/7（火）9:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_4',label:'R16-4',date:'7/7（火）9:00',t1:{name:'アメリカ',flag:'🇺🇸',score:''},t2:{name:'ベルギー',flag:'🇧🇪',score:''}},
     // M91: ブラジル(M76勝者・確定) vs コートジボワール/ノルウェー勝者(M78・未定)
     {id:'r16_5',label:'R16-5',date:'7/6（月）5:00',t1:{name:'ブラジル',flag:'🇧🇷',score:''},t2:{name:'ノルウェー',flag:'🇳🇴',score:''}},
-    {id:'r16_6',label:'R16-6',date:'7/6（月）9:00',t1:{name:'メキシコ',flag:'🇲🇽',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_6',label:'R16-6',date:'7/6（月）9:00',t1:{name:'メキシコ',flag:'🇲🇽',score:''},t2:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:''}},
     {id:'r16_7',label:'R16-7',date:'7/8（水）1:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
     {id:'r16_8',label:'R16-8',date:'7/8（水）5:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
   ],
