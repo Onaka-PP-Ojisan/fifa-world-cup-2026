@@ -171,9 +171,9 @@ const SCHEDULE_DAYS = [
     {time:'12:00',grp:'R32',jp:false,teams:'スイス vs アルジェリア',venue:'トロント・スタジアム',note:'DAZN',score:'2-0',scorers:{'スイス':["ブレール・エンボロ 10'","ダン・ンドワイ 46'"],'アルジェリア':[]}},
   ]},
   {key:'d704',label:'7/4 土',matches:[
-    {time:'3:00',grp:'R32',jp:false,teams:'オーストラリア vs エジプト',venue:'BCプレイス（バンクーバー）',note:'DAZN'},
-    {time:'7:00',grp:'R32',jp:false,teams:'アルゼンチン vs カーボベルデ',venue:'グアダラハラ・スタジアム',note:'DAZN'},
-    {time:'10:30',grp:'R32',jp:false,teams:'コロンビア vs ガーナ',venue:'ヒューストン・スタジアム',note:'DAZN'},
+    {time:'3:00',grp:'R32',jp:false,teams:'オーストラリア vs エジプト',venue:'BCプレイス（バンクーバー）',note:'DAZN（延長後PK2-4でエジプト勝利）',score:'1-1',scorers:{'オーストラリア':["モハメド・ハニー OG 55'"],'エジプト':["エマム・アシュール 13'"]}},
+    {time:'7:00',grp:'R32',jp:false,teams:'アルゼンチン vs カーボベルデ',venue:'グアダラハラ・スタジアム',note:'DAZN（延長戦）',score:'3-2',scorers:{'アルゼンチン':["リオネル・メッシ 29'","リサンドロ・マルティネス 92'","ディニー・ボルヘス OG 111'"],'カーボベルデ':["デロイ・デュアルテ 59'","シドニー・ロペス・カブラル 103'"]}},
+    {time:'10:30',grp:'R32',jp:false,teams:'コロンビア vs ガーナ',venue:'ヒューストン・スタジアム',note:'DAZN',score:'1-0',scorers:{'コロンビア':["ホン・アリアス 14'"],'ガーナ':[]}},
   ]},
   {key:'d705',label:'7/5 日',matches:[
     {time:'2:00',grp:'R16',jp:false,teams:'🇨🇦 カナダ vs モロッコ 🇲🇦',venue:'ロサンゼルス・スタジアム',note:'DAZN'},
@@ -188,8 +188,8 @@ const SCHEDULE_DAYS = [
     {time:'9:00',grp:'R16',jp:false,teams:'🇺🇸 アメリカ vs ベルギー 🇧🇪',venue:'サンフランシスコ・スタジアム',note:'DAZN'},
   ]},
   {key:'d708',label:'7/8 水',matches:[
-    {time:'1:00',grp:'R16',jp:false,teams:'TBD vs TBD',venue:'アトランタ・スタジアム',note:'DAZN'},
-    {time:'5:00',grp:'R16',jp:false,teams:'🇨🇭 スイス vs TBD',venue:'BCプレイス（バンクーバー）',note:'DAZN'},
+    {time:'1:00',grp:'R16',jp:false,teams:'🇦🇷 アルゼンチン vs エジプト 🇪🇬',venue:'アトランタ・スタジアム',note:'DAZN'},
+    {time:'5:00',grp:'R16',jp:false,teams:'🇨🇭 スイス vs コロンビア 🇨🇴',venue:'BCプレイス（バンクーバー）',note:'DAZN'},
   ]},
   {key:'d710',label:'7/10 金',matches:[
     {time:'5:00',grp:'準々決勝',jp:false,teams:'TBD vs TBD',venue:'ボストン・スタジアム',note:'DAZN'},
@@ -259,16 +259,16 @@ const bracketData = {
      t1:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:'2',win:true},t2:{name:'コンゴDR',flag:'🇨🇩',score:'1'}},
     // 13. M86: アルゼンチン vs グループH 2位 (7/4 土 7:00) (アルゼンチンはJ1確定。main.jsでのM86)
     {id:'r32_14',label:'R32-14（M86）',date:'7/4（土）7:00',
-     t1:{name:'アルゼンチン',flag:'🇦🇷',score:''},t2:{name:'カーボベルデ',flag:'🇨🇻',score:''}},
+     t1:{name:'アルゼンチン',flag:'🇦🇷',score:'3',win:true},t2:{name:'カーボベルデ',flag:'🇨🇻',score:'2'}},
     // 14. M88: グループD 2位 vs グループG 2位 (7/4 土 3:00)
     {id:'r32_16',label:'R32-16（M88）',date:'7/4（土）3:00',
-     t1:{name:'オーストラリア',flag:'🇦🇺',score:''},t2:{name:'エジプト',flag:'🇪🇬',score:''}},
+     t1:{name:'オーストラリア',flag:'🇦🇺',score:'1'},t2:{name:'エジプト',flag:'🇪🇬',score:'1',win:true}},
     // 15. M85: スイス vs グループEFGIJ 3位 (7/3 金 12:00) → スイスはB1確定 (main.jsでのM85)
     {id:'r32_13',label:'R32-13（M85）',date:'7/3（金）12:00',
      t1:{name:'スイス',flag:'🇨🇭',score:'2',win:true},t2:{name:'アルジェリア',flag:'🇩🇿',score:'0'}},
     // 16. M87: グループK 1位 vs グループDEIJL 3位 (7/4 土 10:30) (main.jsでのM87)
     {id:'r32_15',label:'R32-15（M87）',date:'7/4（土）10:30',
-     t1:{name:'コロンビア',flag:'🇨🇴',score:''},t2:{name:'ガーナ',flag:'🇬🇭',score:''}},
+     t1:{name:'コロンビア',flag:'🇨🇴',score:'1',win:true},t2:{name:'ガーナ',flag:'🇬🇭',score:'0'}},
   ],
   r16: [
     // M89: パラグアイ(M74勝者・確定) vs フランス/スウェーデン勝者(M77・未定)
@@ -281,9 +281,9 @@ const bracketData = {
     {id:'r16_5',label:'R16-5',date:'7/6（月）5:00',t1:{name:'ブラジル',flag:'🇧🇷',score:''},t2:{name:'ノルウェー',flag:'🇳🇴',score:''}},
     {id:'r16_6',label:'R16-6',date:'7/6（月）9:00',t1:{name:'メキシコ',flag:'🇲🇽',score:''},t2:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:''}},
     // M95: アルゼンチン/カーボベルデ勝者(M86) vs オーストラリア/エジプト勝者(M88)
-    {id:'r16_7',label:'R16-7',date:'7/8（水）1:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_7',label:'R16-7',date:'7/8（水）1:00',t1:{name:'アルゼンチン',flag:'🇦🇷',score:''},t2:{name:'エジプト',flag:'🇪🇬',score:''}},
     // M96: スイス(M85勝者・確定) vs コロンビア/ガーナ勝者(M87)
-    {id:'r16_8',label:'R16-8',date:'7/8（水）5:00',t1:{name:'スイス',flag:'🇨🇭',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'r16_8',label:'R16-8',date:'7/8（水）5:00',t1:{name:'スイス',flag:'🇨🇭',score:''},t2:{name:'コロンビア',flag:'🇨🇴',score:''}},
   ],
   qf: [
     {id:'qf_1',label:'準々決勝 1',date:'7/10（金）5:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
