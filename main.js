@@ -189,7 +189,7 @@ const SCHEDULE_DAYS = [
   ]},
   {key:'d708',label:'7/8 水',matches:[
     {time:'1:00',grp:'R16',jp:false,teams:'🇦🇷 アルゼンチン vs エジプト 🇪🇬',venue:'アトランタ・スタジアム',note:'DAZN',score:'3-2',scorers:{'アルゼンチン':["クリスティアン・ロメロ 79'","リオネル・メッシ 83'","エンゾ・フェルナンデス 90'+"],'エジプト':["ヤッサー・イブラヒム 15'","モスタファ・ジコ 67'"]}},
-    {time:'5:00',grp:'R16',jp:false,teams:'🇨🇭 スイス vs コロンビア 🇨🇴',venue:'BCプレイス（バンクーバー）',note:'DAZN'},
+    {time:'5:00',grp:'R16',jp:false,teams:'🇨🇭 スイス vs コロンビア 🇨🇴',venue:'BCプレイス（バンクーバー）',note:'DAZN（延長後PK4-3でスイス勝利）',score:'0-0',scorers:{'スイス':[],'コロンビア':[]}},
   ]},
   {key:'d710',label:'7/10 金',matches:[
     {time:'5:00',grp:'準々決勝',jp:false,teams:'🇫🇷 フランス vs モロッコ 🇲🇦',venue:'ボストン・スタジアム',note:'DAZN'},
@@ -199,7 +199,7 @@ const SCHEDULE_DAYS = [
   ]},
   {key:'d712',label:'7/12 日',matches:[
     {time:'6:00',grp:'準々決勝',jp:false,teams:'🇳🇴 ノルウェー vs イングランド 🏴󠁧󠁢󠁥󠁮󠁧󠁿',venue:'マイアミ・スタジアム',note:'DAZN'},
-    {time:'10:00',grp:'準々決勝',jp:false,teams:'🇦🇷 アルゼンチン vs TBD',venue:'カンザスシティ・スタジアム',note:'DAZN'},
+    {time:'10:00',grp:'準々決勝',jp:false,teams:'🇦🇷 アルゼンチン vs スイス 🇨🇭',venue:'カンザスシティ・スタジアム',note:'DAZN'},
   ]},
   {key:'d715',label:'7/15 水',matches:[
     {time:'4:00',grp:'準決勝',jp:false,teams:'TBD vs TBD',venue:'アトランタ・スタジアム',note:'DAZN'},
@@ -283,13 +283,13 @@ const bracketData = {
     // M95: アルゼンチン/カーボベルデ勝者(M86) vs オーストラリア/エジプト勝者(M88)
     {id:'r16_7',label:'R16-7',date:'7/8（水）1:00',t1:{name:'アルゼンチン',flag:'🇦🇷',score:'3',win:true},t2:{name:'エジプト',flag:'🇪🇬',score:'2'}},
     // M96: スイス(M85勝者・確定) vs コロンビア/ガーナ勝者(M87)
-    {id:'r16_8',label:'R16-8',date:'7/8（水）5:00',t1:{name:'スイス',flag:'🇨🇭',score:''},t2:{name:'コロンビア',flag:'🇨🇴',score:''}},
+    {id:'r16_8',label:'R16-8',date:'7/8（水）5:00',t1:{name:'スイス',flag:'🇨🇭',score:'0',win:true},t2:{name:'コロンビア',flag:'🇨🇴',score:'0'}},
   ],
   qf: [
     {id:'qf_1',label:'準々決勝 1',date:'7/10（金）5:00',t1:{name:'フランス',flag:'🇫🇷',score:''},t2:{name:'モロッコ',flag:'🇲🇦',score:''}},
     {id:'qf_2',label:'準々決勝 2',date:'7/11（土）4:00',t1:{name:'スペイン',flag:'🇪🇸',score:''},t2:{name:'ベルギー',flag:'🇧🇪',score:''}},
     {id:'qf_3',label:'準々決勝 3',date:'7/12（日）6:00',t1:{name:'ノルウェー',flag:'🇳🇴',score:''},t2:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:''}},
-    {id:'qf_4',label:'準々決勝 4',date:'7/12（日）10:00',t1:{name:'アルゼンチン',flag:'🇦🇷',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'qf_4',label:'準々決勝 4',date:'7/12（日）10:00',t1:{name:'アルゼンチン',flag:'🇦🇷',score:''},t2:{name:'スイス',flag:'🇨🇭',score:''}},
   ],
   sf: [
     {id:'sf_1',label:'準決勝 1',date:'7/15（水）4:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
