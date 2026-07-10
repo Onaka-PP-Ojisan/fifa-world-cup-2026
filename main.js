@@ -192,7 +192,7 @@ const SCHEDULE_DAYS = [
     {time:'5:00',grp:'R16',jp:false,teams:'🇨🇭 スイス vs コロンビア 🇨🇴',venue:'BCプレイス（バンクーバー）',note:'DAZN（延長後PK4-3でスイス勝利）',score:'0-0',scorers:{'スイス':[],'コロンビア':[]}},
   ]},
   {key:'d710',label:'7/10 金',matches:[
-    {time:'5:00',grp:'準々決勝',jp:false,teams:'🇫🇷 フランス vs モロッコ 🇲🇦',venue:'ボストン・スタジアム',note:'DAZN'},
+    {time:'5:00',grp:'準々決勝',jp:false,teams:'🇫🇷 フランス vs モロッコ 🇲🇦',venue:'ボストン・スタジアム',note:'DAZN',score:'2-0',scorers:{'フランス':["キリアン・エムバペ 60'","ウスマン・デンベレ 66'"],'モロッコ':[]}},
   ]},
   {key:'d711',label:'7/11 土',matches:[
     {time:'4:00',grp:'準々決勝',jp:false,teams:'🇪🇸 スペイン vs ベルギー 🇧🇪',venue:'ロサンゼルス・スタジアム',note:'DAZN'},
@@ -286,13 +286,13 @@ const bracketData = {
     {id:'r16_8',label:'R16-8',date:'7/8（水）5:00',t1:{name:'スイス',flag:'🇨🇭',score:'0',win:true},t2:{name:'コロンビア',flag:'🇨🇴',score:'0'}},
   ],
   qf: [
-    {id:'qf_1',label:'準々決勝 1',date:'7/10（金）5:00',t1:{name:'フランス',flag:'🇫🇷',score:''},t2:{name:'モロッコ',flag:'🇲🇦',score:''}},
+    {id:'qf_1',label:'準々決勝 1',date:'7/10（金）5:00',t1:{name:'フランス',flag:'🇫🇷',score:'2',win:true},t2:{name:'モロッコ',flag:'🇲🇦',score:'0'}},
     {id:'qf_2',label:'準々決勝 2',date:'7/11（土）4:00',t1:{name:'スペイン',flag:'🇪🇸',score:''},t2:{name:'ベルギー',flag:'🇧🇪',score:''}},
     {id:'qf_3',label:'準々決勝 3',date:'7/12（日）6:00',t1:{name:'ノルウェー',flag:'🇳🇴',score:''},t2:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:''}},
     {id:'qf_4',label:'準々決勝 4',date:'7/12（日）10:00',t1:{name:'アルゼンチン',flag:'🇦🇷',score:''},t2:{name:'スイス',flag:'🇨🇭',score:''}},
   ],
   sf: [
-    {id:'sf_1',label:'準決勝 1',date:'7/15（水）4:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
+    {id:'sf_1',label:'準決勝 1',date:'7/15（水）4:00',t1:{name:'フランス',flag:'🇫🇷',score:''},t2:{name:'TBD',flag:'',score:''}},
     {id:'sf_2',label:'準決勝 2',date:'7/16（木）4:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}},
   ],
   tp:  [{id:'tp',label:'3位決定戦',date:'7/19（日）6:00',t1:{name:'TBD',flag:'',score:''},t2:{name:'TBD',flag:'',score:''}}],
@@ -630,7 +630,7 @@ function renderTeamDetails(data) {
       const matchTeams = stripFlags(m.teams);
       const parts = matchTeams.split(' vs ');
       // 決勝トーナメントの試合（grpがR32, R16など）はグループステージのリストから除外する
-      const isKoStage = ['R32', 'R16', 'QF', 'SF', 'TP', 'FIN'].includes(m.grp ? m.grp.toUpperCase() : '');
+      const isKoStage = ['R32', 'R16', 'QF', 'SF', 'TP', 'FIN', '準々決勝', '準決勝', '3位決定戦', '決勝'].includes(m.grp ? m.grp.toUpperCase() : '');
       if (parts.includes(teamClean) && !isKoStage) {
         teamFixtures.push({
           date: `${day.label} ${m.time}`,
