@@ -208,7 +208,7 @@ const SCHEDULE_DAYS = [
     {time:'4:00',grp:'準決勝',jp:false,teams:'🏴󠁧󠁢󠁥󠁮󠁧󠁿 イングランド vs アルゼンチン 🇦🇷',venue:'ダラス・スタジアム',note:'DAZN',score:'1-2',scorers:{'イングランド':["アンソニー・ゴードン 55'"],'アルゼンチン':["エンソ・フェルナンデス 85'","ラウタロ・マルティネス 90'+2"]}},
   ]},
   {key:'d719',label:'7/19 日',matches:[
-    {time:'6:00',grp:'3位決定戦',jp:false,teams:'🇫🇷 フランス vs イングランド 🏴󠁧󠁢󠁥󠁮󠁧󠁿',venue:'マイアミ・スタジアム',note:'DAZN'},
+    {time:'6:00',grp:'3位決定戦',jp:false,teams:'🇫🇷 フランス vs イングランド 🏴󠁧󠁢󠁥󠁮󠁧󠁿',venue:'マイアミ・スタジアム',note:'DAZN',score:'4-6',scorers:{'フランス':["キリアン・エムバペ","ブラドリー・バルコラ","キリアン・エムバペ","ウスマン・デンベレ"],'イングランド':["デクラン・ライス 3'","エズリ・コンサ","ブカヨ・サカ 37'","ブカヨ・サカ 45'+","ブカヨ・サカ 87'(PK)","ジュード・ベリンガム"]}},
   ]},
   {key:'d720',label:'7/20 月',matches:[
     {time:'4:00',grp:'決勝',jp:false,teams:'🇪🇸 スペイン vs アルゼンチン 🇦🇷',venue:'NY/NJ・スタジアム',note:'DAZN'},
@@ -295,7 +295,7 @@ const bracketData = {
     {id:'sf_1',label:'準決勝 1',date:'7/15（水）4:00',t1:{name:'フランス',flag:'🇫🇷',score:'0'},t2:{name:'スペイン',flag:'🇪🇸',score:'2',win:true}},
     {id:'sf_2',label:'準決勝 2',date:'7/16（木）4:00',t1:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:'1'},t2:{name:'アルゼンチン',flag:'🇦🇷',score:'2',win:true}},
   ],
-  tp:  [{id:'tp',label:'3位決定戦',date:'7/19（日）6:00',t1:{name:'フランス',flag:'🇫🇷',score:''},t2:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:''}}],
+  tp:  [{id:'tp',label:'3位決定戦',date:'7/19（日）6:00',t1:{name:'フランス',flag:'🇫🇷',score:'4'},t2:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:'6',win:true}}],
   fin: [{id:'fin',label:'決勝 🏆',date:'7/20（月）4:00',t1:{name:'スペイン',flag:'🇪🇸',score:''},t2:{name:'アルゼンチン',flag:'🇦🇷',score:''}}],
 };
 
