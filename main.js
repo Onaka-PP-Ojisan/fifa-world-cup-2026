@@ -211,7 +211,7 @@ const SCHEDULE_DAYS = [
     {time:'6:00',grp:'3位決定戦',jp:false,teams:'🇫🇷 フランス vs イングランド 🏴󠁧󠁢󠁥󠁮󠁧󠁿',venue:'マイアミ・スタジアム',note:'DAZN',score:'4-6',scorers:{'フランス':["キリアン・エムバペ","ブラドリー・バルコラ","キリアン・エムバペ","ウスマン・デンベレ"],'イングランド':["デクラン・ライス 3'","エズリ・コンサ","ブカヨ・サカ 37'","ブカヨ・サカ 45'+","ブカヨ・サカ 87'(PK)","ジュード・ベリンガム"]}},
   ]},
   {key:'d720',label:'7/20 月',matches:[
-    {time:'4:00',grp:'決勝',jp:false,teams:'🇪🇸 スペイン vs アルゼンチン 🇦🇷',venue:'NY/NJ・スタジアム',note:'DAZN'},
+    {time:'4:00',grp:'決勝',jp:false,teams:'🇪🇸 スペイン vs アルゼンチン 🇦🇷',venue:'NY/NJ・スタジアム',note:'DAZN',score:'1-0',scorers:{'スペイン':["フェラン・トーレス 106'"],'アルゼンチン':[]}},
   ]},
 ];
 
@@ -296,7 +296,7 @@ const bracketData = {
     {id:'sf_2',label:'準決勝 2',date:'7/16（木）4:00',t1:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:'1'},t2:{name:'アルゼンチン',flag:'🇦🇷',score:'2',win:true}},
   ],
   tp:  [{id:'tp',label:'3位決定戦',date:'7/19（日）6:00',t1:{name:'フランス',flag:'🇫🇷',score:'4'},t2:{name:'イングランド',flag:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',score:'6',win:true}}],
-  fin: [{id:'fin',label:'決勝 🏆',date:'7/20（月）4:00',t1:{name:'スペイン',flag:'🇪🇸',score:''},t2:{name:'アルゼンチン',flag:'🇦🇷',score:''}}],
+  fin: [{id:'fin',label:'決勝 🏆',date:'7/20（月）4:00',t1:{name:'スペイン',flag:'🇪🇸',score:'1',win:true},t2:{name:'アルゼンチン',flag:'🇦🇷',score:'0'}}],
 };
 
 /* ================================================================
